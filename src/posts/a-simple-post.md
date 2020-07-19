@@ -1,10 +1,14 @@
 ---
 title: Experience evaluation, uplift and optimisation of a recruitment process
-date: 2019-08-02T14:00:00Z
+date: '2019-08-02T14:00:00Z'
 tags:
 - Process Automation
 - Experience Evaluation
 - Customer Experience
+overview: ''
+content: ''
+feature_image: ''
+images: []
 
 ---
 **Case Study Overview**

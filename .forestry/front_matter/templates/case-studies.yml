@@ -34,3 +34,5 @@ fields:
   type: image_gallery
   config: {}
   label: Images
+pages:
+- src/posts/a-simple-post.md
