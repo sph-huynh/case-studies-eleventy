@@ -2,14 +2,24 @@
 title: Experience evaluation, uplift and optimisation of a recruitment process
 date: '2019-08-02T14:00:00Z'
 tags:
-- Process Automation
 - Experience Evaluation
 - Customer Experience
+- Service Design
+- Process Mapping
+- Process Optimisation
+- User Interviews
 overview: ''
 content: ''
-feature_image: ''
-images: []
+feature_image: "/uploads/cover.png"
+images:
+- "/uploads/12-roles-teams.png"
+- "/uploads/11-process.png"
+- "/uploads/10-call-to-action.png"
+- "/uploads/9-testimonials.png"
 challenge: How might we make it easier for teams to find suitable candidates?
+main_tag: Customer Experience Strategy
+what_statement: Understanding the current recruitment processes, so we can better
+  optimise the efficiency and provide a better experience.
 
 ---
 **Case Study Overview**
