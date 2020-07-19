@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+*:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    background-color: rgb(33, 21, 73);
+    background-image: url("images/melbourne.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+body, h1, h2, h3, h4, p, ul, ol, li, dd, figure, figcaption, dl, dd, dt {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    scroll-behavior: smooth;
+    font-size: 1rem;
+    min-height: 100vh;
+    margin: 3em 3em 0 3em;
+    padding: 3em;
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header[role="banner"] {
+    margin-bottom: 3em;
+}
+
+.wrapper {
+    display: block;
+}
+
+.wrapped-item {
+    display: inline-block!important;
+}
+
+.nav-item {
+    margin-right: 2em;
+}
+
+.post-list__item {
+    margin-bottom: 2em;
+    vertical-align: top;
+}
+
+.post-list__item > img {
+    width: 90% !important;
+}
+
+img {
+    width: 100%;
+}
+
+* > .left-2 {
+    width: 45%;
+}
+
+* > .right-1 {
+    width: 50%;
+}
+
+.pad-5p {
+    padding-top: 5%;
+}
+
+a.link {
+    color: rgb(39, 39, 39);
+    text-decoration: none!important;
+    font-weight: 600;
+}
+
+a.link:hover {
+    color: rgb(75, 75, 179)!important;
+    border-bottom: .2rem solid rgb(75, 75, 179)!important;
+}
+
+.post-sub-title {
+    transition: .2s ease;
+    color: #A36437!important;
+    text-decoration: none;
+}
+
+.h3-post-title {
+    margin-bottom: .4rem!important;
+}
+
+.post-caption {
+    margin-bottom: 1rem!important;
+    color: #666;
+    font-weight: 600;
+}
+
+.post-sub-text {
+    font-weight: 400;
+    color: #666;
+    line-height: 1.4;
+    border-bottom: none!important;
+    margin-bottom: 1em!important;
+}
+
+a.text-button {
+  vertical-align: bottom;  
+}
