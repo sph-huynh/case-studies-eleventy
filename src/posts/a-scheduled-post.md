@@ -2,11 +2,16 @@
 title: A scheduled post
 date: '2022-06-18'
 tags:
-  - demo-content
-  - simple-post
-  - blog
----
+- demo-content
+- simple-post
+- blog
+feature_image: "/uploads/cover.png"
+main_tag: main tag
+challenge: challenge statement
+what_statement: what statement
+images: []
 
+---
 This post is scheduled for the future, specifically mid-2022. Hopefully you're still blogging by then too. Once that date ticks by, this post will automatically become published and visible.
 
 Otherwise, below is some styled content for you to play with.
