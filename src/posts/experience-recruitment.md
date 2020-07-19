@@ -17,8 +17,8 @@ images:
 - "/uploads/10-call-to-action.png"
 - "/uploads/9-testimonials.png"
 challenge: How might we make it easier for teams to find suitable candidates?
-main_tag: Customer Experience Strategy
-what_statement: Understanding the current recruitment processes, so we can better
+maintag: Customer Experience Strategy
+whatstatement: Understanding the current recruitment processes, so we can better
   optimise the efficiency and provide a better experience.
 
 ---

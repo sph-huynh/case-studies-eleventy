@@ -6,9 +6,9 @@ tags:
 - simple-post
 - blog
 featureimage: "/uploads/cover.png"
-main_tag: main tag
+maintag: main tag
 challenge: challenge statement
-what_statement: what statement
+whatstatement: what statement
 images: []
 
 ---

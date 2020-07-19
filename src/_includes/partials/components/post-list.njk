@@ -7,16 +7,16 @@
             <div class="post-list__item wrapper">
               <div class="post-list__item left-2 wrapped-item">
                 <img src="{{ item.data.featureimage }}" class"post-image" />
-                image
-                {{ item.data.featureimage }}
               </div>
               <div class="post-list__item right-1 wrapped-item">
-                <h3 class="font-base leading-tight text-600 weight-mid">
-                  <a href="{{ item.url }}" class="link post" rel="bookmark">{{ item.data.title }}</a>
+                <p class="post-sub-title text-500 gap-top-300">{{ item.data.maintag }}</p>
+                <h3 class="h3-post-title">
+                  <a href="{{ item.url }}" class="link post-title" rel="bookmark">{{ item.data.title }}</a>
                 </h3>
-                <p class="text-500 gap-top-300 weight-mid">
-                  <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
+                <p class="post-caption">{{ item.data.challenge }}</p> 
+                <p class="post-sub-text">{{ item.data.whatstatement }}</p> 
                 </p>
+                <a href="{{ item.url }}" class="link text-button" rel="bookmark">READ MORE {% include "icons/arrow.svg" %}</a>
               </div>
             </div>
           {% endif %}
