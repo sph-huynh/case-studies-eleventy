@@ -9,6 +9,7 @@ overview: ''
 content: ''
 feature_image: ''
 images: []
+challenge: How might we make it easier for teams to find suitable candidates?
 
 ---
 **Case Study Overview**
