@@ -36,6 +36,20 @@ collections:
       - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
       - {label: "Social Image", name: "socialImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "more"
+    label: "Special Pages"
+    files:
+      - name: "more"
+        label: "More"
+        delete: false
+        file: "src/more.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/more.njk"}
+          - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
+          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
   - name: "posts"
     label: "Posts"
     folder: "src/posts"

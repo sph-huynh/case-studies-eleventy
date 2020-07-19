@@ -18,6 +18,7 @@ module.exports = function(config) {
 
   // Layout aliases
   config.addLayoutAlias('home', 'layouts/home.njk');
+  config.addLayoutAlias('more', 'layouts/more.njk');
 
   // Passthrough copy
   config.addPassthroughCopy('src/fonts');

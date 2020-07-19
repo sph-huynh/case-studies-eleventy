@@ -1,0 +1,36 @@
+{% extends 'layouts/base.njk' %}
+{% set pageType = 'Page' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+
+{% block content %}
+  <main id="main-content" tabindex="-1">
+    <article class="[ post ] [ h-entry ]">
+      <div class"special-page top">
+        <div class="post-list__item wrapper">
+            <div class="post-list__item left-2 wrapped-item">
+            <img src="/images/me.jpg" class"post-image" />
+            </div>
+            <div class="post-list__item right-1 wrapped-item">
+            <p class="post-sub-title text-500 gap-top-300">Digital Experience Designer</p>
+            <h3 class="h3-post-title">
+                <a href="{{ item.url }}" class="link post-title" rel="bookmark">SOPHIA HUYNH</a>
+            </h3>
+            <p class="post-caption">I work with my clients to create meaningful digital experiences through customer research, insights, and collaborative design.</p> 
+            <p class="post-sub-text">G'day. I'm a digital experience consultant who focuses on the intersection of business, technology, and customer. I come from a background in software development - having a greater context of how digital solutions work allows me to work closely with both business and IT stakeholders.
+</br></br>I am a problem solver, an adaptable and reliable team member who is unafraid to take initiative to understand and identify opportunities for improvement. I understand the value of empathy, listening, communication, trust - especially in team settings and in stakeholder management.
+</p> 
+            </p>
+            <a href="https://www.linkedin.com/in/sphhuynh/" class="link text-button" rel="bookmark">CONNECT WITH ME ON LINKEDIN {% include "icons/arrow.svg" %}</a>
+            </div>
+        </div>
+    </div>
+    <div class="special-page bottom">
+        {{ content | safe }}
+      </div>
+    </article>
+  </main>
+{% endblock %}
+
+{{ content | safe }}
