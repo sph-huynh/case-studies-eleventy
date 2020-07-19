@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: Title
+- name: main_tag
+  type: text
+  config:
+    required: false
+  label: Main tag
 - name: challenge
   type: textarea
   default: ''
@@ -16,6 +21,15 @@ fields:
     schema:
       format: markdown
   label: Challenge statement
+- name: what_statement
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: What statement
 - name: feature_image
   type: file
   config:
@@ -25,5 +39,9 @@ fields:
   type: image_gallery
   config: {}
   label: Images
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 pages:
 - src/posts/a-simple-post.md
