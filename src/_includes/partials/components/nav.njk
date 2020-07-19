@@ -2,7 +2,7 @@
   <nav class="nav">
     <ul class="[ nav__list ] [ box-flex align-center md:space-before ]">
           <a href="/" class="link nav-item"{{ 'aria-current=page' if page.url == '/' | safe }}>
-        <span class="visually-hidden">{{ 'Back to homepage' if page.url != '/' else 'Homepage' }}</span>
+        <span class="visually-hidden">{{ 'BACK TO HOMEPAGE' if page.url != '/' else 'HOMEPAGE' }}</span>
       </a>
       {% for item in navigation.items %}
         {% set relAttribute = '' %}

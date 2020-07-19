@@ -6,8 +6,9 @@
           {% if item.date.getTime() <= global.now %}
             <div class="post-list__item wrapper">
               <div class="post-list__item left-2 wrapped-item">
-                <img class"post-image" src="{{ item.data.featureimage }}"/>
+                <img src="{{ item.data.featureimage }}" class"post-image" />
                 image
+                {{ item.data.featureimage }}
               </div>
               <div class="post-list__item right-1 wrapped-item">
                 <h3 class="font-base leading-tight text-600 weight-mid">
