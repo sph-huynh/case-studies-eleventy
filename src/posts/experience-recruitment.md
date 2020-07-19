@@ -10,7 +10,7 @@ tags:
 - User Interviews
 overview: ''
 content: ''
-feature_image: "/uploads/cover.png"
+featureimage: "/uploads/cover.png"
 images:
 - "/uploads/12-roles-teams.png"
 - "/uploads/11-process.png"

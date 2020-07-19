@@ -1,11 +1,11 @@
 ---
 title: A scheduled post-(copy)
-date: '2022-06-18'
+date: '2019-08-02T14:00:00Z'
 tags:
 - demo-content
 - simple-post
 - blog
-feature_image: "/uploads/cover.png"
+featureimage: "/uploads/cover.png"
 main_tag: main tag
 challenge: challenge statement
 what_statement: what statement

@@ -7,7 +7,7 @@ fields:
   config:
     required: false
   label: Title
-- name: main_tag
+- name: maintag
   type: text
   config:
     required: false
@@ -21,7 +21,7 @@ fields:
     schema:
       format: markdown
   label: Challenge statement
-- name: what_statement
+- name: whatstatement
   type: textarea
   default: ''
   config:
@@ -30,7 +30,7 @@ fields:
     schema:
       format: markdown
   label: What statement
-- name: feature_image
+- name: featureimage
   type: file
   config:
     maxSize: 64

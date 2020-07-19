@@ -18,7 +18,6 @@ Hylia version 0.5.1 features:
 📂 Tags and tag archives  
 ✅ Progressively enhanced, semantic and accessible  
 🎈 _Super_ lightweight front-end  
-🚰 Sass powered CSS system with utility class generator  
 ⚙️ Service worker that caches pages so people can read your articles offline  
 🚀 An RSS feed for your posts
 
@@ -31,7 +30,6 @@ Hylia version 0.5.1 features:
 🐦 Web sharing API integration  
 🗒 Offline mode with links to cached pages  
 📄 Documentation site  
-💅 Proper Sass documentation  
 ✍️ Proper CMS documentation  
 🖼 A facility for you to be able to add your logo / branding  
 
@@ -66,18 +64,6 @@ npm start
 
 ```bash
 npm run production
-```
-
-### Compile Sass
-
-```bash
-npm run sass:process
-```
-
-### Re-generate design tokens for Sass
-
-```bash
-npm run sass:tokens
 ```
 
 ## Getting started with the CMS
@@ -118,10 +104,6 @@ The tokens are converted into maps that the Sass uses to compile the front-end C
 Your version of Hylia ships with a Styleguide by default. You can see a demo of the Styleguide at <https://hylia.website/styleguide/>.
 
 You can edit the Styleguide by opening [`src/styleguide.njk`](https://github.com/hankchizljaw/hylia/blob/master/src/styleguide.njk). If you don’t want the Styleguide, delete that file and the page will vanish.
-
-## Sass
-
-Hylia is based on the [WIP v2 version of Stalfos](https://github.com/hankchizljaw/stalfos/tree/feature/v2), which currently has no documentation (I know, I’m bad). Here is some very basic documentation for elements of the new framework that you will encounter on this project.
 
 ### Configuration
 

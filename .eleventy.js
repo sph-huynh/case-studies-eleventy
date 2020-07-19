@@ -7,10 +7,6 @@ const dateFilter = require('./src/filters/date-filter.js');
 const markdownFilter = require('./src/filters/markdown-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
 
-// Import transforms
-const htmlMinTransform = require('./src/transforms/html-min-transform.js');
-const parseTransform = require('./src/transforms/parse-transform.js');
-
 // Import data files
 const site = require('./src/_data/site.json');
 
@@ -23,12 +19,9 @@ module.exports = function(config) {
   // Layout aliases
   config.addLayoutAlias('home', 'layouts/home.njk');
 
-  // Transforms
-  config.addTransform('htmlmin', htmlMinTransform);
-  config.addTransform('parse', parseTransform);
-
   // Passthrough copy
   config.addPassthroughCopy('src/fonts');
+  config.addPassthroughCopy('src/_includes/assets/css/global.css');
   config.addPassthroughCopy('src/images');
   config.addPassthroughCopy('src/js');
   config.addPassthroughCopy('src/admin/config.yml');
