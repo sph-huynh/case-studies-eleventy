@@ -1,4 +1,13 @@
 ---
 label: example block
 hide_body: false
-fields: []
+fields:
+- name: ex
+  type: blocks
+  label: ex
+  template_types:
+  - example-block
+  - case-studies
+  config:
+    min: 
+    max: 
