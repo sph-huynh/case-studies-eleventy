@@ -2,7 +2,7 @@
 ex:
 - template: case-studies
   tags: []
-  title: ''
+  title: example
   maintag: ''
   challenge: ''
   whatstatement: ''
