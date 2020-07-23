@@ -1,6 +1,6 @@
 ---
 title: Experience evaluation, uplift and optimisation of a recruitment process
-date: '2019-08-02T14:00:00Z'
+date: 2019-08-02T14:00:00Z
 tags:
 - Experience Evaluation
 - Customer Experience
@@ -8,7 +8,10 @@ tags:
 - Process Mapping
 - Process Optimisation
 - User Interviews
-overview: ''
+overview: Cut time required for our on-boarding and recruitment processes through
+  process automation, going from 3-4 minutes/step to <30 seconds [98%+ reduction in
+  time needed/step]. Reduced time spent in the questionnaire stage from 47.4 days
+  to 6.9 days and increased hire rate from 2.5% to 27%.
 content: ''
 featureimage: "/uploads/cover.png"
 images:
@@ -18,19 +21,19 @@ images:
 - "/uploads/9-testimonials.png"
 challenge: How might we make it easier for teams to find suitable candidates?
 maintag: Customer Experience Strategy
-whatstatement: Understanding the current recruitment processes, so we can better
-  optimise the efficiency and provide a better experience.
+whatstatement: Understanding the current recruitment processes, so we can better optimise
+  the efficiency and provide a better experience.
 
 ---
 **Case Study Overview**
 
 SDSN Youth is a network of young professionals and students, who work together to empower youth globally to create sustainable solutions.
 
-The network is also ever growing, and also being predominately volunteers, we have a considerable turnover as well. On top of that, most of our programs are 12 month programs, meaning recruitment is an essential part of our operations, and the first interaction most people have with us.
+The network is also ever-growing, and also being predominately volunteers, we have a considerable turnover as well. On top of that, most of our programs are 12-month programs, meaning recruitment is an essential part of our operations, and the first interaction most people have with us.
 
 The challenge for this case study was focusing on volunteer recruitment, and to see what the experience is as a candidate and recruiter, and identify any potential for any uplift.
 
-The outcome was a more professional structure and process - both in terms of the recruiter knowing how to approach the tasks, and for the candidate going through the experience.
+The outcome was a more professional structure and process - both in terms of the recruiter knowing how to approach the tasks and for the candidate going through the experience.
 
 * Time reduction in the recruitment process, going from 3-4 minutes/step to <30 seconds \[98%+ reduction in time needed/step\]
 * Time candidate spent in questionnaire stage timeframe dropped from 47.4 days to 6.9 days
@@ -39,7 +42,7 @@ The outcome was a more professional structure and process - both in terms of the
 
 **Target audience:**
 
-I had a brief understanding of the recruitment process from my own experiences joining the organisation (listed here) - but of course having not been through the process as a recruiter, I cannot assume too much.
+I had a brief understanding of the recruitment process from my own experiences joining the organisation (listed here) - but of course, having not been through the process as a recruiter, I cannot assume too much.
 
 * Candidates
   * Mostly students or young professionals
@@ -53,11 +56,11 @@ I had a brief understanding of the recruitment process from my own experiences j
 
 * We were limited to the platforms we have currently
 * And had to keep in mind that the process needs to be relearned many times (possibly by someone without an HR background) multiple times in the future
-* There were many competing projects at the time, so I was time constrained to about 3 weeks
+* There were many competing projects at the time, so I was time-constrained to about 3 weeks
 
 **Challenge statements**
 
-After the discovery phase, I found that there were key challenges on both stakeholders.
+After the discovery phase, I found that there were key challenges for both stakeholders.
 
 **Candidate**
 
@@ -65,9 +68,9 @@ Two key pain points for candidates were a) the duration the process took, and b)
 
 The duration for recruitment could take up to 2-3 months, with little visibility around what the process looks like.
 
-**Recruiter** 
+**Recruiter**
 
-On the flip side, pain points for recruiters were a) not finding enough candidates as b) candidates often did not have the relevant experience. Additionally the process for recruiting candidates was  manual and repetitive, creating a feeling of tediousness.
+On the flip side, pain points for recruiters were a) not finding enough candidates as b) candidates often did not have the relevant experience. Additionally, the process for recruiting candidates was manual and repetitive, creating a feeling of tediousness.
 
 The challenge statement I decided on addressing was something along the lines of:
 
@@ -77,7 +80,7 @@ Something we had to acknowledge was that the content in job descriptions never s
 
 * _How might we help candidates understand how they would contribute to SDSN Youth?_
 
-Immediately, I could see opportunity for an experience uplift in a number of areas.
+Immediately, I could see an opportunity for an experience uplift in a number of areas.
 
 **Stream 1** Marketing: Content uplift
 
@@ -93,10 +96,10 @@ Challenges:
 
 Some challenges I discovered after mapping out the recruitment processes were that:
 
-* Many candidates would ask for paid internships, when paid internships only made 1% of the avalible roles.
+* Many candidates would ask for paid internships when paid internships only made 1% of the available roles.
 * These people tended to never satisfy the visa requirements
 * Sometimes the recruitment team would select a group of candidates and place them into teams without identifying the skills needed.
-* The pipeline of talent was small - and many channels were untilised
+* The pipeline of talent was small - and many channels were utilised
 * The recruitment platform database was unorganised and without a clear process.
 
 Key numbers:
@@ -104,14 +107,14 @@ Key numbers:
 * The average recruitment process was 97 days
 * With 61% taking over a month
 * 23% taking over two months
-* There were 13 number of steps in the recruitment process, all done manually.
+* There was 13 steps in the recruitment process, all done manually.
 
 **Stream 3** Automation: Templates & Pipeline
 
 In order to supplement my own findings, I did some research into Recruitment best practices from other companies.
 
 * Comparing the current state with best practices from the market showed gaps in processes and templates
-* There was inconsistency in vetting process, recruiters often using personal judgement _alone_ to pick candidates (rather than agreeing on a scorecard), leaving no standardisation of assessments, and no documenting of lessons learned after the candidate had started their role.
+* There was inconsistency in the vetting process, recruiters often using personal judgment _alone_ to pick candidates (rather than agreeing on a scorecard), leaving no standardisation of assessments, and no documenting of lessons learned after the candidate had started their role.
 
 Outcome
 
@@ -124,7 +127,7 @@ Pipeline stage timeframe
 * ✓ Questionnaire stage timeframe dropped from 47.4 days to 6.9 days
 * ✓ Feedback stage dropped from 17 days to 2 days
 
-**Clarity in role marketing**
+**More clarity in role marketing**
 
 Hire rate
 
