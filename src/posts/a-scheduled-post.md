@@ -6,7 +6,7 @@ tags:
 - demo-content
 - simple-post
 - blog
-featureimage: "/uploads/cover.png"
+featureimage: uploads/cover-1.png
 maintag: Design Thinking-led Strategy
 challenge: How might we redesign our operational processes to improve the volunteer
   experience?
