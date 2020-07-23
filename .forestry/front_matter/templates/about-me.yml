@@ -1,0 +1,44 @@
+---
+label: About me
+hide_body: false
+fields:
+- name: job
+  type: text
+  config:
+    required: false
+  label: Title
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+- name: blurb
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: htmlblock
+  label: Blurb content
+- name: aboutme
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: htmlblock
+  label: About me content
+- name: cta
+  type: text
+  config:
+    required: false
+  label: CTA
+- name: ctalink
+  type: text
+  config:
+    required: false
+  label: CTA URL
+pages:
+- src/_data/aboutme.json

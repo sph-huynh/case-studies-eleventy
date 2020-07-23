@@ -1,0 +1,20 @@
+---
+label: Case studies
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: skills
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: htmlblock
+  label: Skills section
+pages:
+- src/_data/skills.json

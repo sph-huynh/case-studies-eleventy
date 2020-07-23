@@ -1,0 +1,17 @@
+{% block content %}
+  <main id="main-content" tabindex="-1">
+    <article class="[ post ] [ h-entry ]">
+      <div class"special-page top">
+        <div class="post-list__item wrapper">
+            <h3 class="h3-post-title">
+                {{ skills.title }}
+            </h3>
+            <p class="post-sub-text">
+                {{ skills.skills | safe }}
+            </p>
+        </div>
+      </div>
+    </article>
+  </main>
+{% endblock %}
+
