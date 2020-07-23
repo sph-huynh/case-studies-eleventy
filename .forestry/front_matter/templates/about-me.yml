@@ -40,3 +40,5 @@ fields:
   config:
     required: false
   label: CTA URL
+pages:
+- src/_data/aboutme.json
