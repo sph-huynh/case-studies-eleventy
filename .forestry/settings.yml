@@ -5,6 +5,11 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: src/_data
+  label: Edit page content
+  create: all
+  match: "**/*"
+- type: directory
   path: src/posts
   label: Feature
   create: documents

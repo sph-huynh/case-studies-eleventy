@@ -16,5 +16,3 @@ fields:
     schema:
       format: htmlblock
   label: Skills section
-pages:
-- src/_data/skills.json
