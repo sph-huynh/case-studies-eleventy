@@ -3,6 +3,10 @@
   "skills": "<p><strong>Strategy</strong></p><ul><li><p><em>CX Strategy, Process Mapping</em></p></li><li><p><em>UX Design &amp; UX Research</em></p></li><li><p>Design Thinking, Workshop facilitation</p></li></ul>",
   "skillssection": [
     {
+      "skillsubtitle": "Customer",
+      "skillslist": "<ul><li><p>User Interviews, User Insights</p></li><li><p>User Journeys, User Personas</p></li><li><p>Research, Proposal writing</p></li></ul>"
+    },
+    {
       "skillsubtitle": "Strategy",
       "skillslist": "<ul><li><p>CX Strategy, Process Mapping</p></li><li><p>UX Design &amp; UX Research</p></li><li><p>Design Thinking, Workshop facilitation</p></li></ul>"
     }
