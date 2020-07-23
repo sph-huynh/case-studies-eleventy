@@ -9,6 +9,7 @@ sections:
   label: Edit page content
   create: all
   match: "**/*"
+  new_doc_ext: json
 - type: directory
   path: src/posts
   label: Feature
