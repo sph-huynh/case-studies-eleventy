@@ -1,38 +1,79 @@
 ---
-title: A scheduled post
+title: HCD process to build a strategy to tackle operational efficiency and employee
+  experience (EX) at a nonprofit
 date: '2019-08-02T14:00:00Z'
 tags:
 - demo-content
 - simple-post
 - blog
 featureimage: "/uploads/cover.png"
-maintag: main tag
-challenge: challenge statement
-whatstatement: what statement
+maintag: Design Thinking-led Strategy
+challenge: How might we redesign our operational processes to improve the volunteer
+  experience?
+whatstatement: Understanding volunteer challenges and needs, to identify key opportunities
+  to uplift their ability to make an impact.
 images: []
 
 ---
-This post is scheduled for the future, specifically mid-2022. Hopefully you're still blogging by then too. Once that date ticks by, this post will automatically become published and visible.
+**Case study overview**
 
-Otherwise, below is some styled content for you to play with.
+The client is an American nonprofit.
 
-A simple post to demonstrate how a normal blog post looks on Hylia. Content is all set in the “Body” field as markdown and Eleventy transforms it into a proper HTML post. You can also edit the markdown file directly if you prefer not to use the CMS.
+They faced many challenges - bureaucratic processes, yet many structures were ad hoc and is predominately full of volunteers around the world, management and compliance were cited as a challenge by senior leaders.
 
-How about a `<blockquote>`?
+The brief provided was to explore:
 
-> Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue.
+* Opportunities to uplift internal operation efficiency
+* Informational and decision making flow
+* Leveraging resources
 
-A list of stuff:
+This case study uses a Design Thinking approach to building a strategy around improving internal processes at a nonprofit.
 
-- Sed posuere consectetur est at lobortis
-- Aenean lacinia bibendum nulla sed consectetur
-- Sed posuere consectetur est at lobortis
+#### Constraints
 
-How about an ordered list of stuff:
+The project was run between December and February, meaning I had to work around being unable to access a number of team members during the Christmas and New Year break.
 
-1. Sed posuere consectetur est at lobortis
-2. Aenean lacinia bibendum nulla sed consectetur
-3. Sed posuere consectetur est at lobortis
+## Problem
 
+#### Stakeholders
 
-Hopefully, this has demonstrated how simple it is to make a nice looking blog with Hylia.
+The project focused on the workflows of the leadership team, which comprised of two groups: the local representatives, and the global governance teams.
+
+## Process
+
+I followed a classic Double Diamond approach for this project. The team comprised of additional 6 team members (client) - 4 of them being leadership team members. This was done on purpose in order to allow for direct ownership and input by the leaders who would be implementing and in which support was needed.
+
+![](https://soph.ee/images/blog-images/43447-internal/1.%20Timeline.png)
+
+#### Discover
+
+The discovery phase was about trying to understand as much as possible - this meant interviewing stakeholders, exploring existing information, and researching the competition.
+
+The types of documentation we explored were anything related to process, organisational structure, or governance.
+
+![](https://soph.ee/images/blog-images/43447-internal/3.%20Files.png)
+
+We also interviewed some third party individuals from similar but external organisations - specifically those that were similar in reach (global nature via volunteers), structure (local vs global governance), and social impact related (for young people).
+
+Internal interview invitations were sent out to a broad range of leadership members, with the aim to cover as many different types of people as possible - duration of stay, team, position, geography, etc.
+
+In total we ran 29 interviews:
+
+* 4 team members
+* 15 leadership team members
+* 2 external parties
+* 8 deep dive topic consultations
+
+We found that team member’s ambition, clarity of role and motivations depended on the level of support they received.
+
+There was a clear lack of resources and process documentation, leading to an ad hoc culture.
+
+## Outcome
+
+The initiative provided the leadership team with a clear roadmap and a number of initiatives to improve their internal operations.
+
+For the local representatives, this also provided the opportunity to have challenges that were traditionally had no clear platform to voice, to directly shape the internal operations strategy of the organisation.
+
+It also provided an opportunity for a number of the global governance team members to build relationships with the local representatives 1-1.
+
+Since the review, 6 initiatives have started. 2 have already been completed.
