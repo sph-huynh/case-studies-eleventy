@@ -24,7 +24,6 @@ body {
     -ms-overflow-style: -ms-autohiding-scrollbar;
     scroll-behavior: smooth;
     font-size: 1rem;
-    min-height: 100vh;
     margin: 3em 3em 0 3em;
     padding: 3em;
     background-color: white;
@@ -114,4 +113,32 @@ a.text-button {
 .three-col {
     display: inline-block;
     width: 28%;
+    margin-right: 2em;
+    vertical-align: top;
+}
+
+@media only screen and (max-width: 930px) {
+    .post-list__item {
+        display: block!important;
+        width: 100%!important;
+    }
+
+    .post-list__item img {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    * > .right-1 {
+        width: 100%;
+    }
+
+    .three-col {
+        width: 45%!important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .three-col {
+        width: 100%!important;
+    }
 }
