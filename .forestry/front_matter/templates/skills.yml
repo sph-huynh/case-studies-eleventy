@@ -1,5 +1,5 @@
 ---
-label: Case studies
+label: Skills section
 hide_body: false
 fields:
 - name: title
@@ -14,5 +14,5 @@ fields:
     required: false
     wysiwyg: true
     schema:
-      format: htmlblock
+      format: html-blocks
   label: Skills section
