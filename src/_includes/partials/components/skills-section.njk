@@ -6,9 +6,14 @@
             <h3 class="h3-post-title">
                 {{ skills.title }}
             </h3>
-            <p class="post-sub-text">
-                {{ skills.skills | safe }}
-            </p>
+            {% for skillset in skills.skillssection %}
+            <div class="three-col">
+                <p class="post-sub-text">
+                        <h4>{{ skillset.skillsubtitle | safe }}</h4>
+                        {{ skillset.skillslist | safe }}
+                </p>
+            </div>
+            {% endfor %}
         </div>
       </div>
     </article>

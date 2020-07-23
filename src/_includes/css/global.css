@@ -12,6 +12,10 @@ html {
     background-attachment:fixed;
 }
 
+main#main-content:focus {
+    outline: none!important;
+}
+
 body, h1, h2, h3, h4, p, ul, ol, li, dd, figure, figcaption, dl, dd, dt {
     margin: 0px;
     padding: 0px;
@@ -105,4 +109,9 @@ a.link:hover {
 
 a.text-button {
   vertical-align: bottom;  
+}
+
+.three-col {
+    display: inline-block;
+    width: 28%;
 }
