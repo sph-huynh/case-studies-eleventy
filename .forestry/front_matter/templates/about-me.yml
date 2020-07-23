@@ -19,7 +19,7 @@ fields:
     required: false
     wysiwyg: true
     schema:
-      format: htmlblock
+      format: html-blocks
   label: Blurb content
 - name: aboutme
   type: textarea
@@ -28,7 +28,7 @@ fields:
     required: false
     wysiwyg: true
     schema:
-      format: htmlblock
+      format: html-blocks
   label: About me content
 - name: cta
   type: text
