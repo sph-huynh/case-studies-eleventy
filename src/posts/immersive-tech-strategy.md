@@ -27,6 +27,6 @@ allcontent:
 
 A utilities company has over 2000 employees that work in highly specialised and compliance heavy work. They are required to put safety first and also have a number of trainings that are regulated by a third party. Our client was considering using immersive learning technologies to better improve the retention and access to important knowledge. However they lacked the expertise to understand how they could assess the suitability of this technology.
 
-### Solution
+### Approach
 
 We ran a number stakeholder interviews and desktop research to further understand the training use cases and potential application with technology. We prioritised the use cases and dug deeper into implementation costs in order to form a roadmap. I led the technical track, including implementation research.
