@@ -8,6 +8,11 @@ whatstatement: Understanding volunteer challenges and needs, to identify key opp
   to uplift their ability to make an impact.
 featureimage: uploads/cover-1.png
 allcontent:
+- title: "<h4>Constraints</h4>"
+  subtitle: ''
+  textcontent: "<p>The project was run between December and February, meaning I had
+    to work around being unable to access a number of team members during the Christmas
+    and New Year break.</p>"
 - title: "<p>Case study overview</p>"
   subtitle: ''
   textcontent: "<p>The client is an American nonprofit.</p><p>They faced many challenges
