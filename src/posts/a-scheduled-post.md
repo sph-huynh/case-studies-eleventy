@@ -8,16 +8,6 @@ whatstatement: Understanding volunteer challenges and needs, to identify key opp
   to uplift their ability to make an impact.
 featureimage: uploads/cover-1.png
 allcontent:
-- title: ''
-  subtitle: ''
-  textcontent: ''
-- title: "<p>Problem</p>"
-  subtitle: ''
-  textcontent: "<p><strong>Stakeholders</strong></p><p>The project focused on the
-    workflows of the leadership team, which comprised of two groups: the local representatives,
-    and the global governance teams.</p><p><strong>Constraints</strong></p><p>The
-    project was run between December and February, meaning I had to work around being
-    unable to access a number of team members during the Christmas and New Year break.</p><p></p>"
 - title: "<p>Case study overview</p>"
   subtitle: ''
   textcontent: "<p>The client is an American nonprofit.</p><p>They faced many challenges
@@ -33,6 +23,13 @@ allcontent:
   textcontent: "<p>The project was run between December and February, meaning I had
     to work around being unable to access a number of team members during the Christmas
     and New Year break.</p>"
+- title: "<p>Problem</p>"
+  subtitle: ''
+  textcontent: "<p><strong>Stakeholders</strong></p><p>The project focused on the
+    workflows of the leadership team, which comprised of two groups: the local representatives,
+    and the global governance teams.</p><p><strong>Constraints</strong></p><p>The
+    project was run between December and February, meaning I had to work around being
+    unable to access a number of team members during the Christmas and New Year break.</p><p></p>"
 images: []
 date: '2019-08-02T14:00:00Z'
 tags:
