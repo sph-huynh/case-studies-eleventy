@@ -21,9 +21,10 @@ allcontent:
 images: []
 date: '2019-08-02T14:00:00Z'
 tags:
-- demo-content
-- simple-post
-- blog
+- Design Thinking
+- Service Design strategy
+- Customer Experience
+- Employee Experience
 
 ---
 The client faced many challenges - bureaucratic processes, yet many structures were ad hoc and is predominately full of volunteers around the world, management and compliance were cited as a challenge by senior leaders.
