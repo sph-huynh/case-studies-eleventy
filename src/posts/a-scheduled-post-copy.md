@@ -6,7 +6,7 @@ tags:
 - Telecommunications
 - UX Research
 - Service Design
-featureimage: "/uploads/cover.png"
+featureimage: uploads/black-rotary-phone-207456.jpg
 maintag: User Experience Research & Service Design
 challenge: How might we redesign a voice strategy to create a better experience for
   vulnerable customers?
@@ -15,8 +15,14 @@ whatstatement: 'Interviewing customers, internal stakeholders and mapping out pr
   company. '
 images: []
 allcontent:
-- title: "<p>Example</p>"
-  subtitle: Example
-  textcontent: "<p>Example</p>"
-  
+- title: "<p>Challenge</p>"
+  subtitle: ''
+  textcontent: "<p>A Telecoms client was looking to improve their voice experience,
+    focusing on voice authentication. The voice experience (phone call support) was
+    often the only touchpoint customers had with the client - and we found it also
+    played a big role in determining their perception of quality of service. There
+    were a number of technical solutions available, but we needed to determine what
+    the client’s operations could support, what the customers needed and how to up-skill
+    call centre agents.</p>"
+
 ---
