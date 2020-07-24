@@ -78,6 +78,16 @@ fields:
   type: tag_list
   default: []
   label: Tags
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: ''
+    time_format: 
+    display_utc: false
+    export_format: YYYY-MM-DDThh:mm:AAZ
 pages:
 - src/posts/a-scheduled-post-copy-1.md
 - src/posts/a-scheduled-post-copy.md
