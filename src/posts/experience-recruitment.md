@@ -1,6 +1,6 @@
 ---
 title: Experience evaluation, uplift and optimisation of a recruitment process
-date: 2019-08-02T14:00:00Z
+date: '2019-08-02T14:00:00.000+00:00'
 tags:
 - Experience Evaluation
 - Customer Experience
@@ -22,7 +22,23 @@ challenge: How might we make it easier for teams to find suitable candidates?
 maintag: Customer Experience Strategy
 whatstatement: Understanding the current recruitment processes, so we can better optimise
   the efficiency and provide a better experience.
-allcontent: []
+allcontent:
+- title: "<p>Outcome</p>"
+  subtitle: ''
+  textcontent: "<p><strong>Time reduction in the recruitment process</strong></p><ul><li><p>✓
+    Cut time required for our on-boarding and recruitment processes through process
+    automation, from going from 3-4 minutes/step to &lt;30 seconds [98%+ reduction
+    in time needed/step]</p></li></ul><p>Pipeline stage timeframe</p><ul><li><p>✓
+    Questionnaire stage timeframe dropped from 47.4 days to 6.9 days</p></li><li><p>✓
+    Feedback stage dropped from 17 days to 2 days</p></li></ul><p><strong>More clarity
+    in role marketing</strong></p><p>Hire rate</p><ul><li><p>✓ From 2.5% to 27% -
+    we were getting more candidates that had relevant experience, and therefore a
+    larger percentage of candidates were being moved forward</p></li></ul><p>View
+    rate</p><ul><li><p>✓ Through the creation of a new careers/volunteering portal,
+    increased traffic in our Recruitment website pages alone by 320%, in one month.
+    And was able to drive more traffic in the refreshed portal in one week, than the
+    old page had in 5 months.</p></li><li><p>✓ The Join the team page currently has
+    a 35.8k views, which is more than the Homepage at 35k.</p></li></ul>"
 
 ---
 **Case Study Overview**
@@ -118,22 +134,4 @@ In order to supplement my own findings, I did some research into Recruitment bes
 
 Outcome
 
-**Time reduction in the recruitment process**
-
-* ✓ Cut time required for our onboarding and recruitment processes through process automation, from going from 3-4 minutes/step to <30 seconds \[98%+ reduction in time needed/step\]
-
-Pipeline stage timeframe
-
-* ✓ Questionnaire stage timeframe dropped from 47.4 days to 6.9 days
-* ✓ Feedback stage dropped from 17 days to 2 days
-
-**More clarity in role marketing**
-
-Hire rate
-
-* ✓ From 2.5% to 27% - we were getting more candidates that had relevant experience, and therefore a larger percentage of candidates were being moved forward
-
-View rate
-
-* ✓ Through the creation of a new careers/volunteering portal, increased traffic in our Recruitment website pages alone by 320%, in one month. And was able to drive more traffic in the refreshed portal in one week, than the old page had in 5 months.
-* ✓ The Join the team page currently has a 35.8k views, which is more than the Homepage at 35k.
+* 
