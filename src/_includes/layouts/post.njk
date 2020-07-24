@@ -18,13 +18,11 @@
       {% include "partials/components/intro.njk" %}
       <div class="inner-wrapper">
           {% for section in allcontent %}
-            <div class="three-col">
               <p class="post-sub-text">
                       <h3>{{ section.title | safe }}</h3>
                       <h4>{{ section.subtitle }}</h4>
                       {{ section.textcontent | safe }}
               </p>
-          </div>
           {% endfor %}
       </div>
       {% if tags %}
