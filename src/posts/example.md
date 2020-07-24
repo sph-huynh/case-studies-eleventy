@@ -1,5 +1,6 @@
 ---
-tags: []
+tags:
+- Example
 title: Example
 maintag: Example
 challenge: Example
