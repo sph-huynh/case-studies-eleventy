@@ -8,9 +8,16 @@ whatstatement: Understanding volunteer challenges and needs, to identify key opp
   to uplift their ability to make an impact.
 featureimage: uploads/cover-1.png
 allcontent:
-- title: "<p>Example</p>"
-  subtitle: Example
-  textcontent: "<p>Example</p>"
+- title: "<p>Case study overview</p>"
+  subtitle: ''
+  textcontent: "<p>The client is an American nonprofit.</p><p>They faced many challenges
+    - bureaucratic processes, yet many structures were ad hoc and is predominately
+    full of volunteers around the world, management and compliance were cited as a
+    challenge by senior leaders.</p><p>The brief provided was to explore:</p><ul><li><p>Opportunities
+    to uplift internal operation efficiency</p></li><li><p>Informational and decision
+    making flow</p></li><li><p>Leveraging resources</p></li></ul><p>This case study
+    uses a Design Thinking approach to building a strategy around improving internal
+    processes at a nonprofit.</p>"
 images: []
 date: '2019-08-02T14:00:00Z'
 tags:
@@ -20,18 +27,6 @@ tags:
 
 ---
 **Case study overview**
-
-The client is an American nonprofit.
-
-They faced many challenges - bureaucratic processes, yet many structures were ad hoc and is predominately full of volunteers around the world, management and compliance were cited as a challenge by senior leaders.
-
-The brief provided was to explore:
-
-* Opportunities to uplift internal operation efficiency
-* Informational and decision making flow
-* Leveraging resources
-
-This case study uses a Design Thinking approach to building a strategy around improving internal processes at a nonprofit.
 
 #### Constraints
 
