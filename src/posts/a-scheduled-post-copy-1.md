@@ -14,6 +14,13 @@ whatstatement: Exploring the use cases and feasibility of AR and VR based traini
   for a Utilities client.
 images: []
 allcontent:
+- title: "<p><strong>Outcome</strong></p>"
+  subtitle: ''
+  textcontent: "<p>Co-developed the Immersive Learning strategy and validation framework,
+    producing a number of educational and diagnostic assets for the client to assess
+    different types of Extended Reality (i.e. AR, VR, MR) technologies to use in their
+    internal training. The client has since used our prioritisation framework to successfully
+    allocate a budget of $500k to create a VR learning experience pilot.</p><p><br></p>"
 - title: "<p>Solution</p>"
   subtitle: ''
   textcontent: "<p>We ran a number stakeholder interviews and desktop research to
