@@ -8,11 +8,16 @@ whatstatement: Understanding volunteer challenges and needs, to identify key opp
   to uplift their ability to make an impact.
 featureimage: uploads/cover-1.png
 allcontent:
-- title: "<p>Constraints</p>"
+- title: ''
   subtitle: ''
-  textcontent: "<p>The project was run between December and February, meaning I had
-    to work around being unable to access a number of team members during the Christmas
-    and New Year break.</p>"
+  textcontent: ''
+- title: "<p>Problem</p>"
+  subtitle: ''
+  textcontent: "<p><strong>Stakeholders</strong></p><p>The project focused on the
+    workflows of the leadership team, which comprised of two groups: the local representatives,
+    and the global governance teams.</p><p><strong>Constraints</strong></p><p>The
+    project was run between December and February, meaning I had to work around being
+    unable to access a number of team members during the Christmas and New Year break.</p><p></p>"
 - title: "<p>Case study overview</p>"
   subtitle: ''
   textcontent: "<p>The client is an American nonprofit.</p><p>They faced many challenges
@@ -23,6 +28,11 @@ allcontent:
     making flow</p></li><li><p>Leveraging resources</p></li></ul><p>This case study
     uses a Design Thinking approach to building a strategy around improving internal
     processes at a nonprofit.</p>"
+- title: "<p>Constraints</p>"
+  subtitle: ''
+  textcontent: "<p>The project was run between December and February, meaning I had
+    to work around being unable to access a number of team members during the Christmas
+    and New Year break.</p>"
 images: []
 date: '2019-08-02T14:00:00Z'
 tags:
@@ -31,12 +41,6 @@ tags:
 - blog
 
 ---
-**Case study overview**
-
-#### Constraints
-
-The project was run between December and February, meaning I had to work around being unable to access a number of team members during the Christmas and New Year break.
-
 ## Problem
 
 #### Stakeholders
