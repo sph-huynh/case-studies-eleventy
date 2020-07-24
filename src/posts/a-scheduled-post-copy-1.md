@@ -14,6 +14,12 @@ whatstatement: Exploring the use cases and feasibility of AR and VR based traini
   for a Utilities client.
 images: []
 allcontent:
+- title: "<p>Solution</p>"
+  subtitle: ''
+  textcontent: "<p>We ran a number stakeholder interviews and desktop research to
+    further understand the training use cases and potential application with technology.
+    We prioritised the use cases and dug deeper into implementation costs in order
+    to form a roadmap. I led the technical track, including implementation research.</p><p><br></p>"
 - title: "<p>Challenge</p>"
   subtitle: ''
   textcontent: "<p>A utilities company has over 2000 employees that work in highly
