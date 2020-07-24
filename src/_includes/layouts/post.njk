@@ -15,16 +15,25 @@
 {% block content %}
   <main id="main-content" tabindex="-1">
     <article class="[ post ] [ h-entry ]">
-      {% include "partials/components/intro.njk" %}
-      <div class="inner-wrapper">
-          {% for section in allcontent %}
-              <p class="post-sub-text">
-                      <h3>{{ section.title | safe }}</h3>
-                      <h4>{{ section.subtitle }}</h4>
-                      {{ section.textcontent | safe }}
-              </p>
-          {% endfor %}
+      <div class"special-page top">
+          <div class="post-list__item left-2 wrapped-item">
+            <img src="/{{ featureimage }}" class"post-image" />
+          </div>
+          <div class="post-list__item right-1 wrapped-item">
+              {% for section in allcontent %}
+                <h3 class="h3-post-title">
+                    {{ section.title | safe }}
+                </h3>
+                <p class="post-caption">{{ section.subtitle }}</p> 
+                <p class="post-sub-text">{{ section.textcontent | safe }}</p>
+                <br/> 
+              {% endfor %}
+          </div>
       </div>
+      <div class="special-page bottom">
+        {{ content | safe }}
+      </div>
+
       {% if tags %}
         <footer class="[ post__footer ] [ pad-top-500 pad-bottom-500 ]">
           <div class="inner-wrapper">
