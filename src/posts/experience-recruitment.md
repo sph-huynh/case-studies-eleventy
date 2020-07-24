@@ -131,7 +131,3 @@ In order to supplement my own findings, I did some research into Recruitment bes
 
 * Comparing the current state with best practices from the market showed gaps in processes and templates
 * There was inconsistency in the vetting process, recruiters often using personal judgment _alone_ to pick candidates (rather than agreeing on a scorecard), leaving no standardisation of assessments, and no documenting of lessons learned after the candidate had started their role.
-
-Outcome
-
-* 
