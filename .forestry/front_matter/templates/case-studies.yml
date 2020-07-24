@@ -88,6 +88,6 @@ fields:
   default: '2019-08-02T14:00:00Z'
   label: Date
 pages:
-- src/posts/a-scheduled-post-copy-1.md
 - src/posts/a-scheduled-post-copy.md
 - src/posts/a-scheduled-post.md
+- src/posts/immersive-tech-strategy.md
