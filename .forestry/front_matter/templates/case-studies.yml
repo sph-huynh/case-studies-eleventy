@@ -35,7 +35,7 @@ fields:
   config:
     maxSize: 64
   label: Feature Image
-- name: content
+- name: allcontent
   type: field_group_list
   fields:
   - name: title
@@ -79,15 +79,14 @@ fields:
   default: []
   label: Tags
 - name: date
-  type: datetime
-  label: Date
-  description: ''
+  type: text
   config:
     required: false
-    date_format: ''
-    time_format: 
-    display_utc: false
-    export_format: YYYY-MM-DDThh:mm:AAZ
+    wysiwyg: false
+    schema:
+      format: markdown
+  default: '2019-08-02T14:00:00Z'
+  label: Date
 pages:
 - src/posts/a-scheduled-post-copy-1.md
 - src/posts/a-scheduled-post-copy.md

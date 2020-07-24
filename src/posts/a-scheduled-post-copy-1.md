@@ -13,5 +13,9 @@ whatstatement: Exploring the use cases and feasibility of AR and VR based traini
   in order to create a prioritisation framework, implementation strategy and roadmap
   for a Utilities client.
 images: []
-
+allcontent:
+- title: "<p>Example</p>"
+  subtitle: Example
+  textcontent: "<p>Example</p>"
+  
 ---

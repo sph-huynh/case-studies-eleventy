@@ -117,6 +117,10 @@ a.text-button {
     vertical-align: top;
 }
 
+.inner-wrapper {
+    margin-bottom: 2em;
+}
+
 @media only screen and (max-width: 930px) {
     .post-list__item {
         display: block!important;

@@ -1,6 +1,6 @@
 ---
 title: Experience evaluation, uplift and optimisation of a recruitment process
-date: 2019-08-02T14:00:00Z
+date: '2019-08-02T14:00:00Z'
 tags:
 - Experience Evaluation
 - Customer Experience
@@ -12,7 +12,6 @@ overview: Cut time required for our on-boarding and recruitment processes throug
   process automation, going from 3-4 minutes/step to <30 seconds [98%+ reduction in
   time needed/step]. Reduced time spent in the questionnaire stage from 47.4 days
   to 6.9 days and increased hire rate from 2.5% to 27%.
-content: ''
 featureimage: "/uploads/cover.png"
 images:
 - "/uploads/12-roles-teams.png"
@@ -23,7 +22,11 @@ challenge: How might we make it easier for teams to find suitable candidates?
 maintag: Customer Experience Strategy
 whatstatement: Understanding the current recruitment processes, so we can better optimise
   the efficiency and provide a better experience.
-
+allcontent:
+- title: "<p>Example</p>"
+  subtitle: Example
+  textcontent: "<p>Example</p>"
+  
 ---
 **Case Study Overview**
 

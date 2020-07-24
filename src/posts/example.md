@@ -6,11 +6,11 @@ maintag: Example
 challenge: Example
 whatstatement: Example
 featureimage: ''
-content:
+date: '2019-08-02T14:00:00Z'
+allcontent:
 - title: "<p>Example</p>"
   subtitle: Example
   textcontent: "<p>Example</p>"
 images: []
-date: 2020-07-08T12:00:AMAM+10:00
 
 ---

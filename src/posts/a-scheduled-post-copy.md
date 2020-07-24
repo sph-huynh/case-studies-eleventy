@@ -14,5 +14,9 @@ whatstatement: 'Interviewing customers, internal stakeholders and mapping out pr
   in order to redesign the voice authentication service at an Australian Telecoms
   company. '
 images: []
-
+allcontent:
+- title: "<p>Example</p>"
+  subtitle: Example
+  textcontent: "<p>Example</p>"
+  
 ---
