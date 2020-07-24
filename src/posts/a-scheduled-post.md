@@ -18,33 +18,6 @@ allcontent:
     for a number of the global governance team members to build relationships with
     the local representatives 1-1.</p><p>Since the review, 6 initiatives have started.
     2 have already been completed.</p>"
-- title: "<p>Overview</p>"
-  subtitle: ''
-  textcontent: "<p>The initiative provided the leadership team with a clear roadmap
-    and a number of initiatives to improve their internal operations.</p><p>For the
-    local representatives, this also provided the opportunity to have challenges that
-    were traditionally had no clear platform to voice, to directly shape the internal
-    operations strategy of the organisation.</p><p>It also provided an opportunity
-    for a number of the global governance team members to build relationships with
-    the local representatives 1-1.</p><p>Since the review, 6 initiatives have started.
-    2 have already been completed.</p>"
-- title: "<p>Case study overview</p>"
-  subtitle: ''
-  textcontent: "<p>The client is an American nonprofit.</p><p>They faced many challenges
-    - bureaucratic processes, yet many structures were ad hoc and is predominately
-    full of volunteers around the world, management and compliance were cited as a
-    challenge by senior leaders.</p><p>The brief provided was to explore:</p><ul><li><p>Opportunities
-    to uplift internal operation efficiency</p></li><li><p>Informational and decision
-    making flow</p></li><li><p>Leveraging resources</p></li></ul><p>This case study
-    uses a Design Thinking approach to building a strategy around improving internal
-    processes at a nonprofit.</p>"
-- title: "<p>Problem</p>"
-  subtitle: ''
-  textcontent: "<p><strong>Stakeholders</strong></p><p>The project focused on the
-    workflows of the leadership team, which comprised of two groups: the local representatives,
-    and the global governance teams.</p><p><strong>Constraints</strong></p><p>The
-    project was run between December and February, meaning I had to work around being
-    unable to access a number of team members during the Christmas and New Year break.</p><p></p>"
 images: []
 date: '2019-08-02T14:00:00Z'
 tags:
@@ -53,19 +26,21 @@ tags:
 - blog
 
 ---
-**Constraints**
+The client faced many challenges - bureaucratic processes, yet many structures were ad hoc and is predominately full of volunteers around the world, management and compliance were cited as a challenge by senior leaders.
 
-The project was run between December and February, meaning I had to work around being unable to access a number of team members during the Christmas and New Year break.
+The brief provided was to explore:
 
-## Problem
+* Opportunities to uplift internal operation efficiency
+* Informational and decision making flow
+* Leveraging resources
 
-#### Stakeholders
+This case study uses a Design Thinking approach to building a strategy around improving internal processes at a nonprofit.
+
+**Stakeholders**
 
 The project focused on the workflows of the leadership team, which comprised of two groups: the local representatives, and the global governance teams.
 
-## Process
-
-I followed a classic Double Diamond approach for this project. The team comprised of additional 6 team members (client) - 4 of them being leadership team members. This was done on purpose in order to allow for direct ownership and input by the leaders who would be implementing and in which support was needed.
+#### Approach
 
 ![](https://soph.ee/images/blog-images/43447-internal/1.%20Timeline.png)
 
@@ -74,8 +49,6 @@ I followed a classic Double Diamond approach for this project. The team comprise
 The discovery phase was about trying to understand as much as possible - this meant interviewing stakeholders, exploring existing information, and researching the competition.
 
 The types of documentation we explored were anything related to process, organisational structure, or governance.
-
-![](https://soph.ee/images/blog-images/43447-internal/3.%20Files.png)
 
 We also interviewed some third party individuals from similar but external organisations - specifically those that were similar in reach (global nature via volunteers), structure (local vs global governance), and social impact related (for young people).
 
