@@ -1,6 +1,6 @@
 ---
 title: Experience evaluation, uplift and optimisation of a recruitment process
-date: '2019-08-02T14:00:00Z'
+date: 2019-08-02T14:00:00Z
 tags:
 - Experience Evaluation
 - Customer Experience
@@ -22,11 +22,8 @@ challenge: How might we make it easier for teams to find suitable candidates?
 maintag: Customer Experience Strategy
 whatstatement: Understanding the current recruitment processes, so we can better optimise
   the efficiency and provide a better experience.
-allcontent:
-- title: "<p>Example</p>"
-  subtitle: Example
-  textcontent: "<p>Example</p>"
-  
+allcontent: []
+
 ---
 **Case Study Overview**
 
