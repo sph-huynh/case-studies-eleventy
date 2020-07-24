@@ -15,15 +15,6 @@ whatstatement: 'Interviewing customers, internal stakeholders and mapping out pr
   company. '
 images: []
 allcontent:
-- title: "<p>Challenge</p>"
-  subtitle: ''
-  textcontent: "<p>A Telecoms client was looking to improve their voice experience,
-    focusing on voice authentication. The voice experience (phone call support) was
-    often the only touchpoint customers had with the client - and we found it also
-    played a big role in determining their perception of quality of service. There
-    were a number of technical solutions available, but we needed to determine what
-    the client’s operations could support, what the customers needed and how to up-skill
-    call centre agents.</p>"
 - title: "<p>Outcome</p>"
   subtitle: ''
   textcontent: "<p>We delivered personas, service maps and customer insights that
@@ -31,3 +22,6 @@ allcontent:
     risk of implementing a technical solution that ultimately customers did not want.</p>"
 
 ---
+**Challenge**
+
+A Telecoms client was looking to improve their voice experience, focusing on voice authentication. The voice experience (phone call support) was often the only touchpoint customers had with the client - and we found it also played a big role in determining their perception of quality of service. There were a number of technical solutions available, but we needed to determine what the client’s operations could support, what the customers needed and how to up-skill call centre agents.
