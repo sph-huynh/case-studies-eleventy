@@ -28,17 +28,13 @@ allcontent:
   textcontent: "<p><strong>Time reduction in the recruitment process</strong></p><ul><li><p>✓
     Cut time required for our on-boarding and recruitment processes through process
     automation, from going from 3-4 minutes/step to &lt;30 seconds [98%+ reduction
-    in time needed/step]</p></li></ul><p>Pipeline stage timeframe</p><ul><li><p>✓
+    in time needed/step]</p></li></ul><p><strong>Reduced time wait for candidates</strong></p><ul><li><p>✓
     Questionnaire stage timeframe dropped from 47.4 days to 6.9 days</p></li><li><p>✓
     Feedback stage dropped from 17 days to 2 days</p></li></ul><p><strong>More clarity
-    in role marketing</strong></p><p>Hire rate</p><ul><li><p>✓ From 2.5% to 27% -
-    we were getting more candidates that had relevant experience, and therefore a
-    larger percentage of candidates were being moved forward</p></li></ul><p>View
-    rate</p><ul><li><p>✓ Through the creation of a new careers/volunteering portal,
-    increased traffic in our Recruitment website pages alone by 320%, in one month.
-    And was able to drive more traffic in the refreshed portal in one week, than the
-    old page had in 5 months.</p></li><li><p>✓ The Join the team page currently has
-    a 35.8k views, which is more than the Homepage at 35k.</p></li></ul>"
+    in role marketing</strong></p><ul><li><p>✓ Hire rate increased from 2.5% to 27%
+    - we were getting more candidates that had relevant experience, and therefore
+    a larger percentage of candidates were being moved forward</p></li></ul>"
+
 ---
 **Case Study Overview**
 
