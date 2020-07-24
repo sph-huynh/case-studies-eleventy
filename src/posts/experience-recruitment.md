@@ -39,7 +39,6 @@ allcontent:
     And was able to drive more traffic in the refreshed portal in one week, than the
     old page had in 5 months.</p></li><li><p>✓ The Join the team page currently has
     a 35.8k views, which is more than the Homepage at 35k.</p></li></ul>"
-
 ---
 **Case Study Overview**
 
