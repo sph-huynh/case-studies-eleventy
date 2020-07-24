@@ -8,6 +8,16 @@ whatstatement: Understanding volunteer challenges and needs, to identify key opp
   to uplift their ability to make an impact.
 featureimage: uploads/cover-1.png
 allcontent:
+- title: "<p>Outcome</p>"
+  subtitle: ''
+  textcontent: "<p>The initiative provided the leadership team with a clear roadmap
+    and a number of initiatives to improve their internal operations.</p><p>For the
+    local representatives, this also provided the opportunity to have challenges that
+    were traditionally had no clear platform to voice, to directly shape the internal
+    operations strategy of the organisation.</p><p>It also provided an opportunity
+    for a number of the global governance team members to build relationships with
+    the local representatives 1-1.</p><p>Since the review, 6 initiatives have started.
+    2 have already been completed.</p>"
 - title: "<p>Overview</p>"
   subtitle: ''
   textcontent: "<p>The initiative provided the leadership team with a clear roadmap
