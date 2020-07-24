@@ -38,22 +38,9 @@ allcontent:
 ---
 **Case Study Overview**
 
-SDSN Youth is a network of young professionals and students, who work together to empower youth globally to create sustainable solutions.
-
-The network is also ever-growing, and also being predominately volunteers, we have a considerable turnover as well. On top of that, most of our programs are 12-month programs, meaning recruitment is an essential part of our operations, and the first interaction most people have with us.
-
-The challenge for this case study was focusing on volunteer recruitment, and to see what the experience is as a candidate and recruiter, and identify any potential for any uplift.
-
-The outcome was a more professional structure and process - both in terms of the recruiter knowing how to approach the tasks and for the candidate going through the experience.
-
-* Time reduction in the recruitment process, going from 3-4 minutes/step to <30 seconds \[98%+ reduction in time needed/step\]
-* Time candidate spent in questionnaire stage timeframe dropped from 47.4 days to 6.9 days
-* Time candidate spent in Feedback stage dropped from 17 days to 2 days
-* Increased hire rate from 2.5% to 27%
+I ran a lean review to explore potential improvements across a recruitment journey both for increasing efficiency for the business and the experience of the candidates. This experience was critical to the client as recruitment was heavily marketed, impacting their branding and reputation. 
 
 **Target audience:**
-
-I had a brief understanding of the recruitment process from my own experiences joining the organisation (listed here) - but of course, having not been through the process as a recruiter, I cannot assume too much.
 
 * Candidates
   * Mostly students or young professionals
@@ -63,13 +50,7 @@ I had a brief understanding of the recruitment process from my own experiences j
   * Often people who have never played an HR role before, nor formed teams before
   * Lack of international context
 
-**Constraints**
-
-* We were limited to the platforms we have currently
-* And had to keep in mind that the process needs to be relearned many times (possibly by someone without an HR background) multiple times in the future
-* There were many competing projects at the time, so I was time-constrained to about 3 weeks
-
-**Challenge statements**
+#### **Challenge statements**
 
 After the discovery phase, I found that there were key challenges for both stakeholders.
 
@@ -85,15 +66,15 @@ On the flip side, pain points for recruiters were a) not finding enough candidat
 
 The challenge statement I decided on addressing was something along the lines of:
 
-* How might we make it easier for teams to find suitable candidates?*
+_How might we make it easier for teams to find suitable candidates?*_
 
 Something we had to acknowledge was that the content in job descriptions never seemed to be accurate to the actual role, so a secondary challenge was:
 
-* _How might we help candidates understand how they would contribute to SDSN Youth?_
+_How might we help candidates understand how they would contribute to SDSN Youth?_
 
 Immediately, I could see an opportunity for an experience uplift in a number of areas.
 
-**Stream 1** Marketing: Content uplift
+#### **Stream 1** Marketing: Content uplift
 
 Challenges:
 
@@ -103,7 +84,7 @@ Challenges:
 * 88% of volunteers/staff said their role was _at least_ a little different to the job description they applied for
 * Average time spent in key early stages was 47 days in Video Interview/Questionnaire, 17 days in Feedback 1
 
-**Stream 2** Recruiter: Process definition
+#### **Stream 2** Recruiter: Process definition
 
 Some challenges I discovered after mapping out the recruitment processes were that:
 
@@ -120,9 +101,13 @@ Key numbers:
 * 23% taking over two months
 * There was 13 steps in the recruitment process, all done manually.
 
-**Stream 3** Automation: Templates & Pipeline
+#### **Stream 3** Automation: Templates & Pipeline
 
 In order to supplement my own findings, I did some research into Recruitment best practices from other companies.
 
 * Comparing the current state with best practices from the market showed gaps in processes and templates
 * There was inconsistency in the vetting process, recruiters often using personal judgment _alone_ to pick candidates (rather than agreeing on a scorecard), leaving no standardisation of assessments, and no documenting of lessons learned after the candidate had started their role.
+
+#### Solution
+
+I took the inputs and redesigned the process, structures for creating job descriptions and uplifting the recruitment marketing.
