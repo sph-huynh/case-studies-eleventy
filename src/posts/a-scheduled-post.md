@@ -8,6 +8,16 @@ whatstatement: Understanding volunteer challenges and needs, to identify key opp
   to uplift their ability to make an impact.
 featureimage: uploads/cover-1.png
 allcontent:
+- title: "<p>Overview</p>"
+  subtitle: ''
+  textcontent: "<p>The initiative provided the leadership team with a clear roadmap
+    and a number of initiatives to improve their internal operations.</p><p>For the
+    local representatives, this also provided the opportunity to have challenges that
+    were traditionally had no clear platform to voice, to directly shape the internal
+    operations strategy of the organisation.</p><p>It also provided an opportunity
+    for a number of the global governance team members to build relationships with
+    the local representatives 1-1.</p><p>Since the review, 6 initiatives have started.
+    2 have already been completed.</p>"
 - title: "<p>Case study overview</p>"
   subtitle: ''
   textcontent: "<p>The client is an American nonprofit.</p><p>They faced many challenges
@@ -18,11 +28,6 @@ allcontent:
     making flow</p></li><li><p>Leveraging resources</p></li></ul><p>This case study
     uses a Design Thinking approach to building a strategy around improving internal
     processes at a nonprofit.</p>"
-- title: "<p>Constraints</p>"
-  subtitle: ''
-  textcontent: "<p>The project was run between December and February, meaning I had
-    to work around being unable to access a number of team members during the Christmas
-    and New Year break.</p>"
 - title: "<p>Problem</p>"
   subtitle: ''
   textcontent: "<p><strong>Stakeholders</strong></p><p>The project focused on the
@@ -38,6 +43,10 @@ tags:
 - blog
 
 ---
+**Constraints**
+
+The project was run between December and February, meaning I had to work around being unable to access a number of team members during the Christmas and New Year break.
+
 ## Problem
 
 #### Stakeholders
@@ -72,13 +81,3 @@ In total we ran 29 interviews:
 We found that team member’s ambition, clarity of role and motivations depended on the level of support they received.
 
 There was a clear lack of resources and process documentation, leading to an ad hoc culture.
-
-## Outcome
-
-The initiative provided the leadership team with a clear roadmap and a number of initiatives to improve their internal operations.
-
-For the local representatives, this also provided the opportunity to have challenges that were traditionally had no clear platform to voice, to directly shape the internal operations strategy of the organisation.
-
-It also provided an opportunity for a number of the global governance team members to build relationships with the local representatives 1-1.
-
-Since the review, 6 initiatives have started. 2 have already been completed.
