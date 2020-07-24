@@ -15,6 +15,11 @@ whatstatement: 'Interviewing customers, internal stakeholders and mapping out pr
   company. '
 images: []
 allcontent:
+- title: "<p>Outcome</p>"
+  subtitle: ''
+  textcontent: "<p>We delivered personas, service maps and customer insights that
+    allowed our client to validate customer needs and priorities - mitigating the
+    risk of implementing a technical solution that ultimately customers did not want.</p>"
 - title: "<p>Challenge</p>"
   subtitle: ''
   textcontent: "<p>A Telecoms client was looking to improve their voice experience,
