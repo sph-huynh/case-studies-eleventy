@@ -4,8 +4,7 @@ title: HCD process to build a strategy to tackle operational efficiency and empl
 maintag: Design Thinking-led Strategy
 challenge: How might we redesign our operational processes to improve the volunteer
   experience?
-whatstatement: Understanding volunteer challenges and needs, to identify key opportunities
-  to uplift their ability to make an impact.
+whatstatement: ''
 featureimage: uploads/cover-1.png
 allcontent:
 - title: "<p>Outcome</p>"
@@ -25,25 +24,16 @@ tags:
 - Service Design strategy
 - Customer Experience
 - Employee Experience
+overview: "<p>This project aimed to understand volunteer challenges and needs, to
+  identify key opportunities to uplift their ability to make an impact.</p><p>The
+  exact challenges were unclear, but we did know that there was a need to improve
+  operational efficiency as volunteers felt their work was hindered by operations.</p><p>We
+  eventually outlined the following objectives:</p><ul><li><p>Opportunities to uplift
+  internal operation efficiency</p></li><li><p>Informational and decision making flow</p></li><li><p>Leveraging
+  resources</p></li></ul>"
+metrics: []
 
 ---
-The client faced many challenges - bureaucratic processes, yet many structures were ad hoc and is predominately full of volunteers around the world, management and compliance were cited as a challenge by senior leaders.
-
-The brief provided was to explore:
-
-* Opportunities to uplift internal operation efficiency
-* Informational and decision making flow
-* Leveraging resources
-
-This case study uses a Design Thinking approach to building a strategy around improving internal processes at a nonprofit.
-
-**Stakeholders**
-
-The project focused on the workflows of the leadership team, which comprised of two groups: the local representatives, and the global governance teams.
-
-#### Approach
-
-![](https://soph.ee/images/blog-images/43447-internal/1.%20Timeline.png)
 
 #### Discover
 
