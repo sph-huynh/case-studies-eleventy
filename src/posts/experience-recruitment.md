@@ -23,6 +23,18 @@ maintag: Customer Experience Strategy
 whatstatement: Understanding the current recruitment processes, so we can better optimise
   the efficiency and provide a better experience.
 allcontent:
+- title: "<p>Approach</p>"
+  subtitle: ''
+  textcontent: "<p><strong>Key stakeholder pain points</strong></p><p>There were two
+    challenge streams that I discovered:</p><p><strong>Candidates </strong>would spend
+    an awful amount of time in the recruitment process (sometimes up to 2-3 months,
+    with little visibility around what the process looks like.).</p><p><strong>Recruiters
+    </strong>were often under-trained, under-resourced, and needed to do many tedious
+    and manual steps.</p><p></p><p>Therefore the challenge statement I decided on
+    addressing was:</p><p><strong><em>How might we make it easier for teams to find
+    suitable candidates?</em></strong></p><p>By taking a service design approach,
+    rather than a pure process-optimisation approach, the hope was I would also address:</p><p><em>How
+    might we help candidates understand how they would contribute to SDSN Youth?</em></p><p></p>"
 - title: ''
   subtitle: Challenge streams
   textcontent: "<p><strong>Stream 1 Marketing: Content uplift,</strong> aimed to address
@@ -38,18 +50,6 @@ allcontent:
     Pipeline</strong>, aimed to supplement my own findings with best practices from
     other companies. Because ultimately, I am not a recruiter by trade and another
     perspective would be beneficial to the design process.</p>"
-- title: "<p>Approach</p>"
-  subtitle: ''
-  textcontent: "<p><strong>Key stakeholder pain points</strong></p><p>There were two
-    challenge streams that I discovered:</p><p><strong>Candidates </strong>would spend
-    an awful amount of time in the recruitment process (sometimes up to 2-3 months,
-    with little visibility around what the process looks like.).</p><p><strong>Recruiters
-    </strong>were often under-trained, under-resourced, and needed to do many tedious
-    and manual steps.</p><p></p><p>Therefore the challenge statement I decided on
-    addressing was:</p><p><strong><em>How might we make it easier for teams to find
-    suitable candidates?</em></strong></p><p>By taking a service design approach,
-    rather than a pure process-optimisation approach, the hope was I would also address:</p><p><em>How
-    might we help candidates understand how they would contribute to SDSN Youth?</em></p><p></p>"
 - title: "<p>Outcome</p>"
   subtitle: ''
   textcontent: "<p><strong>Time reduction in the recruitment process</strong></p><ul><li><p>✓
