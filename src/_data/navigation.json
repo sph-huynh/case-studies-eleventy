@@ -1,7 +1,12 @@
 {
   "items": [
     {
-      "text": "LEARN MORE",
+      "text": "MORE CASE STUDIES",
+      "url": "/case-studies",
+      "external": false
+    },
+    {
+      "text": "ABOUT",
       "url": "/more",
       "external": false
     }

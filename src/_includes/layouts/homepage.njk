@@ -1,0 +1,45 @@
+{% extends 'layouts/base.njk' %}
+{% set pageType = 'Homepage' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+{% set introSummary %}
+  {{ content | safe }}
+{% endset %}
+
+{# Post list content #}
+{% set postListHeading = postsHeading %}
+{% set postListItems = collections.postFeed %}
+
+{# Archive link #}
+{% if postListItems.length < collections.posts.length %} 
+  {% set paginationNextText = archiveButtonText %}
+  {% set paginationNextUrl = '/archive' %}
+{% endif %}
+
+{% block content %}
+  <main id="main-content" tabindex="-1">
+    <div class="home-container">
+        <div class="intro-top-container">
+            <div class="intro-top-wrapper">
+                <div class="intro-top-left">
+                    <img src="/images/me.jpg" class"intro-image" />
+                </div>
+                <div class="intro-top-right">
+                    <h1 class="post-sub-title text-500 gap-top-300">{{ aboutme.job }}</h1>
+                    <h2 class="intro-title">
+                        <a href="{{ item.url }}" class="link post-title" rel="bookmark">{{ aboutme.name }}</a>
+                    </h2>
+                    <h3 class="intro-caption">{{ aboutme.blurb | safe }}</h3> 
+                </div>
+            </div>
+            <div class="intro-icon">
+                <a href="#featured-case-studies"> {% include "icons/arrow-down.svg" %}</a>
+            </div>
+        </div>
+        <div class="featured-case-studies-wrapper">
+            {% include "partials/components/featured.njk" %}
+        </div>
+    </div>
+  </main>
+{% endblock %}

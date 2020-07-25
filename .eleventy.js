@@ -17,8 +17,9 @@ module.exports = function(config) {
   config.addFilter('w3DateFilter', w3DateFilter);
 
   // Layout aliases
-  config.addLayoutAlias('home', 'layouts/home.njk');
+  config.addLayoutAlias('casestudies', 'layouts/casestudies.njk');
   config.addLayoutAlias('more', 'layouts/more.njk');
+  config.addLayoutAlias('homepage', 'layouts/homepage.njk');
 
   // Passthrough copy
   config.addPassthroughCopy('src/fonts');

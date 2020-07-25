@@ -1,0 +1,28 @@
+{% if postListItems.length %}
+  <section id="featured-case-studies">
+    <div class="featured-case-studies-wrapper">
+      <ol class="feature-list">
+        {% for item in postListItems %}
+          {% if item.date.getTime() <= global.now %}
+            <div class="feature-list-btn">
+                <img src="/{{ item.data.featureimage }}" class="button-bg"/>
+                <div class="into-under-text">
+                    <div class="title-highlight">
+                        <h2 class="intro-under-title">{{ item.data.maintag }}</h2>
+                    </div>
+                </div>
+                <div class="feature-list overlay">
+                    <a href="{{  item.url }}" class="feature-list-box">
+                        <div class="overlay-content">
+                            <h2 class="intro-sub-title">{{ item.data.maintag }}</h2>
+                            <h2 class="intro-padding-top button-text post-title font-500w" >{{ item.data.title }} <br><br>READ MORE {% include "icons/arrow.svg" %}</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </ol>
+    </div>
+  </section>
+{% endif %}
