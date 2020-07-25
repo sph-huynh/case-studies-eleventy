@@ -7,6 +7,10 @@ challenge: How might we redesign our operational processes to improve the volunt
 whatstatement: ''
 featureimage: uploads/cover-1.png
 allcontent:
+- title: "<p>Approach</p>"
+  subtitle: ''
+  textcontent: "<p>We first aimed to understand as much as possible - this meant interviewing
+    stakeholders, exploring existing information, and researching the competition.</p>"
 - title: "<p>Outcome</p>"
   subtitle: ''
   textcontent: "<p>The initiative provided the leadership team with a clear roadmap
@@ -34,16 +38,6 @@ overview: "<p>This project aimed to understand volunteer challenges and needs, t
 metrics: []
 
 ---
-
-#### Discover
-
-The discovery phase was about trying to understand as much as possible - this meant interviewing stakeholders, exploring existing information, and researching the competition.
-
-The types of documentation we explored were anything related to process, organisational structure, or governance.
-
-We also interviewed some third party individuals from similar but external organisations - specifically those that were similar in reach (global nature via volunteers), structure (local vs global governance), and social impact related (for young people).
-
-Internal interview invitations were sent out to a broad range of leadership members, with the aim to cover as many different types of people as possible - duration of stay, team, position, geography, etc.
 
 In total we ran 29 interviews:
 
