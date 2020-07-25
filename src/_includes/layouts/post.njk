@@ -16,48 +16,46 @@
   <main id="main-content" tabindex="-1">
     <article class="[ post ] [ h-entry ]">
       <div class"special-page top">
-          <div class="post-list__item left-2 wrapped-item">
-            <img src="/{{ featureimage }}" class"post-image" />
-          </div>
-          <div class="post-list__item right-1 wrapped-item">
-              <div class="post-list__item wrapped-item">
-                <p class="post-sub-title text-500 gap-top-300">{{ maintag }}</p>
-                <h3 class="h3-post-title">
-                  <a href="{{ item.url }}" class="link post-title" rel="bookmark">{{ title }}</a>
-                </h3>
-                <p class="post-caption">{{ challenge }}</p> 
-                <p class="post-sub-text">{{ whatstatement }}</p> 
+            <div class="cs-box">
+              <div class="cs-box-left">
+                <div class="cs-box-left-top">
+                  <h1 class="cs-title">{{ challenge }}</h1> 
+                  <p class="cs-sub-title">OVERVIEW Interviewing customers, internal stakeholders and mapping out processes in order to redesign the voice authentication service at an Australian Telecoms company.</p>
+                </div>
+                <div class="cs-box-left-bottom">
+                  {% if tags %}
+                          <h4 class="font-base text-600 weight-mid">Skills and tools used:</h4>
+                          <ul class="tags-list font-300w">
+                            {% for item in tags %}
+                              <li class="nav__item">
+                                <a href="/tags/{{ item }}" class="link">{{ item }}</a>
+                              </li>
+                            {% endfor %}
+                          </ul>
+                  {% endif %}
+                </div>
               </div>
-              {% for section in allcontent %}
-                <h3 class="h3-post-title">
-                    {{ section.title | safe }}
-                </h3>
-                <p class="post-caption">{{ section.subtitle }}</p> 
-                <p class="post-sub-text">{{ section.textcontent | safe }}</p>
-                <br/> 
-              {% endfor %}
-          </div>
-      </div>
-      <div class="special-page bottom">
-        {{ content | safe }}
-      </div>
-
-      {% if tags %}
-        <footer class="[ post__footer ] [ pad-top-500 pad-bottom-500 ]">
-          <div class="inner-wrapper">
-            <div class="[ nav ] [ box-flex align-center ]">
-              <h4 class="font-base text-600 weight-mid">Filed under</h4>
-              <ul class="tags-list">
-                {% for item in tags %}
-                  <li class="nav__item">
-                    <a href="/tags/{{ item }}" class="link">{{ item }}</a>
-                  </li>
-                {% endfor %}
-              </ul>
+              <div class="cs-box-right">
+                <img src="/{{ featureimage }}" class="cs-image" />
+              </div>
             </div>
-          </div>
-        </footer>
-      {% endif %}
+            <div class="cs-box">
+              <div class="cs-box-left">
+                <div class="cs-box-left-top">
+                  <h1 class="cs-title">Approach</h1> 
+                  <p class="cs-sub-title">{{ maintag }}</p>
+                  <p class="cs-sub-title">{{ title }}</p>
+                  <p class="cs-sub-title">{{ whatstatement }}</p>
+                </div>
+              </div>
+              <div class="cs-box-right">
+                <div class="cs-box-metrics">
+                  <h1 class="cs-metric-title">27%</h1> 
+                  <h1 class="cs-metric-subtitle">increase</h1> 
+                </div>
+              </div>
+            </div>            
+      </div>            
     </article>
   </main>
 {% endblock %}

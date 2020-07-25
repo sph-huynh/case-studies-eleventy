@@ -273,6 +273,51 @@ a.feature-list-box {
     margin-bottom: .5em;
 }
 
+/* Case study page */
+
+.cs-box {
+    margin-bottom: 5%;
+}
+
+.cs-box-left {
+    display: inline-block;
+    width: 60%;
+}
+
+.cs-box-right {
+    display: inline-block;
+    width: 38%;
+    vertical-align: top;
+}
+
+.cs-box-left-top {
+    margin-bottom: 2em;
+}
+
+.cs-title {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.cs-sub-title {
+    font-size: 1.5rem;
+}
+
+img.cs-image {
+    width: 70%;
+    margin-bottom: 8% auto;
+    float: right;
+    height: 70vh!important;
+    object-fit: cover;
+}
+
+.cs-box-metrics {
+    margin: 20%;
+}
+
+.cs-metric-title {
+    font-size: 4rem;
+}
 
 @media only screen and (max-width: 930px) {
     .post-list__item {
