@@ -8,10 +8,10 @@ tags:
 - Process Mapping
 - Process Optimisation
 - User Interviews
-overview: "<p>Cut time required for our on-boarding and recruitment processes through
-  process automation, going from 3-4 minutes/step to &lt;30 seconds [98%+ reduction
-  in time needed/step]. Reduced time spent in the questionnaire stage from 47.4 and
-  increased hire rate from 2.5% to 27%.</p>"
+overview: "<p>I ran a lean review to explore potential improvements across a recruitment
+  journey both for increasing efficiency for the business and the experience of the
+  candidates. This experience was critical to the client as recruitment was heavily
+  marketed, impacting their branding and reputation.</p>"
 featureimage: "/uploads/cover.png"
 images:
 - "/uploads/12-roles-teams.png"
@@ -23,6 +23,18 @@ maintag: Customer Experience Strategy
 whatstatement: Understanding the current recruitment processes, so we can better optimise
   the efficiency and provide a better experience.
 allcontent:
+- title: "<p>Approach</p>"
+  subtitle: ''
+  textcontent: "<p><strong>Key stakeholder pain points</strong></p><p>There were two
+    challenge streams that I discovered:</p><p><strong>Candidates </strong>would spend
+    an awful amount of time in the recruitment process (sometimes up to 2-3 months,
+    with little visibility around what the process looks like.).</p><p><strong>Recruiters
+    </strong>were often under-trained, under-resourced, and needed to do many tedious
+    and manual steps.</p><p></p><p>Therefore the challenge statement I decided on
+    addressing was:</p><p><strong><em>How might we make it easier for teams to find
+    suitable candidates?</em></strong></p><p>By taking a service design approach,
+    rather than a pure process-optimisation approach, the hope was I would also address:</p><p><em>How
+    might we help candidates understand how they would contribute to SDSN Youth?</em></p><p></p>"
 - title: "<p>Outcome</p>"
   subtitle: ''
   textcontent: "<p><strong>Time reduction in the recruitment process</strong></p><ul><li><p>✓
@@ -43,43 +55,12 @@ metrics:
   metricdesc: reduction in time needed/step
 
 ---
-**Case Study Overview**
-
-I ran a lean review to explore potential improvements across a recruitment journey both for increasing efficiency for the business and the experience of the candidates. This experience was critical to the client as recruitment was heavily marketed, impacting their branding and reputation. 
-
-**Target audience:**
-
-* Candidates
-  * Mostly students or young professionals
-  * From around the world
-  * Mostly online, with the exception of internships being done in person
-* Recruiter
-  * Often people who have never played an HR role before, nor formed teams before
-  * Lack of international context
+* 
+  * 
 
 #### **Challenge statements**
 
 After the discovery phase, I found that there were key challenges for both stakeholders.
-
-**Candidate**
-
-Two key pain points for candidates were a) the duration the process took, and b) understanding the skills required for the role.
-
-The duration for recruitment could take up to 2-3 months, with little visibility around what the process looks like.
-
-**Recruiter**
-
-On the flip side, pain points for recruiters were a) not finding enough candidates as b) candidates often did not have the relevant experience. Additionally, the process for recruiting candidates was manual and repetitive, creating a feeling of tediousness.
-
-The challenge statement I decided on addressing was something along the lines of:
-
-_How might we make it easier for teams to find suitable candidates?*_
-
-Something we had to acknowledge was that the content in job descriptions never seemed to be accurate to the actual role, so a secondary challenge was:
-
-_How might we help candidates understand how they would contribute to SDSN Youth?_
-
-Immediately, I could see an opportunity for an experience uplift in a number of areas.
 
 #### **Stream 1** Marketing: Content uplift
 
