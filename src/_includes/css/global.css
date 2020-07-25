@@ -135,9 +135,13 @@ a.text-button {
     margin-bottom: 2em;
 }
 
-.intro-top-container {
+.home-container {
     margin: 5rem 2rem;
+}
+
+.intro-top-container {
     align-self: left;
+    margin-bottom: 8rem;
 }
 
 .intro-top-left {
@@ -173,16 +177,7 @@ a.text-button {
 }
 
 .intro-icon {
-    left: auto;
-    right: auto;
-    text-align: center;
-}
-
-.featured-case-studies-wrapper {
-    margin: 5rem 2rem;
-}
-
-.feature-list {
+    margin-top: 2em;
 }
 
 .feature-list-btn {
