@@ -440,6 +440,21 @@ img.cs-image {
         padding: 1em;
     }
 
+    .intro-top-left {
+        padding-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro-top-left > img {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .overlay-content {
+        padding: 10% 4%;
+    }
+
     .cs-box-metrics {
         width: 100%;
         margin-bottom: 1rem;
@@ -448,11 +463,32 @@ img.cs-image {
     .cs-metric-title {
         margin-bottom: 0;
     }
+
+    .text-button {
+        font-size: 0.7rem;
+    }
 }
 
 @media only screen and (max-width: 400px) {
     body {
         margin: 5px 0 0 0;
         padding: 10px;
+    }
+
+    .overlay-content {
+        padding: 5% 4%;
+    }
+
+    .wrapped-item {
+        width: 100%;
+    }
+
+    a.link {
+        width: 100%;
+        text-align: center;
+        background-color: #3f4980;
+        margin-bottom: 8px;
+        color: white;
+        padding: 3px 0;
     }
 }
