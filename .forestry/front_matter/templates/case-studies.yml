@@ -21,6 +21,15 @@ fields:
     schema:
       format: markdown
   label: Challenge statement
+- name: overview
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Overview
 - name: whatstatement
   type: textarea
   default: ''
@@ -87,6 +96,28 @@ fields:
       format: markdown
   default: '2019-08-02T14:00:00Z'
   label: Date
+- name: metrics
+  type: field_group_list
+  fields:
+  - name: metrictitle
+    type: text
+    config:
+      required: false
+    label: Metrictitle
+  - name: metricdesc
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Metric Description
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Metrics
 pages:
 - src/posts/experience-recruitment.md
 - src/posts/hcd-strategy.md
