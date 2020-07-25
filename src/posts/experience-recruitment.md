@@ -23,6 +23,21 @@ maintag: Customer Experience Strategy
 whatstatement: Understanding the current recruitment processes, so we can better optimise
   the efficiency and provide a better experience.
 allcontent:
+- title: ''
+  subtitle: Challenge streams
+  textcontent: "<p><strong>Stream 1 Marketing: Content uplift,</strong> aimed to address
+    non-descripive job descriptions and a lack of insight for what the roles actually
+    entailed.</p><ul><li><p>88% of volunteers/staff said their role was <em>at least</em>
+    a little different to the job description they applied for</p></li><li><p>Average
+    time spent in key early stages was 47 days in Video Interview/Questionnaire, 17
+    days in Feedback 1</p></li></ul><p><strong>Stream 2 Recruiter: Process definition</strong>,
+    addressed the process optimisation. </p><ul><li><p>The average recruitment process
+    was 97 days</p></li><li><p>With 61% taking over a month</p></li><li><p>23% taking
+    over two months</p></li><li><p>There were 13 steps in the recruitment process,
+    all done manually.</p></li></ul><p><strong>Stream 3 Automation: Templates &amp;
+    Pipeline</strong>, aimed to supplement my own findings with best practices from
+    other companies. Because ultimately, I am not a recruiter by trade and another
+    perspective would be beneficial to the design process.</p>"
 - title: "<p>Approach</p>"
   subtitle: ''
   textcontent: "<p><strong>Key stakeholder pain points</strong></p><p>There were two
@@ -55,47 +70,3 @@ metrics:
   metricdesc: reduction in time needed/step
 
 ---
-* 
-  * 
-
-#### **Challenge statements**
-
-After the discovery phase, I found that there were key challenges for both stakeholders.
-
-#### **Stream 1** Marketing: Content uplift
-
-Challenges:
-
-* Looking at the application, there was often a lot of jargon.
-* Descriptions of activities, but not necessarily the responsibilities of the role - nor a description of the type of skills being sought out
-* Job descriptions often were advertised for teams, rather than roles - leading to candidates catering their message to the team, but not the skills that the interviewer would look for.
-* 88% of volunteers/staff said their role was _at least_ a little different to the job description they applied for
-* Average time spent in key early stages was 47 days in Video Interview/Questionnaire, 17 days in Feedback 1
-
-#### **Stream 2** Recruiter: Process definition
-
-Some challenges I discovered after mapping out the recruitment processes were that:
-
-* Many candidates would ask for paid internships when paid internships only made 1% of the available roles.
-* These people tended to never satisfy the visa requirements
-* Sometimes the recruitment team would select a group of candidates and place them into teams without identifying the skills needed.
-* The pipeline of talent was small - and many channels were utilised
-* The recruitment platform database was unorganised and without a clear process.
-
-Key numbers:
-
-* The average recruitment process was 97 days
-* With 61% taking over a month
-* 23% taking over two months
-* There was 13 steps in the recruitment process, all done manually.
-
-#### **Stream 3** Automation: Templates & Pipeline
-
-In order to supplement my own findings, I did some research into Recruitment best practices from other companies.
-
-* Comparing the current state with best practices from the market showed gaps in processes and templates
-* There was inconsistency in the vetting process, recruiters often using personal judgment _alone_ to pick candidates (rather than agreeing on a scorecard), leaving no standardisation of assessments, and no documenting of lessons learned after the candidate had started their role.
-
-#### Solution
-
-I took the inputs and redesigned the process, structures for creating job descriptions and uplifting the recruitment marketing.
