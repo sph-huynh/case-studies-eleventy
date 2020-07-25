@@ -34,6 +34,9 @@ allcontent:
     in role marketing</strong></p><ul><li><p>✓ Hire rate increased from 2.5% to 27%
     - we were getting more candidates that had relevant experience, and therefore
     a larger percentage of candidates were being moved forward</p></li></ul>"
+metrics:
+- metrictitle: 98%+
+  metricdesc: reduction in time needed/step
 
 ---
 **Case Study Overview**
