@@ -35,6 +35,8 @@ allcontent:
     - we were getting more candidates that had relevant experience, and therefore
     a larger percentage of candidates were being moved forward</p></li></ul>"
 metrics:
+- metrictitle: 27%
+  metricdesc: increased hire rate from 2.5% to 27%
 - metrictitle: 85%
   metricdesc: reduced time spent waiting by 85%
 - metrictitle: 98%+
