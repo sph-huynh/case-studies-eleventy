@@ -10,8 +10,8 @@ tags:
 - User Interviews
 overview: "<p>Cut time required for our on-boarding and recruitment processes through
   process automation, going from 3-4 minutes/step to &lt;30 seconds [98%+ reduction
-  in time needed/step]. Reduced time spent in the questionnaire stage from  and increased
-  hire rate from 2.5% to 27%.</p>"
+  in time needed/step]. Reduced time spent in the questionnaire stage from 47.4 and
+  increased hire rate from 2.5% to 27%.</p>"
 featureimage: "/uploads/cover.png"
 images:
 - "/uploads/12-roles-teams.png"
