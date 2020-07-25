@@ -9,8 +9,21 @@ featureimage: uploads/cover-1.png
 allcontent:
 - title: "<p>Approach</p>"
   subtitle: ''
-  textcontent: "<p>We first aimed to understand as much as possible - this meant interviewing
-    stakeholders, exploring existing information, and researching the competition.</p>"
+  textcontent: "<p>The project followed the Double Diamond approach, as we needed
+    to understand what the full scope of the challenges was, before heading into solutioning.</p><p>We
+    first aimed to understand as much as possible - this meant interviewing stakeholders,
+    exploring existing information, and researching the competition.</p><p>Objectives
+    were defined at the end of the Define stage, allowing us to descope items that
+    wouldn't fit into our timeline or we didn't have resources for.</p>"
+- title: ''
+  subtitle: ''
+  textcontent: "<p>A problem we uncovered was that many volunteers felt disempowered
+    due to their position title, and not knowing where their authority started or
+    ended. It became very clear that volunteers had similar yet distinct challenges
+    depending on what role they played in the organisation. Therefore, a large emphasis
+    on representation (of roles) in ideation and prioritisation sessions.</p><p>This
+    included equal representation in discovery (interviewing), challenge priortisation
+    and risk assessment, solution ideation, <em>and</em> solution priortisation.</p>"
 - title: "<p>Outcome</p>"
   subtitle: ''
   textcontent: "<p>The initiative provided the leadership team with a clear roadmap
