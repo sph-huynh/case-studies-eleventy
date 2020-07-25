@@ -282,6 +282,7 @@ a.feature-list-box {
 .cs-box-left {
     display: inline-block;
     width: 60%;
+    
 }
 
 .cs-box-right {
@@ -303,6 +304,11 @@ a.feature-list-box {
     font-size: 1.5rem;
 }
 
+h6.cs-sub-title {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
 img.cs-image {
     width: 70%;
     margin-bottom: 8% auto;
@@ -311,8 +317,18 @@ img.cs-image {
     object-fit: cover;
 }
 
+.cs-box li {
+    margin-left: 1em!important;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.cs-box p {
+    line-height: 1.4em;
+}
+
 .cs-box-metrics {
-    margin: 20%;
+    margin: 10% 20%;
 }
 
 .cs-metric-title {

@@ -20,7 +20,9 @@
               <div class="cs-box-left">
                 <div class="cs-box-left-top">
                   <h1 class="cs-title">{{ challenge }}</h1> 
-                  <p class="cs-sub-title">OVERVIEW Interviewing customers, internal stakeholders and mapping out processes in order to redesign the voice authentication service at an Australian Telecoms company.</p>
+                  <p class="cs-sub-title">{{ whatstatement | safe }}</p>
+                  <br>
+                  <p class="cs-sub-title">{{ overview | safe }}</p>
                 </div>
                 <div class="cs-box-left-bottom">
                   {% if tags %}
@@ -41,20 +43,24 @@
             </div>
             <div class="cs-box">
               <div class="cs-box-left">
+              {% for item in allcontent %}
                 <div class="cs-box-left-top">
-                  <h1 class="cs-title">Approach</h1> 
-                  <p class="cs-sub-title">{{ maintag }}</p>
-                  <p class="cs-sub-title">{{ title }}</p>
-                  <p class="cs-sub-title">{{ whatstatement }}</p>
+                  <h1 class="cs-title">{{ item.title | safe }}</h1> 
+                  <h6 class="cs-sub-title">{{ item.subtitle | safe }}</h6>
+                  <p class="cs-sub-title">{{ item.textcontent | safe }}</p>
                 </div>
+                {% endfor %} 
               </div>
               <div class="cs-box-right">
+              {% for met in metrics %}
                 <div class="cs-box-metrics">
-                  <h1 class="cs-metric-title">27%</h1> 
-                  <h1 class="cs-metric-subtitle">increase</h1> 
+                  <h1 class="cs-metric-title">{{ met.metrictitle }}</h1> 
+                  <h1 class="cs-metric-subtitle">{{ met.metricdesc }}</h1> 
                 </div>
+                {% endfor %} 
               </div>
-            </div>            
+            </div>    
+                   
       </div>            
     </article>
   </main>
