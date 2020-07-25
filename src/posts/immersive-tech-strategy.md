@@ -14,17 +14,19 @@ whatstatement: Exploring the use cases and feasibility of AR and VR based traini
   for a Utilities client.
 images: []
 allcontent:
+- title: "<p>Outcome</p>"
+  subtitle: ''
+  textcontent: "<p>Co-developed the Immersive Learning strategy and validation framework,
+    producing a number of educational and diagnostic assets for the client to assess
+    different types of Extended Reality (i.e. AR, VR, MR) technologies to use in their
+    internal training. The client has since used our prioritisation framework to successfully
+    allocate a budget of $500k to create a VR learning experienced pilot.</p><p><br></p>"
 - title: "<p><strong>Approach</strong></p>"
   subtitle: ''
   textcontent: "<p>We ran a number of stakeholder interviews and desktop research
     to further understand the training use cases and potential applications with technology.
     We prioritised the use cases and dug deeper into implementation costs in order
-    to form a roadmap. I led the technical track, including implementation research.</p><p>Co-developed
-    the Immersive Learning strategy and validation framework, producing a number of
-    educational and diagnostic assets for the client to assess different types of
-    Extended Reality (i.e. AR, VR, MR) technologies to use in their internal training.
-    The client has since used our prioritisation framework to successfully allocate
-    a budget of $500k to create a VR learning experienced pilot.</p><p><br></p>"
+    to form a roadmap. I led the technical track, including implementation research.</p>"
 overview: "<p>A utilities company has over 2000 employees that work in highly specialised
   and compliance heavy work. They are required to put safety first, with compliance
   training that is regulated by a third party. Our client was considering using immersive
