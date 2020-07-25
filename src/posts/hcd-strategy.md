@@ -35,17 +35,14 @@ overview: "<p>This project aimed to understand volunteer challenges and needs, t
   eventually outlined the following objectives:</p><ul><li><p>Opportunities to uplift
   internal operation efficiency</p></li><li><p>Informational and decision making flow</p></li><li><p>Leveraging
   resources</p></li></ul>"
-metrics: []
+metrics:
+- metrictitle: "29"
+  metricdesc: interviews conducted
+- metrictitle: '8 '
+  metricdesc: final initiatives recommended
+- metrictitle: "8"
+  metricdesc: deep dive topic consultations
+- metrictitle: '4 '
+  metricdesc: team members
 
 ---
-
-In total we ran 29 interviews:
-
-* 4 team members
-* 15 leadership team members
-* 2 external parties
-* 8 deep dive topic consultations
-
-We found that team member’s ambition, clarity of role and motivations depended on the level of support they received.
-
-There was a clear lack of resources and process documentation, leading to an ad hoc culture.
