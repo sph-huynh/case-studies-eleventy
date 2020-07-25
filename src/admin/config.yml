@@ -26,7 +26,7 @@ collections:
     label: "Generic Pages"
     folder: "src/pages"
     slug: "{{slug}}"
-    preview_path: "pages/{{slug}}"
+    preview_path: "/{{slug}}"
     create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
