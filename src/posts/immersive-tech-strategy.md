@@ -33,6 +33,8 @@ overview: "<p>A utilities company has over 2000 employees that work in highly sp
   learning technologies to better improve the retention and access to important knowledge.
   However, they lacked the expertise to understand how they could assess the suitability
   of this technology.</p>"
-metrics: []
+metrics:
+- metricdesc: was approved to implement our suggested pilot.
+  metrictitle: "$500,000"
 
 ---
