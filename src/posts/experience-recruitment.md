@@ -36,7 +36,7 @@ allcontent:
     a larger percentage of candidates were being moved forward</p></li></ul>"
 metrics:
 - metrictitle: 85%
-  metricdesc: in time to hire
+  metricdesc: reduced time spent waiting by 85%
 - metrictitle: 98%+
   metricdesc: reduction in time needed/step
 
