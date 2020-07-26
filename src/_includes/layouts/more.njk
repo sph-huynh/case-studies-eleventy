@@ -18,9 +18,9 @@
                 <a href="{{ item.url }}" class="link post-title" rel="bookmark">{{ aboutme.name }}</a>
             </h3>
             <p class="post-caption">{{ aboutme.blurb | safe }}</p> 
-            {% for item in allcontent %}
-                <p class="post-sub-text">{{ aboutme.title | safe }}</p>
-                <p class="post-sub-text">{{ aboutme.textcontent | safe }}</p>
+            {% for item in aboutme.aboutme %}
+                <p class="post-sub-text">{{ item.title | safe }}</p>
+                <p class="post-sub-text">{{ item.textcontent | safe }}</p>
             {% endfor %} 
             <br/> 
             <a href="{{ aboutme.ctalink }}" class="link text-button" rel="bookmark">{{ aboutme.cta }} {% include "icons/arrow.svg" %}</a>
