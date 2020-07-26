@@ -1,5 +1,8 @@
 ---
-tags: []
+tags:
+- UX Research
+- UX Design
+- Content design
 date: '2019-08-02T14:00:00Z'
 title: MVP UX uplift for website
 maintag: Rapid UX Research & Design
