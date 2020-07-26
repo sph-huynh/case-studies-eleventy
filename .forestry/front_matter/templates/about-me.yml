@@ -22,14 +22,31 @@ fields:
       format: html-blocks
   label: Blurb content
 - name: aboutme
-  type: textarea
-  default: ''
+  type: field_group_list
+  fields:
+  - name: title
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Title
+  - name: textcontent
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Text Content
   config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: About me content
+    min: 
+    max: 
+    labelField: 
+  label: Content
 - name: cta
   type: text
   config:

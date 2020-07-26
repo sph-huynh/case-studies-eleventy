@@ -118,6 +118,9 @@ fields:
     max: 
     labelField: 
   label: Metrics
+- name: toggle
+  type: boolean
+  label: Featured
 pages:
 - src/posts/experience-recruitment.md
 - src/posts/hcd-strategy.md
