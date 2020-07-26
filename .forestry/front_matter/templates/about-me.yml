@@ -57,5 +57,22 @@ fields:
   config:
     required: false
   label: CTA URL
+- name: funfaq
+  type: field_group_list
+  fields:
+  - name: textcontent
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: faq
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Fun FAQs
 pages:
 - src/_data/aboutme.json

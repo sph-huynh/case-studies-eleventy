@@ -29,8 +29,14 @@
     </div>
     <div class="special-page bottom">
             {% include "partials/components/skills-section.njk" %}
-
-        {{ content | safe }}
+            <div class="ff">
+              <h3 class="h3-post-title">Fun FAQs</h3>
+              <ul>
+              {% for item in aboutme.funfaq %}
+                  <li>{{ item.textcontent | safe }}</li>
+              {% endfor %} 
+              </ul>
+            </div>
       </div>
     </article>
   </main>

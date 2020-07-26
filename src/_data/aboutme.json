@@ -13,5 +13,13 @@
     }
   ],
   "cta": "CONNECT WITH ME ON LINKEDIN",
-  "ctalink": "https://www.linkedin.com/in/sphhuynh/"
+  "ctalink": "https://www.linkedin.com/in/sphhuynh/",
+  "funfaq": [
+    {
+      "textcontent": "<p>The background of this website is a photo I took in Melbourne.</p>"
+    },
+    {
+      "textcontent": "<p>I really enjoy photography. I'd describe my style as 'nostalgic'. You can see my photos here:</p>"
+    }
+  ]
 }
