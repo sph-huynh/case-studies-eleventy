@@ -1,6 +1,11 @@
 {% if navigation.items %}
   <nav class="nav">
-    <ul class="[ nav__list ] [ box-flex align-center md:space-before ]">
+    <div id="mobile-nav-button">
+              <input type="checkbox" />
+                <span class="btn"></span>
+                <span class="btn"></span>
+                <span class="btn"></span>
+    <ul class="nav_list">
           <a href="/" class="link nav-item"{{ 'aria-current=page' if page.url == '/' | safe }}>
         <span class="visually-hidden">{{ 'BACK TO HOMEPAGE' if page.url != '/' else 'HOMEPAGE' }}</span>
       </a>
@@ -19,5 +24,6 @@
           <a href="{{ item.url }}" class="link nav-item"{{ relAttribute | safe }}{{ currentAttribute | safe }}>{{ item.text }}</a>
       {% endfor %}
     </ul>
+    </div>
   </nav>
 {% endif %}
