@@ -31,6 +31,12 @@ allcontent:
     the content (allowing donors to more easily understand the content)</p></li><li><p>Shifting
     the website from text-focused content to visual-focused (making it easier to understand
     what the purpose of the organisation was)</p></li></ul>"
+- title: ''
+  subtitle: ''
+  textcontent: "<ul><li><p>Simplifying the content allowed us to direct users to the
+    content we wanted them to see (i.e. about -&gt; impact -&gt; activities). This
+    would allow potential donors to better understand what they would be investing
+    in.</p></li></ul>"
 images: []
 metrics: []
 toggle: false
