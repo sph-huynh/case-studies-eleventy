@@ -68,5 +68,5 @@ metrics:
   metricdesc: reduced time spent waiting by 85%
 - metrictitle: 98%+
   metricdesc: reduction in time needed/step
-
+toggle: true
 ---

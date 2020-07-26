@@ -36,5 +36,5 @@ overview: "<p>A utilities company has over 2000 employees that work in highly sp
 metrics:
 - metricdesc: was approved to implement our suggested pilot.
   metrictitle: "$500,000"
-
+toggle: true
 ---

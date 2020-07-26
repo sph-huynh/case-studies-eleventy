@@ -3,7 +3,7 @@
     <div class="featured-case-studies-wrapper">
       <ol class="feature-list">
         {% for item in postListItems %}
-          {% if item.date.getTime() <= global.now %}
+          {% if item.data.toggle == true %}
             <div class="feature-list-btn">
                 <img src="/{{ item.data.featureimage }}" class="button-bg"/>
                 <div class="into-under-text">
