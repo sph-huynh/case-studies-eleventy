@@ -12,7 +12,7 @@ overview: "<p>I ran a lean review to explore potential improvements across a rec
   journey both for increasing efficiency for the business and the experience of the
   candidates. This experience was critical to the client as recruitment was heavily
   marketed, impacting their branding and reputation.</p>"
-featureimage: ''
+featureimage: uploads/recruitment.png
 images:
 - "/uploads/12-roles-teams.png"
 - "/uploads/11-process.png"
