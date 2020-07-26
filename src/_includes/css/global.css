@@ -492,6 +492,12 @@ img.cs-image {
     font-size: 4rem;
 }
 
+@media only screen and (max-width: 1220px) {
+    .intro-under-title {
+        font-size: 3.3em;
+    }
+}
+
 @media only screen and (max-width: 1115px) {
     .skills-sec {
         width: 50%;
@@ -504,6 +510,7 @@ img.cs-image {
     .post-list__item > img.full-image {
         max-width: 45% !important;
     }
+
 }
 
 @media only screen and (max-width: 1000px) {
@@ -595,6 +602,10 @@ img.cs-image {
 }
 
 @media only screen and (max-width: 600px) {
+
+    .intro-under-title {
+        font-size: 3em;
+    }
 
     .skills-sec {
         width: 100%;        
@@ -773,6 +784,10 @@ img.cs-image {
     .wrapped-item nav {
         font-size: 1.5rem;
     }
+
+    .intro-under-title {
+        font-size: 2.7em;
+    }
       
 }
 
@@ -780,6 +795,16 @@ img.cs-image {
     .intro-top-left > img {
         width: 10rem;
         height: 10rem;
+    }
+
+    .intro-under-title {
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .intro-under-title {
+        font-size: 2em;
     }
 }
 
