@@ -205,16 +205,25 @@ a.text-button {
 
 .into-under-text {
     position: absolute;
-    top: 20%;
-    left: 5%; 
-    right: 5%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     color: white;
 }
 
+.intro-under-title {
+    font-size: 3.8em;
+}
+
 .title-highlight {
-    background-color: #AB9535;
-    margin-bottom: 1em;
-    padding: 14px;
+    background: linear-gradient(344deg, rgba(120,120,121,0.665703781512605) 0%, rgba(48,49,94,0.719765406162465) 100%);
+    top: auto;
+    bottom: auto;
+    padding: 10% 1em;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
 }
 
  .feature-list.text {
