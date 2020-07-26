@@ -6,7 +6,7 @@ tags:
 - Immersive Technology
 - User Interviews
 - Workshops
-featureimage: uploads/cover-1.png
+featureimage: uploads/windmill-near-green-trees-691458.jpg
 maintag: Technology Strategy
 challenge: How might we use immersive technology to upskill and train our employees?
 whatstatement: Exploring the use cases and feasibility of AR and VR based training,
@@ -37,4 +37,5 @@ metrics:
 - metricdesc: was approved to implement our suggested pilot.
   metrictitle: "$500,000"
 toggle: true
+
 ---
