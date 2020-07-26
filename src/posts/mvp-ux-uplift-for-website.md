@@ -11,13 +11,6 @@ overview: "<p>The website in its current state had a mixture of ‘target audien
 whatstatement: ''
 featureimage: uploads/1-homepage.png
 allcontent:
-- title: ''
-  subtitle: Why usability testing? Why investment decision makers?
-  textcontent: "<p>We knew that the website did not effectively target donors (content-wise),
-    but we also knew that the website's language was full of jargon and difficult
-    to understand. Due to the lack of time, I had to find speedier ways to identify
-    the MVP changes: <em>what value we needed to show</em>? <em>what about the website
-    was hard to understand?</em></p>"
 - title: "<p>Approach</p>"
   textcontent: "<p>Due to the very short amount of time, I had to pick and choose
     the activities that would give me the most ROI. First, I looked to understand
@@ -25,6 +18,19 @@ allcontent:
     decisions in their jobs. Secondly, I did a number of usability testing to help
     point out structural and copy issues.  </p>"
   subtitle: ''
+- title: ''
+  subtitle: Why usability testing? Why investment decision makers?
+  textcontent: "<p>We knew that the website did not effectively target donors (content-wise),
+    but we also knew that the website's language was full of jargon and difficult
+    to understand. Due to the lack of time, I had to find speedier ways to identify
+    the MVP changes: <em>what value we needed to show</em>? <em>what about the website
+    was hard to understand?</em></p>"
+- title: "<p>Outcome</p>"
+  subtitle: ''
+  textcontent: "<p>My website uplift focused on two elements:</p><ul><li><p>Simplifying
+    the content (allowing donors to more easily understand the content)</p></li><li><p>Shifting
+    the website from text-focused content to visual-focused (making it easier to understand
+    what the purpose of the organisation was)</p></li></ul>"
 images: []
 metrics: []
 toggle: false
