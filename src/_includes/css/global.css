@@ -147,7 +147,8 @@ a.text-button {
     margin-bottom: 2em;
 }
 
-.home-container {
+.home-container,
+.case-studies-container {
     margin: 5rem 2rem;
 }
 
@@ -285,6 +286,120 @@ a.feature-list-box {
     margin-bottom: .5em;
 }
 
+/* Animations */
+
+*.wobble-hor-bottom:hover {
+	-webkit-animation: wobble-hor-bottom 0.7s both;
+            animation: wobble-hor-bottom 0.7s both;
+}
+
+@-webkit-keyframes wobble-hor-bottom {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-10px) rotate(-3deg);
+              transform: translateX(-10px) rotate(-3deg);
+    }
+    30% {
+      -webkit-transform: translateX(10px) rotate(3deg);
+              transform: translateX(10px) rotate(3deg);
+    }
+    45% {
+      -webkit-transform: translateX(-10px) rotate(-3.6deg);
+              transform: translateX(-10px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+  @keyframes wobble-hor-bottom {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-10px) rotate(-6deg);
+              transform: translateX(-10px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateX(10px) rotate(6deg);
+              transform: translateX(10px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-10px) rotate(-3.6deg);
+              transform: translateX(-10px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+
+*.con-animate:hover .confetti {
+    width: 15px;
+    height: 15px;
+    background-color: #f2d74e;
+    position: absolute;
+    left: 50%;
+    animation: confetti 5s ease-in-out -2s infinite;
+    transform-origin: left top;
+}
+*.con-animate:hover .confetti.confetti:nth-child(1) {
+    background-color: #f2d74e; left: -10%; top: -50%; animation-delay: 0;
+}
+*.con-animate:hover .confetti.confetti:nth-child(2) {
+    background-color: #95c3de; left: 20%; top: -50%; animation-delay: -5s;
+}
+*.con-animate:hover .confetti.confetti:nth-child(3) {
+    background-color: #ff9a91; left: 30%; top: -50%; animation-delay: -3s;
+}
+*.con-animate:hover .confetti.confetti:nth-child(4) {
+    background-color: #f2d74e; left: 40%; animation-delay: -2.5s;
+}
+*.con-animate:hover .confetti.confetti:nth-child(5) {
+    background-color: #95c3de; left: 50%; animation-delay: -4s;
+}
+*.con-animate:hover .confetti.confetti:nth-child(6) {
+    background-color: #ff9a91; left: 60%; animation-delay: -6s;
+}
+*.con-animate:hover .confetti.confetti:nth-child(7) {
+    background-color: #f2d74e; left: 70%; animation-delay: -1.5s;
+}
+*.con-animate:hover .confetti.confetti:nth-child(8) {
+    background-color: #95c3de; left: 80%; animation-delay: -2s;
+}
+*.con-animate:hover .confetti.confetti:nth-child(9) {
+    background-color: #ff9a91; left: 90%; animation-delay: -3.5s;
+}
+*.con-animate:hover .confetti.confetti:nth-child(10) {
+    background-color: #f2d74e; left: 100%; animation-delay: -2.5s;
+}
+
+@keyframes confetti {
+    0% { transform: rotateZ(15deg) rotateY(0deg) translate(0,0); }
+    25% { transform: rotateZ(5deg) rotateY(360deg) translate(-5vw,20vh); }
+    50% { transform: rotateZ(15deg) rotateY(720deg) translate(5vw,60vh); }
+    75% { transform: rotateZ(5deg) rotateY(1080deg) translate(-10vw,80vh); }
+    100% { transform: rotateZ(15deg) rotateY(1440deg) translate(10vw,110vh); }
+}
+
 /* Case study page */
 
 .cs-box {
@@ -407,7 +522,8 @@ img.cs-image {
         width: 40%;
     }
 
-    .home-container {
+    .home-container,
+    .case-studies-container  {
         margin: 5rem 0;
     }
 }
@@ -431,7 +547,8 @@ img.cs-image {
         width: 100%!important;
     }
 
-    .home-container {
+    .home-container,
+    .case-studies-container  {
         margin: 0;
     }
 
