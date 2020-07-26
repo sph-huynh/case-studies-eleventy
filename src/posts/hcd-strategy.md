@@ -1,7 +1,7 @@
 ---
 title: HCD process to build a strategy to tackle operational efficiency and employee
   experience (EX) at a nonprofit
-maintag: Design Thinking-led Strategy
+maintag: Collaborative Strategy Design
 challenge: How might we redesign our operational processes to improve the volunteer
   experience?
 whatstatement: ''
@@ -58,4 +58,5 @@ metrics:
 - metrictitle: '4 '
   metricdesc: team members
 toggle: true
+
 ---
