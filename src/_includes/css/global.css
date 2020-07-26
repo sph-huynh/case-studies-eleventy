@@ -130,6 +130,12 @@ a.text-button {
   vertical-align: bottom;  
 }
 
+.skills-sec {
+    width: 70%;
+    display: inline-block;
+    padding-top: 5%;
+}
+
 .three-col {
     display: inline-block;
     width: 28%;
@@ -142,6 +148,15 @@ a.text-button {
     margin-top: 5em;
     color: #474747;
 }
+
+.post-list__item > img.full-image {
+    max-width: 28% !important;
+    height: 20em;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: top;
+}
+
 
 /* Homepage Button Text */
 
@@ -477,6 +492,20 @@ img.cs-image {
     font-size: 4rem;
 }
 
+@media only screen and (max-width: 1115px) {
+    .skills-sec {
+        width: 50%;
+    }
+    
+    .three-col {
+        width: 100%;
+    }
+    
+    .post-list__item > img.full-image {
+        max-width: 45% !important;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     .feature-list-btn {
         width: 100%;
@@ -504,10 +533,6 @@ img.cs-image {
         width: 100%;
     }
 
-    .three-col {
-        width: 45%!important;
-    }
-
     .cs-box-left {
         width: 100%;
     }
@@ -529,6 +554,18 @@ img.cs-image {
         display: inline-block;
         width: 48%;
         vertical-align: top;
+    }
+
+    .skills-sec {
+        width: 40%;
+    }
+
+    .three-col {
+        margin-right: 0;
+    }
+    
+    .post-list__item > img.full-image {
+        max-width: 55% !important;
     }
 }
 
@@ -558,8 +595,20 @@ img.cs-image {
 }
 
 @media only screen and (max-width: 600px) {
+
+    .skills-sec {
+        width: 100%;        
+        display: block;
+    }
+    
     .three-col {
-        width: 100%!important;
+        display: block;
+        margin-right: 0;
+    }
+    
+    .post-list__item > img.full-image {
+        max-width: 100% !important;
+        display: block;
     }
 
     .home-container,
