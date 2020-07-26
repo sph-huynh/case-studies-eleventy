@@ -8,7 +8,7 @@
 html {
     background-color: rgb(33, 21, 73);
     background-image: url("images/melbourne.jpg");
-    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment:fixed;
     top: 0;
     bottom: 0;
