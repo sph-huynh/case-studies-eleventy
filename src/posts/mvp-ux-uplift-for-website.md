@@ -8,7 +8,7 @@ overview: "<p>The website in its current state had a mixture of ‘target audien
   general public, program applicants, donors, and partners. In a two rapid sprints,
   I had to identify and implement what could be changed in order to target a 'donor'
   persona.</p>"
-whatstatement: ''
+whatstatement: Through rapid design sprints, uplifted and simplified a website.
 featureimage: uploads/1-homepage.png
 allcontent:
 - title: "<p>Approach</p>"
