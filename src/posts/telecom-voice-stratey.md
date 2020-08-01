@@ -1,6 +1,6 @@
 ---
 title: Customer Research For An Australian Telecom Call Centre Strategy
-date: '2019-08-02T14:00:00Z'
+date: '2019-04-02T14:00:00Z'
 tags:
 - Call centre strategy
 - Telecommunications
@@ -30,4 +30,5 @@ metrics:
 - metrictitle: "8"
   metricdesc: customer interviews conducted
 toggle: true
+
 ---
