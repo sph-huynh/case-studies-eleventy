@@ -8,6 +8,7 @@ tags:
 - Process Mapping
 - Process Optimisation
 - User Interviews
+- Qualitative Research
 overview: "<p>I ran a lean review to explore potential improvements across a recruitment
   journey both for increasing efficiency for the business and the experience of the
   candidates. This experience was critical to the client as recruitment was heavily
