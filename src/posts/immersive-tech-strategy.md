@@ -1,6 +1,6 @@
 ---
 title: Immersive Learning Technology Strategy For Leading Energy Distributor
-date: '2019-08-02T14:00:00Z'
+date: '2019-02-02T14:00:00Z'
 tags:
 - Technology strategy
 - Immersive Technology
