@@ -14,12 +14,11 @@ overview: "<p>I ran a lean review to explore potential improvements across a rec
   candidates. This experience was critical to the client as recruitment was heavily
   marketed, impacting their branding and reputation. </p>"
 featureimage: uploads/recruitment.png
-beforeImages: []
+beforeImages: 
+- uploads/7. Current job page.png
 afterImages:
-- uploads/12-roles-teams.png
-- uploads/11-process.png
-- uploads/10-call-to-action.png
-- uploads/9-testimonials.png
+- uploads/8. Culture.png
+- uploads/9. Testimonials.png
 challenge: How might we make it easier for teams to find suitable candidates?
 maintag: Customer Experience Strategy & Service Design
 whatstatement: Understanding the current recruitment processes, so we can better optimise

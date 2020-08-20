@@ -79,7 +79,11 @@ fields:
     max: 
     labelField: 
   label: Content
-- name: images
+- name: beforeImages
+  type: image_gallery
+  config: {}
+  label: Images
+- name: afterImages
   type: image_gallery
   config: {}
   label: Images
