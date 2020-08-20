@@ -34,8 +34,9 @@ allcontent:
     for a number of the global governance team members to build relationships with
     the local representatives 1-1.</p><p>Since the review, 6 initiatives have started.
     2 have already been completed.</p>"
-images: []
 date: '2019-01-02T14:00:00Z'
+afterImages: []
+beforeImages: []
 tags:
 - Design Thinking
 - Service Design strategy

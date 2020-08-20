@@ -756,6 +756,10 @@ img.cs-image {
     #mobile-nav-button input:checked ~ span.btn:nth-last-child(2) {
         transform: rotate(-45deg) translate(0, -1px);
     }
+
+    nav.bar > * {
+        color: #1e1e23!important;
+    }
     
     ul.nav_list {
         position: absolute;

@@ -13,7 +13,8 @@ challenge: How might we redesign a voice strategy to create a better experience 
 whatstatement: 'Interviewing customers, internal stakeholders and mapping out processes
   in order to redesign the voice authentication service at an Australian Telecoms
   company. '
-images: []
+beforeImages: []
+afterImages: []
 allcontent:
 - title: "<p>Outcome</p>"
   subtitle: ''
