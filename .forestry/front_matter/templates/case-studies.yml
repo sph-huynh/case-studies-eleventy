@@ -79,14 +79,23 @@ fields:
     max: 
     labelField: 
   label: Content
+- name: imageGalleryContent
+  type: boolean
+  label: Image Comparison
 - name: beforeImages
   type: image_gallery
   config: {}
-  label: Images
+  label: Before Images
+  showOnly:
+    field: imageGalleryContent
+    value: true
 - name: afterImages
   type: image_gallery
   config: {}
-  label: Images
+  label: After Images
+  showOnly:
+    field: imageGalleryContent
+    value: true
 - name: tags
   type: tag_list
   default: []

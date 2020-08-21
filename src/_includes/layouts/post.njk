@@ -60,9 +60,12 @@
                 {% endfor %} 
               </div>
             </div>    
-            {% include "partials/components/image-feature.njk" %}
       </div>            
     </article>
+    {% if imageGalleryContent == true %}
+                {% include "partials/components/image-feature.njk" %}
+    {% endif %}
+
   </main>
 {% endblock %}
 

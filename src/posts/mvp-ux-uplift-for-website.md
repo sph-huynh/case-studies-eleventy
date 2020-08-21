@@ -40,6 +40,7 @@ allcontent:
     content we wanted them to see (i.e. about -&gt; impact -&gt; activities). This
     would allow potential donors to better understand what they would be investing
     in.</p></li></ul>"
+imageGalleryContent: false
 beforeImages: []
 afterImages: []
 metrics: []

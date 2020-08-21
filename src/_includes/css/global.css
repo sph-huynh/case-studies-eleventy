@@ -79,6 +79,24 @@ img {
     width: 50%;
 }
 
+.beforeImages img, .afterImages img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .beforeImages, .afterImages {
+        width: 100%;
+    }   
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.align-top {
+    vertical-align: top;
+}
+
 .pad-5p {
     padding-top: 5%;
 }

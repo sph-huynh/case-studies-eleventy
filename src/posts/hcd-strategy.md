@@ -35,6 +35,7 @@ allcontent:
     the local representatives 1-1.</p><p>Since the review, 6 initiatives have started.
     2 have already been completed.</p>"
 date: '2019-01-02T14:00:00Z'
+imageGalleryContent: false
 afterImages: []
 beforeImages: []
 tags:

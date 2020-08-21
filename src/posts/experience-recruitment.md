@@ -14,6 +14,7 @@ overview: "<p>I ran a lean review to explore potential improvements across a rec
   candidates. This experience was critical to the client as recruitment was heavily
   marketed, impacting their branding and reputation. </p>"
 featureimage: uploads/recruitment.png
+imageGalleryContent: true
 beforeImages: 
 - uploads/7. Current job page.png
 afterImages:

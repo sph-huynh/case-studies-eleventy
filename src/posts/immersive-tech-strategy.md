@@ -12,6 +12,7 @@ challenge: How might we use immersive technology to upskill and train our employ
 whatstatement: Exploring the use cases and feasibility of AR and VR based training,
   in order to create a prioritisation framework, implementation strategy and roadmap
   for a Utilities client.
+imageGalleryContent: false
 beforeImages: []
 afterImages: []
 allcontent:
