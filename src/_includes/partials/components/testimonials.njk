@@ -1,0 +1,18 @@
+<div class="testimonials-wrapper">
+    <div class="slider">
+        {% for story in testimonials.items %}
+            <a href="#slide-{{ story.number }}">{{ story.number }}</a>
+        {% endfor %}
+        <div class="slides">
+            {% for story in testimonials.items %}
+            <div id="slide-{{ story.number }}" class="slide-content">
+                <div class="slide-text">
+                    <h2>“</h2>   {{ story.quote | safe }}   <h2>„</h2>
+                    <h3 class="intro-caption">{{ story.name }}</h3>
+                    <h3 class="intro-caption">{{ story.position }} - {{ story.company }}</h3>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
