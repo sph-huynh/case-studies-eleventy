@@ -21,6 +21,28 @@ allcontent:
     time to learn something from scratch or bring on more people to help. So the key
     priorities was to</p><ul><li><p>Define some baseline personas/focuses</p></li><li><p>Create
     plug/play style material depending on the capacity of the Manager</p></li></ul>"
+- title: "<p></p>"
+  subtitle: Challenge Streams
+  textcontent: "<p><strong>Stream 1 User Research: </strong>There was little user
+    research done on the end-users of the network materials. So I spent time doing
+    user research first to separate the concerns and goals of the end-user from the
+    Network Manager, and from the global team.</p><p><strong>Stream 2 Materials Requirements:
+    </strong>Whilst the brief originally had a website and newsletter templates, I
+    found very quickly during the research phase that a big gap was actually understanding
+    the relevance of marketing activities to the overall goal of the network. Therefore,
+    I needed to flesh out the information/resources end-users wanted across the materials
+    Managers already create/could have on their website, in order to define the final
+    feature set.</p>"
+- title: "<p>Outcome</p>"
+  subtitle: ''
+  textcontent: "<p><strong>Personas and goals to direct Manager's focus</strong></p><ul><li><p>Delivered
+    personas, example user flows, goals and linked to suggested information to display
+    on the website. This provided Managers with a framework to direct their effort
+    towards the stakeholders most relevant to their network goals.</p></li><li><p>Provided
+    the research and insights to the global Networks Team, who can now leverage insights
+    from real users - saving them time and providing data for future problem solving.</p></li></ul><p><strong>Website
+    and marketing templates</strong></p><ul><li><p>Reusable and customisable templates
+    allow Managers to plug and play, therefore reducing time required </p></li></ul><p></p>"
 date: '2020-09-15T14:00:00Z'
 imageGalleryContent: true
 afterImages:
@@ -35,6 +57,9 @@ tags:
 - UX Research
 - Website Development
 - Marketing
+- Figma
+- Forestry CMS
+- JAMSTACK
 overview: ''
 metrics:
 - metrictitle: "12"
