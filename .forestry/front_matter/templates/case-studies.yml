@@ -135,6 +135,7 @@ fields:
   type: boolean
   label: Featured
 pages:
+- src/posts/end-end-digital-comms.md
 - src/posts/experience-recruitment.md
 - src/posts/hcd-strategy.md
 - src/posts/immersive-tech-strategy.md
