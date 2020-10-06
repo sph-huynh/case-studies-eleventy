@@ -22,9 +22,13 @@ allcontent:
     priorities was to</p><ul><li><p>Define some baseline personas/focuses</p></li><li><p>Create
     plug/play style material depending on the capacity of the Manager</p></li></ul>"
 date: '2020-09-15T14:00:00Z'
-imageGalleryContent: false
-afterImages: []
-beforeImages: []
+imageGalleryContent: true
+afterImages:
+- uploads/theme1-full.png
+- uploads/theme3-full.png
+beforeImages:
+- uploads/screen-shot-2020-09-15-at-00-07-47.png
+- uploads/screen-shot-2020-09-15-at-00-07-35.png
 tags:
 - Design Thinking
 - UX Design
