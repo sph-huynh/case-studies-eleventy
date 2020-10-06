@@ -43,14 +43,24 @@ allcontent:
     from real users - saving them time and providing data for future problem solving.</p></li></ul><p><strong>Website
     and marketing templates</strong></p><ul><li><p>Reusable and customisable templates
     allow Managers to plug and play, therefore reducing time required </p></li></ul><p></p>"
+- title: ''
+  subtitle: ''
+  textcontent: <p>You can see the live websites at:</p><ul><li><p><a href="http://indonesia.unsdsn.org/"
+    title="http://indonesia.unsdsn.org/" target="_blank">http://indonesia.unsdsn.org/</a></p></li><li><p><a
+    href="http://kenya.unsdsn.org/" title="http://kenya.unsdsn.org/" target="_blank">http://kenya.unsdsn.org/</a></p></li><li><p><a
+    href="http://sahel.unsdsn.org/" title="http://sahel.unsdsn.org/" target="_blank">http://sahel.unsdsn.org/</a></p></li><li><p><a
+    href="https://great-lakes.unsdsn.org/" title="https://great-lakes.unsdsn.org/"
+    target="_blank">https://great-lakes.unsdsn.org/</a></p></li><li><p><a href="https://sdsn-rn-network.netlify.app/"
+    title="https://sdsn-rn-network.netlify.app/" target="_blank">https://sdsn-rn-network.netlify.app/</a></p></li></ul>
 date: '2020-09-15T14:00:00Z'
 imageGalleryContent: true
 afterImages:
-- uploads/theme1-full.png
+- uploads/screen-shot-2020-10-06-at-11-22-47.png
+- uploads/screen-shot-2020-10-06-at-11-22-34.png
+- uploads/screen-shot-2020-10-06-at-11-22-27.png
 - uploads/theme3-full.png
 beforeImages:
-- uploads/screen-shot-2020-09-15-at-00-07-47.png
-- uploads/screen-shot-2020-09-15-at-00-07-35.png
+- uploads/great-lakes-website.png
 tags:
 - Design Thinking
 - UX Design
