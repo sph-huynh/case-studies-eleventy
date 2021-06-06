@@ -52,6 +52,21 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Feature Image", name: "fImg", widget: "image"}
       - {label: "Post Images", name: "postImages", widget: "image"}
+  - name: "media"
+    label: "Media"
+    folder: "src/media"
+    slug: "{{slug}}"
+    preview_path: "media/{{slug}}"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/media.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
+      - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Tags", name: "tags", widget: "list", allow_add: true}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Feature Image", name: "fImg", widget: "image"}
   - label: "Globals"
     name: "globals"
     files:

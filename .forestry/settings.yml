@@ -15,6 +15,11 @@ sections:
   label: Feature
   create: documents
   match: "*.md"
+- type: directory
+  path: src/media
+  label: Media
+  create: documents
+  match: "*.md"
 upload_dir: src/uploads
 public_path: uploads
 front_matter_path: ''
