@@ -1,7 +1,19 @@
 <header role="banner">
   <div class="wrapper">
-    <div class="home-header wrapped-item">
-      {% include "partials/components/nav.njk" %}
+    <div class="home-header">
+      <div class="home-header inline-blocks lean-left lean-item-left max-width-40">
+        <div class="wrapper align-center display-flex">
+          <div class="logo-img align-center display-flex">
+            <img src="/images/logo.png"/>
+          </div>
+          {# <div class="align-center display-flex">
+            <p class="font-600w align-me-center cs-sub-title color-dark-grey">SOPHIA HUYNH</p>
+          </div> #}
+        </div>
+      </div>
+      <div class="home-header inline-blocks lean-right lean-item-right max-width-40">
+            {% include "partials/components/nav.njk" %}
+      </div>
     </div>
   </div>
 </header>
