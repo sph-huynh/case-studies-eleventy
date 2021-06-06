@@ -1,8 +1,8 @@
-{% if postListItems.length %}
+{% if mediaListItems.length %}
   <section class="post-list">
     <div class="inner-wrapper">
       <ol class="post-list__items">
-        {% for item in postListItems %}
+        {% for item in mediaListItems %}
           {% if item.date.getTime() <= global.now %}
             <div class="post-list__item wrapper">
               <div class="post-list__item left-2 wrapped-item">
@@ -13,8 +13,6 @@
                 <h3 class="h3-post-title">
                   <a href="{{ item.url }}" class="link post-title" rel="bookmark">{{ item.data.title }}</a>
                 </h3>
-                <p class="post-caption">{{ item.data.challenge }}</p> 
-                <p class="post-sub-text">{{ item.data.whatstatement }}</p> 
                 <a href="{{ item.url }}" class="link text-button" rel="bookmark">READ MORE {% include "icons/arrow.svg" %}</a>
               </div>
             </div>
