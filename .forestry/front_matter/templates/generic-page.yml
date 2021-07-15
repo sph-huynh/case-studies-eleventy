@@ -1,4 +1,16 @@
 ---
 label: Generic Page
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: page_components
+  type: blocks
+  label: Page Components
+  template_types: []
+  config:
+    min: 
+    max: 
