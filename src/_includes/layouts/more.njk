@@ -14,9 +14,9 @@
             </div>
             <div class="post-list__item right-1 wrapped-item">
             <p class="post-sub-title text-500 gap-top-300">{{ aboutme.job }}</p>
-            <h3 class="h3-post-title">
+            <h4 class="h3-post-title">
                 <a href="{{ item.url }}" class="link post-title" rel="bookmark">{{ aboutme.name }}</a>
-            </h3>
+            </h4>
             <p class="post-caption">{{ aboutme.blurb | safe }}</p> 
             {% for item in aboutme.aboutme %}
                 <p class="post-sub-text">{{ item.title | safe }}</p>
@@ -30,7 +30,7 @@
     <div class="special-page bottom">
             {% include "partials/components/skills-section.njk" %}
             <div class="ff">
-              <h3 class="h3-post-title">Fun FAQs</h3>
+              <h4 class="h3-post-title">Fun FAQs</h4>
               <ul>
               {% for item in aboutme.funfaq %}
                   <li>{{ item.textcontent | safe }}</li>

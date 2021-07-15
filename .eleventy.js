@@ -17,6 +17,8 @@ module.exports = function(config) {
   config.addFilter('w3DateFilter', w3DateFilter);
 
   // Layout aliases
+  config.addLayoutAlias('designSystem', 'layouts/designSystem.njk');
+  config.addLayoutAlias('services', 'layouts/services.njk');
   config.addLayoutAlias('casestudies', 'layouts/casestudies.njk');
   config.addLayoutAlias('skills', 'layouts/skills.njk');
   config.addLayoutAlias('mediaList', 'layouts/mediaList.njk');

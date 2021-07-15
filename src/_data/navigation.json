@@ -1,18 +1,28 @@
 {
   "items": [
     {
-      "text": "MORE CASE STUDIES",
+      "text": "Homepage",
+      "url": "/",
+      "external": false
+    },
+    {
+      "text": "Services",
+      "url": "/services",
+      "external": false
+    },
+    {
+      "text": "Case Studies",
       "url": "/case-studies",
       "external": false
     },
     {
-      "text": "SOPH IN THE MEDIA",
-      "url": "/media",
+      "text": "Press",
+      "url": "/press",
       "external": false
     },
     {
-      "text": "ABOUT",
-      "url": "/more",
+      "text": "Contact",
+      "url": "/contact",
       "external": false
     }
   ]

@@ -1,0 +1,25 @@
+{% set colNo = '4' %}
+<section id="cols">
+    <div class="col-wrapper">
+        {% for column in range(0, colNo) %}
+            <div class="col-item col-grey col-{{ colNo }}">
+                <div class="col-top">
+                    <div class="col-content centre-me-top">
+                        <img src="/images/me.jpg" class="icon-circle" />
+                    </div>
+                </div>
+                <div class="col-mid">
+                    <div class="col-content">
+                        <h5>Customer Research & Insights</h5>
+                    </div>
+                </div>
+                <div class="col-bot">
+                    <div class="col-content">
+                        <p>I can help you identify user needs and challenges - and translate them to actionable insights.</p>
+                    </div>
+                    {% include "partials/components/link.njk" %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

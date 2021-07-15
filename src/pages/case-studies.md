@@ -1,6 +1,7 @@
 ---
 layout: casestudies
-postsHeading: See my work
+pageHeading: Check out my previous work
+pageSubTit: 
 archiveButtonText: See all posts
 permalink: case-studies/
 ---

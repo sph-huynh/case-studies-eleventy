@@ -10,6 +10,7 @@
 {# Post list content #}
 {% set postListHeading = postsHeading %}
 {% set postListItems = collections.postFeed %}
+{# Set this to the thing I'm pulling #}
 
 {# Archive link #}
 {% if postListItems.length < collections.posts.length %} 
@@ -20,36 +21,24 @@
 {% block content %}
   <main id="main-content" tabindex="-1">
     <div class="home-container">
-      <div class="homepage-landing-quote width-80 margin-auto-lr align-center display-flex">
-        <h1 class="custom-hp-quote width-100"><span class="custom-hp-quote-1">The <span class="custom-hp-quote-2 color-turq">all-rounder</span> you never knew you needed.</span></h1>
-        <div class="homepage-landing-r-img wobble-hor-bottom con-animate">
-              <img src="/images/me.jpg" class="circle-image" />
-                  <div class="confetti"></div>
-                  <div class="confetti"></div>
-                  <div class="confetti"></div>
-                  <div class="confetti"></div>
-                  <div class="confetti"></div>
-                  <div class="confetti"></div>
-        </div>
-      </div>
-    </div>
-    <div class="homepage-about-peep">
-      <div class="hpge-abt-peep header color-blue">
-        <h4>Who are you?? 🤔</h4>
-      </div>
-      <div class="hpge-abt-peep desc color-dark-grey">
-        {{ aboutme.midheadline | safe }}
-      </div>
-      <div class="hpge-abt-peep cta">
-        <a href="#homepage-featured" class="color-turq no-underline">Find out more!</a>
-      </div>
-    </div>
-    <div class="full-bleed-feature pad-5p">
     </div>
     <div class="normal-container" id="homepage-featured">
         <div class="wrapper">
+            {% set componentTitle = "Imagine what we could do together" %}
             {% include "partials/components/featured.njk" %}
         </div>
+        <div class="wrapper">
+                <div class="hpge-abt-peep header color-blue">
+                  <p><b>Who are you?? 🤔</b></p>
+                </div>
+                <div class="hpge-abt-peep desc color-dark-grey">
+                  {{ aboutme.midheadline | safe }}
+                </div>
+                <div class="hpge-abt-peep cta">
+                  
+                </div>
+        </div>
+
         <div class="wrapper">
           {% include "partials/components/testimonials.njk" %}
         </div>

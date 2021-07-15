@@ -1,0 +1,56 @@
+{% extends 'layouts/base.njk' %}
+{% set pageType = 'DesignSystem' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+{% set introSummary %}
+  {{ content | safe }}
+{% endset %}
+
+{% block content %}
+<main id="main-content" tabindex="-1">
+    <div class="home-container">
+        {% include "partials/components/heading.njk" %}
+        <section id="fonts-section">
+            <h1>H1 Heading</h1>
+            <h2>H2 Heading</h2>
+            <h3>H3 Heading</h3>
+            <h4>H4 Heading</h4>
+            <h5>H5 Heading</h5>
+            <p>Paragraph</p>
+            <a href="#" class="link">Link Text</a>
+        </section>
+        <section id="global-comp-section">
+            {% include "partials/components/heading.njk" %}
+            {% include "partials/components/plain.njk" %}
+            {% include "partials/components/columns.njk" %}
+
+            {% include "partials/components/case-study-caro.njk" %}
+
+            {% include "partials/components/heading.njk" %}
+            {% include "partials/components/case-feature.njk" %}
+
+            {% include "partials/components/1-col-text.njk" %}
+            {% include "partials/components/1-text-col.njk" %}
+
+            {% include "partials/components/comparison-gallery.njk" %}
+        </section>
+    </div>
+    <section id="wrapper spaced">
+        {% include "partials/components/testimonials.njk" %}
+    </section>
+    <section id="wrapper spaced">
+        {% set ctaToggle = false %}
+        {% include "partials/global/cta.njk" %} 
+    </section>
+    <section id="wrapper spaced">
+        {% set ctaToggle = true %}
+        {% include "partials/global/cta.njk" %} 
+    </section>
+    <section id="wrapper spaced">
+        {% include "partials/components/metrics.njk" %}
+    </section>
+        {% include "partials/global/site-foot.njk" %}
+    
+</main>
+{% endblock %}

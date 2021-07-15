@@ -1,19 +1,40 @@
 <header role="banner">
-  <div class="wrapper">
-    <div class="home-header">
-      <div class="home-header inline-blocks lean-left lean-item-left max-width-40">
-        <div class="wrapper align-center display-flex">
-          <div class="logo-img align-center display-flex">
-            <img src="/images/logo.png"/>
+  <section id="header">
+    <div class="wrapper spaced">
+      <div class="col">
+        <div class="col-20">
+          <div class="display-flex h-100 centre-me-top">
+            <a href="/" ><img class="logo-img centre-me-top" src="/images/logo.svg"/></a>
           </div>
-          {# <div class="align-center display-flex">
-            <p class="font-600w align-me-center cs-sub-title color-dark-grey">SOPHIA HUYNH</p>
-          </div> #}
+        </div>
+        <div class="col-80 nav centre-me">
+          <div class="navigation-container centre-me">
+            {% include "partials/components/nav.njk" %}
+          </div>
         </div>
       </div>
-      <div class="home-header inline-blocks lean-right lean-item-right max-width-40">
-            {% include "partials/components/nav.njk" %}
+    </div>
+    <div class="wrapper spaced">
+      <div class="head-container col">
+        <div class="head-headline col-65 centre-me-top breath-right">
+          <h1>The all-rounder you never knew you needed.</h1>
+          <h4>Need a strategy analyst who understands tech-speak? Or an Experience Designer who understands business?</h4>
+          <h4>Let’s chat today.</h4>
+        </div>
+        <div class="head-headline col-35 centre-me-top breath-left-50">
+          <div class="homepage-landing-r-img centre-me-top wobble-hor-bottom con-animate">
+              <img src="/images/me.jpg" class="header-circle-img" />
+                  <div class="confetti"></div>
+                  <div class="confetti"></div>
+                  <div class="confetti"></div>
+                  <div class="confetti"></div>
+                  <div class="confetti"></div>
+                  <div class="confetti"></div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+            <img src="/images/half-moon-yellow.svg" class="header-bot-bg" />
+
+  </section>
 </header>

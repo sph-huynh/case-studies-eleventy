@@ -1,0 +1,11 @@
+{% set ctaTitle = "Let's get started" %}
+{% set linkText = "Connect with me on Linkedin" %}
+{% set linkURL = "https://www.linkedin.com/in/sphhuynh/" %}
+<div class="cta-container bg-color-cream-{{ ctaToggle }}">
+    <h3>{{ ctaTitle }}</h3>
+    {% if ctaToggle %}
+        {% include "partials/components/link.njk" %}
+    {% else %}
+        <p>{{ linkText }}}</p>
+    {% endif %}
+</div>

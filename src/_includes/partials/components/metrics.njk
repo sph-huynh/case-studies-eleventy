@@ -1,0 +1,19 @@
+{% set colNo = '4' %}
+<section id="metrics" class="spaced-90 col-cream">
+    <div class="col-wrapper">
+        {% for column in range(0, colNo) %}
+            <div class="col-item col-{{ colNo }}">
+                <div class="col-top">
+                    <div class="col-content centre-me-top">
+                        <h2>12</h2>
+                    </div>
+                </div>
+                <div class="col-bot">
+                    <div class="col-content">
+                        <p>interviews conducted.</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
