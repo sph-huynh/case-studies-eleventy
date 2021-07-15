@@ -10,7 +10,8 @@ fields:
 - name: page_components
   type: blocks
   label: Page Components
-  template_types: []
+  template_types:
+  - 1-col-text
   config:
     min: 
     max: 
