@@ -1,4 +1,33 @@
 ---
 label: 1-text-col
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: componentOrder
+  type: boolean
+  label: Component Order
+  default: false
+  description: Default 1-col-text<br>Turn 'on' for 1-text-col
+- name: colImage
+  type: file
+  config:
+    maxSize: 10
+  label: Col Image
+- name: colHeading
+  type: text
+  config:
+    required: false
+  label: Col Heading
+- name: colContent
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Col Content
