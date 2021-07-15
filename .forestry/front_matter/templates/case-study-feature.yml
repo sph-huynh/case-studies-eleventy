@@ -1,4 +1,36 @@
 ---
-label: Case Study Feature
+label: Columns
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: columnContent
+  type: field_group_list
+  fields:
+  - name: colImg
+    type: file
+    config:
+      maxSize: 10
+    label: Col Img
+  - name: colHeading
+    type: text
+    config:
+      required: false
+    label: Col Heading
+  - name: colDescription
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Col Description
+  config:
+    min: 1
+    max: 5
+    labelField: 
+  label: Column Content
