@@ -2,13 +2,6 @@
   "title": "Design System",
   "page_components": [
     {
-      "template": "1-col-text",
-      "title": "Skill",
-      "colHeading": "Customer Research & Insights",
-      "colContent": "I can help you identify user needs and challenges - and translate them to actionable insights.",
-      "columnImage": ""
-    },
-    {
       "template": "1-text-col",
       "title": "Skill",
       "colHeading": "Customer Research & Insights",
