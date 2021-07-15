@@ -12,6 +12,7 @@ fields:
   label: Page Components
   template_types:
   - 1-col-text
+  - 1-text-col
   config:
     min: 
     max: 
