@@ -1,4 +1,28 @@
 ---
 label: 1-col-text
-hide_body: true
-fields: []
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: columnImage
+  type: file
+  config:
+    maxSize: 10
+  label: Column Image
+- name: colHeading
+  type: text
+  config:
+    required: false
+  label: Column Heading
+- name: colContent
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Column Content
