@@ -15,6 +15,14 @@
       "colContent": "I can help you identify user needs and challenges - and translate them to actionable insights.",
       "componentOrder": false,
       "colImage": ""
+    },
+    {
+      "template": "1-text-col",
+      "componentOrder": true,
+      "title": "Skill 2",
+      "colContent": "I can help you identify user needs and challenges - and translate them to actionable insights.",
+      "colHeading": "Customer Research & Insights",
+      "colImage": ""
     }
   ]
 }
