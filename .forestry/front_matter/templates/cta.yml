@@ -1,4 +1,18 @@
 ---
 label: CTA
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: CTA Heading
+- name: ctaDescription
+  type: text
+  config:
+    required: false
+  label: CTA Description
+- name: bgcolor
+  type: boolean
+  label: bgColor
+  description: Off White<br>On Cream
