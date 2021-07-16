@@ -16,8 +16,8 @@ fields:
     source:
       type: documents
       section: feature
-      file: src/posts/telecom-voice-stratey.md
-      path: tags
+      file: src/posts/mvp-ux-uplift-for-website.md
+      path: storyTypeTag
   label: Type of content toggle
 - name: limitNumber
   type: number
