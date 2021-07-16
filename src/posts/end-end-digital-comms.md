@@ -101,5 +101,13 @@ metricLoop: []
 imagesList: []
 ctaText: ''
 bgcolor: false
+caseTitle: Full stack digital experience design
+headerTitle: How might we simplify and streamline the marketing for our network managers?
+textColTitle: 'Skills and tools:'
+comparisonTitle: Before vs After
+plainTextTitle: Approach
+metricsTitle: ''
+imageGalleryTitle: ''
+ctaHeadingTitle: ''
 
 ---
