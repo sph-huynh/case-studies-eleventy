@@ -18,27 +18,27 @@
     },
     {
       "template": "1-text-col",
-      "title": "",
+      "title": "Holistic service design",
       "componentOrder": false,
       "colImage": "",
       "colHeading": "",
       "colContent": "",
-      "fullContent": ""
+      "fullContent": "We all know that startup life requires lean ways of working - but we eventually have to scale. How well are your processes placed to support a great customer experience? What is the customer experience like, across all touchpoints?<br><br>Through mapping out processes, user journeys, and reviewing analytics - I can help you identify recommendations to create more enjoyable experiences for your customers."
     },
     {
       "template": "1-text-col",
-      "title": "",
+      "title": "Supplementary marketing capacity",
       "componentOrder": false,
       "colImage": "",
       "colHeading": "",
-      "colContent": "",
+      "colContent": "Just need some extra capacity to execute marketing stuff? Can do!<br>I can do many things e.g. pump out MVP graphics (visual), write blog content (words), campaign management (pm), customer personas (ux), market research (strategy).",
       "fullContent": ""
     },
     {
       "template": "cta",
-      "title": "",
-      "ctaText": "",
-      "bgcolor": false
+      "title": "Let’s get started",
+      "ctaText": "Connect with me on <a href=\"https://www.linkedin.com/in/sphhuynh/\" title=\"\" target=\"_blank\">LinkedIn</a>.",
+      "bgcolor": true
     }
   ]
 }
