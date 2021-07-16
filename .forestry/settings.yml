@@ -9,7 +9,7 @@ sections:
   label: Edit pages
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - media-template
   - generic-page

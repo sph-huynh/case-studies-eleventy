@@ -38,22 +38,12 @@ fields:
   label: Publication Location
 pages:
 - src/publications/acts-green-gown-awards.md
-- src/publications/acts-green-gown-awards.md
-- src/publications/channel-10-s-the-project.md
 - src/publications/channel-10-s-the-project.md
 - src/publications/forbes.md
-- src/publications/forbes.md
-- src/publications/fyli-nyc.md
 - src/publications/fyli-nyc.md
 - src/publications/monash-university.md
-- src/publications/monash-university.md
-- src/publications/sdsn-nigeria.md
 - src/publications/sdsn-nigeria.md
 - src/publications/sdsn.md
-- src/publications/sdsn.md
-- src/publications/sophia-huynh.md
 - src/publications/sophia-huynh.md
 - src/publications/unihack-inc.md
-- src/publications/unihack-inc.md
-- src/publications/vollie.md
 - src/publications/vollie.md
