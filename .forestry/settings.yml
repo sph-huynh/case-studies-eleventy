@@ -19,6 +19,13 @@ sections:
   - media-template
   - case-studies
 - type: directory
+  path: src/testimonials
+  label: Testimonials
+  create: documents
+  match: "**/*"
+  templates:
+  - testimonial
+- type: directory
   path: src/publications
   label: Publications
   create: documents
