@@ -90,7 +90,12 @@ colImage: ''
 colContent: 'Skills and tools:'
 fullContent: Design Thinking<br>UX Design<br>UX Research<br>Website Development<br>Marketing<br>Figma<br>Forestry
   CMS<br>JAMSTACK
-galleryRepeat: []
+galleryRepeat:
+- beforeImage: uploads/great-lakes-website-1.png
+  beforeText: Old website is very text heavy, no clear call to action
+  afterImage: uploads/after-networks-website.png
+  afterText: New website designed to be user-centric
+  summarySubtext: ''
 bodyContent: ''
 metricLoop: []
 imagesList: []
