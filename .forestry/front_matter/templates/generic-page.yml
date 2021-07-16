@@ -11,8 +11,11 @@ fields:
   type: blocks
   label: Page Components
   template_types:
-  - 1-col-text
   - 1-text-col
+  - case-study-feature
+  - comparison-gallery
+  - metrics
+  - testimonial
   config:
     min: 
     max: 
