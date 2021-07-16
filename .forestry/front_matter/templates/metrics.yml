@@ -2,11 +2,11 @@
 label: Metrics
 hide_body: true
 fields:
-- name: title
+- name: metricsTitle
   type: text
   config:
     required: false
-  label: Title
+  label: Metric Title
 - name: metricLoop
   type: field_group_list
   fields:
