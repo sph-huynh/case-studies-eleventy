@@ -25,10 +25,18 @@
     {
       "template": "case-study-gallery",
       "FeaturedCases": [
-        "src/posts/experience-recruitment.md",
-        "src/posts/telecom-voice-stratey.md"
+        "src/posts/international-women-s-day-panel-with-fyli-new-york-2021.md",
+        "src/posts/channel-10-s-the-project-x-vollie-feature.md"
       ],
       "title": "Watch me talk about things"
+    },
+    {
+      "template": "case-study-gallery",
+      "title": "See me in the media",
+      "FeaturedCases": [
+        "src/posts/channel-10-s-the-project-x-vollie-feature.md",
+        "src/posts/channel-10-s-the-project-x-vollie-feature.md"
+      ]
     }
   ]
 }
