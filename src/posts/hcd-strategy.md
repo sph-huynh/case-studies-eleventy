@@ -60,5 +60,6 @@ metrics:
 - metrictitle: '4 '
   metricdesc: team members
 toggle: true
+storyType: Case Study
 
 ---

@@ -15,7 +15,7 @@ overview: "<p>I ran a lean review to explore potential improvements across a rec
   marketed, impacting their branding and reputation. </p>"
 featureimage: uploads/recruitment.png
 imageGalleryContent: true
-beforeImages: 
+beforeImages:
 - uploads/7. Current job page.png
 afterImages:
 - uploads/8. Culture.png
@@ -71,5 +71,6 @@ metrics:
 - metrictitle: 98%+
   metricdesc: reduction in time needed/step
 toggle: true
+storyType: Case Study
 
 ---
