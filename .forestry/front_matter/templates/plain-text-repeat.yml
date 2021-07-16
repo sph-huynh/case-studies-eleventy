@@ -1,4 +1,18 @@
 ---
 label: Plain Text Repeat
 hide_body: true
-fields: []
+fields:
+- name: repeatPlainTextTitle
+  type: text
+  config:
+    required: false
+  label: repeatPlainText
+- name: plainRepeat
+  type: blocks
+  label: Plain Text Repeat Content
+  template_types:
+  - plain-text
+  - metrics
+  config:
+    min: 
+    max: 
