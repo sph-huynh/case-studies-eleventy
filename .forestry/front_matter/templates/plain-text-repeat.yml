@@ -1,6 +1,7 @@
 ---
 label: Plain Text Repeat
 hide_body: true
+display_field: repeatPlainTextTitle
 fields:
 - name: repeatPlainTextTitle
   type: text
