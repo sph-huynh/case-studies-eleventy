@@ -148,6 +148,51 @@ fields:
 - name: toggle
   type: boolean
   label: Featured
+- name: caseHeader
+  type: include
+  config: {}
+  template: header
+  label: Case Header
+- name: caseOverview
+  type: include
+  config: {}
+  template: 1-text-col
+  label: Case Overview
+- name: caseCompImg
+  type: include
+  config: {}
+  template: comparison-gallery
+  label: Case Feature Images
+- name: approachText
+  type: include
+  config: {}
+  template: plain-text
+  label: Approach Text
+- name: challengeText
+  type: include
+  config: {}
+  template: plain-text
+  label: Challenge Text
+- name: caseMetrics
+  type: include
+  config: {}
+  template: metrics
+  label: Case Study Metrics
+- name: caseOutcome
+  type: include
+  config: {}
+  template: plain-text
+  label: Case Outcome
+- name: caseImgGallery
+  type: include
+  config: {}
+  template: image-gallery
+  label: Image Gallery
+- name: caseCta
+  type: include
+  config: {}
+  template: cta
+  label: Case Study CTA
 pages:
 - src/posts/end-end-digital-comms.md
 - src/posts/experience-recruitment.md
