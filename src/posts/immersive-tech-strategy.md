@@ -39,5 +39,6 @@ metrics:
 - metricdesc: was approved to implement our suggested pilot.
   metrictitle: "$500,000"
 toggle: true
+storyType: Case Study
 
 ---
