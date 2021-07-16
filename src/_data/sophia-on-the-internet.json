@@ -37,6 +37,12 @@
         "src/posts/channel-10-s-the-project-x-vollie-feature.md",
         "src/posts/vice-chancellor-s-diversity-and-inclusion-awards-2017.md"
       ]
+    },
+    {
+      "template": "cta",
+      "title": "Let’s get started",
+      "ctaText": "Connect with me on <a href=\"https://www.linkedin.com/in/sphhuynh/\" title=\"\" target=\"_blank\">LinkedIn</a>.",
+      "bgcolor": true
     }
   ]
 }
