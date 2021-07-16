@@ -7,11 +7,15 @@ fields:
   config:
     required: false
   label: CTA Heading
-- name: ctaDescription
-  type: text
+- name: ctaText
+  type: textarea
+  default: ''
   config:
     required: false
-  label: CTA Description
+    wysiwyg: true
+    schema:
+      format: html
+  label: CTA Text
 - name: bgcolor
   type: boolean
   label: bgColor
