@@ -2,7 +2,7 @@
 label: Image Gallery
 hide_body: true
 fields:
-- name: title
+- name: imageGalleryTitle
   type: text
   config:
     required: false
