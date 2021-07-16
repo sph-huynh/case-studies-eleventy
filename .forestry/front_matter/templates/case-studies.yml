@@ -7,6 +7,20 @@ fields:
   config:
     required: false
   label: Title
+- name: storyType
+  type: select
+  default: Case Study
+  config:
+    required: true
+    options:
+    - Case Study
+    - Media
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Story Type
 - name: maintag
   type: text
   config:
