@@ -45,5 +45,6 @@ beforeImages: []
 afterImages: []
 metrics: []
 toggle: false
+storyType: Case Study
 
 ---
