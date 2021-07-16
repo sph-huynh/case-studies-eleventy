@@ -1,5 +1,5 @@
 ---
-title: End-to-end digital experience and website development for global nonprofit
+title: Before vs After
 maintag: Full stack UX - Research, Design, Dev & Marketing
 challenge: How might we simplify and streamline the marketing for our network managers?
 whatstatement: Creating re-usable digital templates for a group of managers across
@@ -82,5 +82,19 @@ metrics:
   metricdesc: published websites
 toggle: true
 storyType: Case Study
+description: Creating re-usable digital templates for a group of managers across different
+  countries.
+featureImage: ''
+componentOrder: true
+colImage: ''
+colContent: 'Skills and tools:'
+fullContent: Design Thinking<br>UX Design<br>UX Research<br>Website Development<br>Marketing<br>Figma<br>Forestry
+  CMS<br>JAMSTACK
+galleryRepeat: []
+bodyContent: ''
+metricLoop: []
+imagesList: []
+ctaText: ''
+bgcolor: false
 
 ---
