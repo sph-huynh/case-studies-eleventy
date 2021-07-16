@@ -42,13 +42,15 @@ fields:
       file: 
       path: 
   label: Involvement
-- name: featuredPublication
+- name: relevantPub
   type: list
   config:
-    use_select: false
+    use_select: true
     min: 
     max: 
-  label: Featured Publication
+    source:
+      type: pages
+  label: Relevant Publication
 - name: shortDescription
   type: text
   config:
