@@ -54,7 +54,8 @@
       "template": "cta",
       "title": "Let’s get started",
       "ctaDescription": "Connect with me on LinkedIn.",
-      "bgcolor": false
+      "bgcolor": false,
+      "ctaText": "Connect with me on <a href=\"https://www.linkedin.com/in/sphhuynh/\" title=\"\" target=\"_blank\">LinkedIn</a>."
     }
   ]
 }
