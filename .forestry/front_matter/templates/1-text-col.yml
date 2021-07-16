@@ -18,11 +18,6 @@ fields:
   config:
     maxSize: 10
   label: Col Image
-- name: colHeading
-  type: text
-  config:
-    required: false
-  label: Col Heading
 - name: colContent
   type: textarea
   default: ''
