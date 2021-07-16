@@ -2,7 +2,7 @@
 label: Mid Header
 hide_body: true
 fields:
-- name: title
+- name: midHeaderTitle
   type: text
   config:
     required: false
