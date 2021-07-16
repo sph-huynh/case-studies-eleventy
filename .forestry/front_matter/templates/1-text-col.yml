@@ -3,7 +3,7 @@ label: 1-text-col
 hide_body: true
 display_field: colHeading
 fields:
-- name: title
+- name: textColTitle
   type: text
   config:
     required: false
