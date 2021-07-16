@@ -46,5 +46,8 @@ afterImages: []
 metrics: []
 toggle: false
 storyType: Case Study
+storyTypeTag:
+- Case Study
+- Media
 
 ---
