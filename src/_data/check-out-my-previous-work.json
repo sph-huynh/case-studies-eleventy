@@ -10,6 +10,10 @@
       "fullContent": ""
     },
     {
+      "template": "mid-header",
+      "title": "Featured projects"
+    },
+    {
       "template": "feature-content",
       "featurecontent": [
         "src/posts/end-end-digital-comms.md"
