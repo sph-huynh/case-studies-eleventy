@@ -36,3 +36,5 @@ fields:
       file: 
       path: 
   label: Publication Location
+pages:
+- src/publications/monash-university.md
