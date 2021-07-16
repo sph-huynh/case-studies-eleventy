@@ -2,7 +2,7 @@
 label: Publication
 hide_body: true
 fields:
-- name: title
+- name: publicationTitle
   type: text
   config:
     required: false
