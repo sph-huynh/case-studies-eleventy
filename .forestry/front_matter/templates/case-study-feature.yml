@@ -2,7 +2,7 @@
 label: Columns
 hide_body: true
 fields:
-- name: title
+- name: colTitle
   type: text
   config:
     required: false
