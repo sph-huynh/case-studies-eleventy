@@ -13,10 +13,14 @@ fields:
   template_types:
   - header
   - case-study-feature
+  - case-study-gallery
   - testimonial
+  - cta
   - 1-text-col
+  - plain-text
   - comparison-gallery
   - metrics
+  - image-gallery
   config:
     min: 
     max: 
