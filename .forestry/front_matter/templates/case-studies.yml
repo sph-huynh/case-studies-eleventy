@@ -163,31 +163,11 @@ fields:
   config: {}
   template: comparison-gallery
   label: Case Feature Images
-- name: approachText
-  type: include
-  config: {}
-  template: plain-text
-  label: Approach Text
-- name: challengeText
-  type: include
-  config: {}
-  template: plain-text
-  label: Challenge Text
-- name: caseMetrics
-  type: include
-  config: {}
-  template: metrics
-  label: Case Study Metrics
 - name: plainCustom
   type: include
   config: {}
   template: plain-text-repeat
   label: Plain Text Custom
-- name: caseOutcome
-  type: include
-  config: {}
-  template: plain-text
-  label: Case Outcome
 - name: caseImgGallery
   type: include
   config: {}
