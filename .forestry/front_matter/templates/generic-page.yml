@@ -2,7 +2,7 @@
 label: Generic Page
 hide_body: true
 fields:
-- name: title
+- name: genPageTitle
   type: text
   config:
     required: true
