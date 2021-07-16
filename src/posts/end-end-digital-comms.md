@@ -81,5 +81,6 @@ metrics:
 - metrictitle: "5"
   metricdesc: published websites
 toggle: true
+storyType: Case Study
 
 ---
