@@ -178,6 +178,11 @@ fields:
   config: {}
   template: metrics
   label: Case Study Metrics
+- name: plainCustom
+  type: include
+  config: {}
+  template: plain-text-repeat
+  label: Plain Text Custom
 - name: caseOutcome
   type: include
   config: {}
