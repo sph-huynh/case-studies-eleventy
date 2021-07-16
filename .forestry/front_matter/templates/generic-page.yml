@@ -26,6 +26,7 @@ fields:
     min: 
     max: 
 pages:
+- src/_data/check-out-my-previous-work.json
 - src/_data/design-system.json
 - src/_data/homepage.json
 - src/_data/services.json
