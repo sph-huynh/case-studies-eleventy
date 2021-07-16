@@ -2,7 +2,7 @@
 label: Plain Text
 hide_body: true
 fields:
-- name: title
+- name: plainTextTitle
   type: text
   config:
     required: false
