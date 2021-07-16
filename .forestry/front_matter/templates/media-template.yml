@@ -7,6 +7,20 @@ fields:
   config:
     required: false
   label: Title
+- name: storyType
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Case Study
+    - Media
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Story Type
 - name: mediaType
   type: select
   default: []
