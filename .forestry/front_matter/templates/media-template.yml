@@ -90,3 +90,5 @@ fields:
   config:
     required: false
   label: CTA Text
+pages:
+- src/posts/channel-10-s-the-project-x-vollie-feature.md
