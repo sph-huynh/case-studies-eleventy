@@ -2,7 +2,7 @@
 label: Testimonial
 hide_body: true
 fields:
-- name: title
+- name: testimonialTitle
   type: text
   config:
     required: false
