@@ -76,3 +76,4 @@ fields:
   label: Fun FAQs
 pages:
 - src/_data/aboutme.json
+- src/_data/aboutme.json

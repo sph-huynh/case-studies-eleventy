@@ -31,3 +31,4 @@ fields:
   label: Skills Section
 pages:
 - src/_data/skills.json
+- src/_data/skills.json
