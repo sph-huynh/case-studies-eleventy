@@ -31,3 +31,5 @@ fields:
   config:
     required: false
   label: Person Company
+pages:
+- src/testimonials/maria-s-testimonials.md
