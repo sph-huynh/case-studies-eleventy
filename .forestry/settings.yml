@@ -5,6 +5,15 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: ''
+  label: Edit pages
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - media-template
+  - generic-page
+- type: directory
   path: src/_data
   label: Edit data files
   create: all
