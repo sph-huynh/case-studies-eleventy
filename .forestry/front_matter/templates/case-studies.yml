@@ -21,12 +21,6 @@ fields:
       file: 
       path: 
   label: Story Type
-- name: storyTypeTag
-  type: tag_list
-  default:
-  - Case Study
-  - Media
-  label: Story Type Tag
 - name: maintag
   type: text
   config:
