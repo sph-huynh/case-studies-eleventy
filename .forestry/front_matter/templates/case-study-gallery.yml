@@ -2,7 +2,7 @@
 label: Case Study Gallery
 hide_body: true
 fields:
-- name: title
+- name: caseStudyGalleryTitle
   type: text
   config:
     required: false
