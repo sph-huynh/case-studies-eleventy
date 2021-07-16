@@ -1,0 +1,35 @@
+---
+label: Generic Page
+hide_body: true
+fields:
+- name: genPageTitle
+  type: text
+  config:
+    required: true
+  label: Title
+- name: page_components
+  type: blocks
+  label: Page Components
+  template_types:
+  - header
+  - case-study-feature
+  - case-study-gallery
+  - testimonial-gallery
+  - cta
+  - 1-text-col
+  - plain-text
+  - comparison-gallery
+  - feature-content
+  - metrics
+  - image-gallery
+  - mid-header
+  config:
+    min: 
+    max: 
+pages:
+- src/_data/check-out-my-previous-work.json
+- src/_data/design-system.json
+- src/_data/g-day.glad-to-see-you-here.json
+- src/_data/homepage.json
+- src/_data/services.json
+- src/_data/sophia-on-the-internet.json

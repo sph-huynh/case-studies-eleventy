@@ -32,5 +32,6 @@ metrics:
 - metrictitle: "8"
   metricdesc: customer interviews conducted
 toggle: true
+storyType: Case Study
 
 ---

@@ -1,0 +1,42 @@
+---
+label: Comparison Gallery
+hide_body: true
+fields:
+- name: comparisonTitle
+  type: text
+  config:
+    required: false
+  label: Title
+- name: galleryRepeat
+  type: field_group_list
+  fields:
+  - name: beforeImage
+    type: file
+    config:
+      maxSize: 64
+    label: Before Image
+  - name: beforeText
+    type: text
+    config:
+      required: false
+    label: Before Text
+  - name: afterImage
+    type: file
+    config:
+      maxSize: 64
+    label: After Image
+  - name: afterText
+    type: text
+    config:
+      required: false
+    label: After Text
+  - name: summarySubtext
+    type: text
+    config:
+      required: false
+    label: Summary SubText
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Gallery Repeat

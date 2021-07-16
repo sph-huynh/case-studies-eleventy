@@ -12,14 +12,26 @@ sections:
   new_doc_ext: json
 - type: directory
   path: src/posts
-  label: Feature
+  label: Featured Content
   create: documents
   match: "*.md"
+  templates:
+  - media-template
+  - case-studies
 - type: directory
-  path: src/media
-  label: Media
+  path: src/testimonials
+  label: Testimonials
   create: documents
-  match: "*.md"
+  match: "**/*"
+  templates:
+  - testimonial
+- type: directory
+  path: src/publications
+  label: Publications
+  create: documents
+  match: "**/*"
+  templates:
+  - publication
 upload_dir: src/uploads
 public_path: uploads
 front_matter_path: ''

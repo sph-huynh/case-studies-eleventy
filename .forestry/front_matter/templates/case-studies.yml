@@ -2,11 +2,25 @@
 label: Case studies
 hide_body: true
 fields:
-- name: title
+- name: caseTitle
   type: text
   config:
     required: false
   label: Title
+- name: storyType
+  type: select
+  default: Case Study
+  config:
+    required: true
+    options:
+    - Case Study
+    - Media
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Story Type
 - name: maintag
   type: text
   config:
@@ -134,6 +148,36 @@ fields:
 - name: toggle
   type: boolean
   label: Featured
+- name: caseHeader
+  type: include
+  config: {}
+  template: header
+  label: Case Header
+- name: caseOverview
+  type: include
+  config: {}
+  template: 1-text-col
+  label: Case Overview
+- name: caseCompImg
+  type: include
+  config: {}
+  template: comparison-gallery
+  label: Case Feature Images
+- name: plainCustom
+  type: include
+  config: {}
+  template: plain-text-repeat
+  label: Plain Text Custom
+- name: caseImgGallery
+  type: include
+  config: {}
+  template: image-gallery
+  label: Image Gallery
+- name: caseCta
+  type: include
+  config: {}
+  template: cta
+  label: Case Study CTA
 pages:
 - src/posts/end-end-digital-comms.md
 - src/posts/experience-recruitment.md

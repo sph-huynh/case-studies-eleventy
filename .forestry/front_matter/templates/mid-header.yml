@@ -1,0 +1,9 @@
+---
+label: Mid Header
+hide_body: true
+fields:
+- name: midHeaderTitle
+  type: text
+  config:
+    required: false
+  label: Title

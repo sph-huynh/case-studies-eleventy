@@ -1,0 +1,22 @@
+---
+label: CTA
+hide_body: true
+fields:
+- name: ctaHeadingTitle
+  type: text
+  config:
+    required: false
+  label: CTA Heading
+- name: ctaText
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: CTA Text
+- name: bgcolor
+  type: boolean
+  label: bgColor
+  description: Off White<br>On Cream

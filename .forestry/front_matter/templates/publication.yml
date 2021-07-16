@@ -1,0 +1,49 @@
+---
+label: Publication
+hide_body: true
+fields:
+- name: publicationTitle
+  type: text
+  config:
+    required: false
+  label: Publication Title
+- name: about
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: About the publication
+- name: pubLink
+  type: text
+  config:
+    required: false
+  label: Publication Link
+- name: pubLocation
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - New York - USA
+    - Ibadan - Nigeria
+    - National - Australia
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Publication Location
+pages:
+- src/publications/acts-green-gown-awards.md
+- src/publications/channel-10-s-the-project.md
+- src/publications/forbes.md
+- src/publications/fyli-nyc.md
+- src/publications/monash-university.md
+- src/publications/sdsn-nigeria.md
+- src/publications/sdsn.md
+- src/publications/sophia-huynh.md
+- src/publications/unihack-inc.md
+- src/publications/vollie.md

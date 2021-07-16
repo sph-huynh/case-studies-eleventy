@@ -1,0 +1,27 @@
+---
+label: Metrics
+hide_body: true
+fields:
+- name: metricsTitle
+  type: text
+  config:
+    required: false
+  label: Metric Title
+- name: metricLoop
+  type: field_group_list
+  fields:
+  - name: metricNumber
+    type: text
+    config:
+      required: false
+    label: Metric Number
+  - name: metricDescription
+    type: text
+    config:
+      required: false
+    label: Metric Description
+  config:
+    min: 
+    max: 
+    labelField: metricDescription
+  label: Metric Loop

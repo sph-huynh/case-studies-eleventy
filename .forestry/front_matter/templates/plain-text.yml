@@ -1,0 +1,18 @@
+---
+label: Plain Text
+hide_body: true
+fields:
+- name: plainTextTitle
+  type: text
+  config:
+    required: false
+  label: Title
+- name: bodyContent
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: BodyContent

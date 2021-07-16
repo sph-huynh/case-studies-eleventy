@@ -1,0 +1,98 @@
+---
+label: Media Template
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: storyType
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Case Study
+    - Media
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Story Type
+- name: mediaType
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Webinar
+    - Feature
+    - TV
+    - Article
+    - Event
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type of Media
+- name: involvement
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Panel Speaker
+    - Educational
+    - Keynote
+    - Judge
+    - Featured Interview
+    - Thought piece
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Involvement
+- name: relevantPub
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: publications
+  label: Relevant Publication
+- name: shortDescription
+  type: text
+  config:
+    required: false
+  label: Short Description
+- name: coverImage
+  type: file
+  config:
+    maxSize: 64
+  label: Cover Image
+- name: imageCaption
+  type: text
+  config:
+    required: false
+  label: Image Caption
+- name: ctaLink
+  type: text
+  config:
+    required: false
+  label: CTA Link
+- name: ctaText
+  type: text
+  config:
+    required: false
+  label: CTA Text
+pages:
+- src/posts/channel-10-s-the-project-x-vollie-feature.md
+- src/posts/embracing-agile-methodologies.md
+- src/posts/international-women-s-day-panel-with-fyli-new-york-2021.md
+- src/posts/vice-chancellor-s-diversity-and-inclusion-awards-2017.md
