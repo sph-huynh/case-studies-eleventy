@@ -64,6 +64,7 @@ fields:
     max: 
     source:
       type: pages
+      section: publications
   label: Relevant Publication
 - name: shortDescription
   type: text
