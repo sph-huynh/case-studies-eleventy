@@ -2,7 +2,7 @@
 label: Header
 hide_body: true
 fields:
-- name: title
+- name: headerTitle
   type: text
   config:
     required: false
