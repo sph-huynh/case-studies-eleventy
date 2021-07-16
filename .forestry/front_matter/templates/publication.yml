@@ -37,4 +37,5 @@ fields:
       path: 
   label: Publication Location
 pages:
+- src/publications/channel-10-s-the-project.md
 - src/publications/monash-university.md
