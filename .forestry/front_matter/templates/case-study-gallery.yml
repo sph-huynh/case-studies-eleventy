@@ -7,38 +7,13 @@ fields:
   config:
     required: false
   label: Title
-- name: typeToggle
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: documents
-      section: feature
-      file: src/posts/mvp-ux-uplift-for-website.md
-      path: storyTypeTag
-  label: Type of content toggle
-- name: limitNumber
-  type: number
-  label: Limit Number
-  description: ''
-  default: 2
-  required: true
-  config:
-    min: 2
-    max: 7
-    step: 1
-    required: false
-  showOnly:
-    field: typeToggle
-- name: pick_case_study
+- name: FeaturedCases
   type: list
   config:
     use_select: true
-    min: 
-    max: 
+    min: 2
+    max: 7
     source:
       type: pages
       section: feature
-  label: Pick Case Study
+  label: Featured Case Study
