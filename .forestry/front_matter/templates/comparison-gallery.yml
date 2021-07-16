@@ -2,7 +2,7 @@
 label: Comparison Gallery
 hide_body: true
 fields:
-- name: title
+- name: comparisonTitle
   type: text
   config:
     required: false
