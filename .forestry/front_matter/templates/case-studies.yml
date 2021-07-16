@@ -21,6 +21,12 @@ fields:
       file: 
       path: 
   label: Story Type
+- name: storyTypeTag
+  type: tag_list
+  default:
+  - Case Study
+  - Media
+  label: Story Type Tag
 - name: maintag
   type: text
   config:
@@ -148,12 +154,6 @@ fields:
 - name: toggle
   type: boolean
   label: Featured
-- name: storyTypeTag
-  type: tag_list
-  default:
-  - Case Study
-  - Media
-  label: Story Type Tag
 pages:
 - src/posts/end-end-digital-comms.md
 - src/posts/experience-recruitment.md
