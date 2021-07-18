@@ -2,114 +2,11 @@
 label: Case studies
 hide_body: true
 fields:
-- name: caseTitle
+- name: title
   type: text
   config:
     required: false
   label: Title
-- name: storyType
-  type: select
-  default: Case Study
-  config:
-    required: true
-    options:
-    - Case Study
-    - Media
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Story Type
-- name: maintag
-  type: text
-  config:
-    required: false
-  label: Main tag
-- name: challenge
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Challenge statement
-- name: overview
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: Overview
-- name: whatstatement
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: What statement
-- name: featureimage
-  type: file
-  config:
-    maxSize: 1
-  label: Feature Image
-- name: allcontent
-  type: field_group_list
-  fields:
-  - name: title
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html-blocks
-    label: Title
-  - name: subtitle
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Sub Title
-  - name: textcontent
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html-blocks
-    label: Text Content
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Content
-- name: imageGalleryContent
-  type: boolean
-  label: Image Comparison
-- name: beforeImages
-  type: image_gallery
-  config: {}
-  label: Before Images
-  showOnly:
-    field: imageGalleryContent
-    value: true
-- name: afterImages
-  type: image_gallery
-  config: {}
-  label: After Images
-  showOnly:
-    field: imageGalleryContent
-    value: true
 - name: tags
   type: tag_list
   default: []
@@ -123,36 +20,6 @@ fields:
       format: markdown
   default: '2019-08-02T14:00:00Z'
   label: Date
-- name: metrics
-  type: field_group_list
-  fields:
-  - name: metrictitle
-    type: text
-    config:
-      required: false
-    label: Metrictitle
-  - name: metricdesc
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Metric Description
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Metrics
-- name: toggle
-  type: boolean
-  label: Featured
-- name: caseHeader
-  type: include
-  config: {}
-  template: header
-  label: Case Header
 - name: caseOverview
   type: include
   config: {}
@@ -162,7 +29,7 @@ fields:
   type: include
   config: {}
   template: comparison-gallery
-  label: Case Feature Images
+  label: Case Comparison Images
 - name: plainCustom
   type: include
   config: {}
