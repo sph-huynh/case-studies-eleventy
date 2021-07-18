@@ -7,9 +7,11 @@ fields:
   config:
     required: false
   label: CTA Heading
+  default: Let’s get started
 - name: ctaText
   type: textarea
-  default: ''
+  default: Connect with me on <a href="https://www.linkedin.com/in/sphhuynh/" title=""
+    target="_blank">Linkedin</a>.
   config:
     required: false
     wysiwyg: true
@@ -20,3 +22,6 @@ fields:
   type: boolean
   label: bgColor
   description: Off White<br>On Cream
+  showOnly:
+    field: bgcolor
+    value: true
