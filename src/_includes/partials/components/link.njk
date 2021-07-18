@@ -1,0 +1,3 @@
+{% if linkURL | length !== 0 %}
+<a href="{% if linkURL | first == 's' %}{% set linkURL = linkURL | replace("src/", "/") %}{% endif %}{% if linkURL | last == 'd' %}{% set linkURL = linkURL | replace(".md", "") %}{% endif %}{% if linkURL | first == '' %}/{% endif %}{{ linkURL }}" class="link link-component">{{ linkText }}</a>
+{% endif %}

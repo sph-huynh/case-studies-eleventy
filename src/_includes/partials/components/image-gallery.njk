@@ -1,0 +1,23 @@
+<section id="case-study-caro" class="spaced-container">
+    <div class="case-study-top">
+        <div class="heading-inline-wrapper">
+            <h3>Image Gallery</h3>
+        </div>
+    </div>
+    <div class="case-study-bot">
+        <div class="main-carousel case-caro-content" data-flickity='{ "wrapAround": true, "cellAlign": "left", "contain": true }'>
+            {% for pageSection in imagesList %}
+                <div class="gallery-cell carousel-cell image-gallery" style="background-image: url(/{{ pageSection.galleryImage }})">
+                    {% if pageSection.describingTitle | length !== 0 or pageSection.description | length !== 0 %}
+                    <div class="case-caro-desc">
+                        <p>{{ pageSection.describingTitle }}</p>
+                        <p>{{ pageSection.description }}</p>
+                    </div>
+                    {% endif %}
+                </div>
+
+            {% endfor %}
+        </div>
+    </div>
+
+</section>

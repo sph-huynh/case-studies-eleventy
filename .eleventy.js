@@ -17,7 +17,12 @@ module.exports = function(config) {
   config.addFilter('w3DateFilter', w3DateFilter);
 
   // Layout aliases
+  config.addLayoutAlias('designSystem', 'layouts/designSystem.njk');
+  config.addLayoutAlias('customPage', 'layouts/customPage.njk');
+  config.addLayoutAlias('services', 'layouts/services.njk');
   config.addLayoutAlias('casestudies', 'layouts/casestudies.njk');
+  config.addLayoutAlias('skills', 'layouts/skills.njk');
+  config.addLayoutAlias('mediaList', 'layouts/mediaList.njk');
   config.addLayoutAlias('more', 'layouts/more.njk');
   config.addLayoutAlias('homepage', 'layouts/homepage.njk');
 
@@ -34,7 +39,7 @@ module.exports = function(config) {
 
   const now = new Date();
 
-  // Custom collections
+  // Custom collections - Case Studies Posts
   const livePosts = post => post.date <= now && !post.data.draft;
   config.addCollection('posts', collection => {
     return [
@@ -44,6 +49,34 @@ module.exports = function(config) {
 
   config.addCollection('postFeed', collection => {
     return [...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)]
+      .reverse()
+      .slice(0, site.maxPostsPerPage);
+  });
+
+  // Custom collections - Media List
+  const mediaPosts = post => post.date <= now && !post.data.draft;
+  config.addCollection('media', collection => {
+    return [
+      ...collection.getFilteredByGlob('./src/media/*.md').filter(mediaPosts)
+    ].reverse();
+  });
+
+  config.addCollection('mediaFeed', collection => {
+    return [...collection.getFilteredByGlob('./src/media/*.md').filter(mediaPosts)]
+      .reverse()
+      .slice(0, site.maxPostsPerPage);
+  });
+
+  // Custom collections - Testimonial List
+  const testimonialPosts = post => post.date <= now && !post.data.draft;
+  config.addCollection('testimonial', collection => {
+    return [
+      ...collection.getFilteredByGlob('./src/testimonials/*.md').filter(testimonialPosts)
+    ].reverse();
+  });
+
+  config.addCollection('testimonialFeed', collection => {
+    return [...collection.getFilteredByGlob('./src/testimonials/*.md').filter(testimonialPosts)]
       .reverse()
       .slice(0, site.maxPostsPerPage);
   });

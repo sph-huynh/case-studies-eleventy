@@ -1,0 +1,34 @@
+{% set colLength = pageSection.colTitle | length %}
+{% if colLength > 1 %}
+    {% set headingText = pageSection.colTitle %}
+    {% include "partials/components/heading.njk" %}
+{% endif %}
+    <section id="cols" class="spaced-container">
+        <div class="col-wrapper">
+            {% for column in pageSection.columnContent %}
+                <div class="col-item col-grey col-{{ pageSection.columnContent | length }}">
+                    {% if column.colImg | length !== 0 %}
+                    <div class="col-top">
+                        <div class="col-content centre-me-top">
+                            <img src="{% if column.colImg | length == 0 %}{% elif column.colImg | first !== '/' %}/{% endif %}{{ column.colImg }}" class="icon-circle" />
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if column.colHeading | length !== 0 %}
+                    <div class="col-mid">
+                        <div class="col-content centre-me-top">
+                            <h5 class="centre-me-top">{{ column.colHeading }}</h5>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if column.colDescription | length !== 0 %}
+                    <div class="col-bot">
+                        <div class="col-content">
+                            <p>{{ column.colDescription | safe }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    </section>

@@ -7,12 +7,15 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml" />
   <link rel="icon" href="{{ site.faviconPath }}" type="image/png" />
   <script>document.documentElement.classList.remove('no-js');</script>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">  <style>{% include "css/global.css" %}</style>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+  <style>{% include "css/global.css" %}</style>
+  <link rel="stylesheet" href="/_includes/css/flickity.css">
 </head>
 <body>
   {% include "partials/global/site-head.njk" %}
   {% block content %}
   {% endblock content %}
+  {% include "partials/global/site-foot.njk" %}
   <script type="module" src="/js/components/theme-toggle.js" async defer></script>
   <script>
     if ('serviceWorker' in navigator) {
@@ -22,5 +25,6 @@
     }
   </script>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async defer></script>
+  <script src="/js/components/flickity.pkgd.min.js"></script>
 </body>
 </html>

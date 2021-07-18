@@ -10,6 +10,7 @@
 {# Post list content #}
 {% set postListHeading = postsHeading %}
 {% set postListItems = collections.postFeed %}
+{# Set this to the thing I'm pulling #}
 
 {# Archive link #}
 {% if postListItems.length < collections.posts.length %} 
@@ -19,40 +20,27 @@
 
 {% block content %}
   <main id="main-content" tabindex="-1">
-    <div class="home-container">
-        <div class="intro-top-container">
-            <div class="intro-top-wrapper">
-                <div class="intro-top-left wobble-hor-bottom con-animate">
-                    <img src="/images/me.jpg" class"intro-image" />
-                        <div class="confetti"></div>
-                        <div class="confetti"></div>
-                        <div class="confetti"></div>
-                        <div class="confetti"></div>
-                        <div class="confetti"></div>
-                        <div class="confetti"></div>
-                </div>
-                <div class="intro-top-right">
-                    <h1 class="post-sub-title text-500 gap-top-300">{{ aboutme.job }}</h1>
-                    <h2 class="intro-title">
-                        <div class="link post-title" rel="bookmark">{{ aboutme.name }}</a>
-                    </h2>
-                    <h3 class="intro-caption">{{ aboutme.blurb | safe }}</h3> 
-                    
-                    
-                        <div class="intro-icon">
-                        <p>See my featured work below</p>
-                        <br>
-                            <a href="#featured-case-studies"> {% include "icons/arrow-down.svg" %}</a>
-                        </div>
-                </div>
-            </div>
-
+    <div class="spaced-container">
+    </div>
+    <div class="normal-container" id="homepage-featured">
+        <div class="wrapper">
+            {% set componentTitle = "Imagine what we could do together" %}
+            {% include "partials/components/featured.njk" %}
         </div>
+        <div class="wrapper">
+                <div class="hpge-abt-peep header color-blue">
+                  <p><b>Who are you?? 🤔</b></p>
+                </div>
+                <div class="hpge-abt-peep desc color-dark-grey">
+                  {{ aboutme.midheadline | safe }}
+                </div>
+                <div class="hpge-abt-peep cta">
+                  
+                </div>
+        </div>
+
         <div class="wrapper">
           {% include "partials/components/testimonials.njk" %}
-        </div>
-        <div class="wrapper">
-            {% include "partials/components/featured.njk" %}
         </div>
     </div>
   </main>

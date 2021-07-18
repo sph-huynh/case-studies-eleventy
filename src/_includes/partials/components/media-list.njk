@@ -1,0 +1,24 @@
+{% if mediaListItems.length %}
+  <section class="post-list">
+    <div class="inner-wrapper">
+      <ol class="post-list__items">
+        {% for item in mediaListItems %}
+          {% if item.date.getTime() <= global.now %}
+            <div class="post-list__item wrapper">
+              <div class="post-list__item left-2 wrapped-item">
+                <img src="{% if item.data.featureimage | length == 0 %}{% elif item.data.featureimage | first !== '/' %}/{% endif %}{{ item.data.featureimage }}" class="post-image" />
+              </div>
+              <div class="post-list__item right-1 wrapped-item">
+                <p class="post-sub-title text-500 gap-top-300">{{ item.data.maintag }}</p>
+                <h4 class="h3-post-title">
+                  <a href="{{ item.url }}" class="link post-title" rel="bookmark">{{ item.data.title }}</a>
+                </h4>
+                <a href="{{ item.url }}" class="link text-button" rel="bookmark">READ MORE {% include "icons/arrow.svg" %}</a>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </ol>
+    </div>
+  </section>
+{% endif %}

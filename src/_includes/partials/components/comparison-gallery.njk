@@ -1,0 +1,21 @@
+{% if pageSection.comparisonTitle | length !== 0 %}
+    {% set headingText = pageSection.comparisonTitle %}
+    {% include "partials/components/heading.njk" %}
+{% endif %}
+{% for compImg in pageSection.galleryRepeat %}
+<section id="cols" class="spaced-container">
+    <div class="col-wrapper">
+            <div class="col-item col-2">
+                <div class="col-full-img">
+                        <img src="{% if compImg.beforeImage | length == 0 %}{% elif compImg.beforeImage | first !== '/' %}/{% endif %}{{ compImg.beforeImage }}" class="full-img comparison-img-cropped"/>
+                </div>
+            </div>
+            <img src="/images/long-arrow-right.svg" class="comparison-arrow"/>
+            <div class="col-item col-2">
+                <div class="col-full-img">
+                        <img src="{% if compImg.afterImage | length == 0 %}{% elif compImg.afterImage | first !== '/' %}/{% endif %}{{ compImg.afterImage }}" class="full-img comparison-img-cropped"/>
+                </div>
+            </div>
+    </div>
+</section>
+{% endfor %}

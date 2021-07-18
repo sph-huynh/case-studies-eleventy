@@ -1,0 +1,27 @@
+{% extends 'layouts/base.njk' %}
+{% set pageType = 'Homepage' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+{% set introSummary %}
+  {{ content | safe }}
+{% endset %}
+
+{# Post list content #}
+{% set postListHeading = postsHeading %}
+{% set mediaListItems = collections.mediaFeed %}
+
+{# Archive link #}
+{% if mediaListItems.length < collections.media.length %} 
+  {% set paginationNextText = archiveButtonText %}
+  {% set paginationNextUrl = '/mediaArchive' %}
+{% endif %}
+
+{% block content %}
+  <main id="main-content" tabindex="-1">
+    <div class="case-studies-container">
+        {% include "partials/components/media-list.njk" %}
+        {% include "partials/components/pagination.njk" %}
+    </div>
+  </main>
+{% endblock %}

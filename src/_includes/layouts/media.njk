@@ -1,0 +1,40 @@
+{% extends 'layouts/base.njk' %}
+{% set pageType = 'Post' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+{% set introSummary %}
+  {{ content | safe }}
+<p class="[ intro__meta ] [ text-500 leading-tight ]">
+  {% if date %}
+    <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
+  {% endif %}
+  <span>— {{ helpers.getReadingTime(content) }} minute read</span>
+</p>
+{% endset %}
+
+{% block content %}
+  <main id="main-content" tabindex="-1">
+      <section class="featurePage">
+          {% include "partials/components/1-text-col.njk" %}
+        {% set headingText = comparisonTitle %}
+        {% include "partials/components/heading.njk" %}
+        {% for pageSection in galleryRepeat %}
+          {% include "partials/components/comparison-gallery.njk" %}
+        {% endfor %}
+
+        {% for pageSection in plainRepeat %}
+          {% if pageSection.template == 'plain-text' %}
+            {% include "partials/components/plain.njk" %}            
+          {% endif %}
+          
+          {% if pageSection.template == 'metrics' %}
+            {% include "partials/components/metrics.njk" %}            
+          {% endif %}
+        {% endfor %}
+
+        {% include "partials/components/image-gallery.njk" %}
+        {% include "partials/global/cta.njk" %}   
+      </section>
+  </main>
+{% endblock %}

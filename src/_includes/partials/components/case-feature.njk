@@ -1,0 +1,31 @@
+{% if selectedCaseList == 'Case' %}
+    {% set featuredCases = collections.posts %}
+{% elif selectedCaseList == 'Media' %}
+    {% set featuredCases = collections.media %}
+{% else %}
+    {% set featuredCases = collections.posts %}
+{% endif %}
+
+{% if featuredCases.length %}
+{% for item in featuredCases %}
+    {% if pageSection.caseFilter | length !== 0 %}
+        {% if item.data.caseFeatureFilter == pageSection.caseFilter %}
+            <section id="case-study-caro" class="featured spaced-container">
+                <div class="case-study-bot">
+                    <div class="case-caro-content">
+                            <div class="case-feature-cell featured" style="background-image: url(/{{ item.data.featuredImage }})">
+                                <div class="case-caro-desc featured">
+                                    <a href="linkURL" class="discreet-link"><h5>{{ item.data.title }}</h5></a>
+                                    <p>{{ item.data.whatStatement }}</p>
+                                    {% set linkURL = item.url %}
+                                    {% set linkText = 'Finish the story' %}
+                                    {% include "partials/components/link.njk" %}
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+            </section>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+{% endif %}

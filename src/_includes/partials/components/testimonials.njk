@@ -1,18 +1,29 @@
-<div class="testimonials-wrapper">
-    <div class="slider">
-        {% for story in testimonials.items %}
-            <a href="#slide-{{ story.number }}">{{ story.number }}</a>
-        {% endfor %}
-        <div class="slides">
-            {% for story in testimonials.items %}
-            <div id="slide-{{ story.number }}" class="slide-content">
-                <div class="slide-text">
-                    <h2>“</h2>   {{ story.quote | safe }}   <h2>„</h2>
-                    <h3 class="intro-caption">{{ story.name }}</h3>
-                    <h3 class="intro-caption">{{ story.position }} - {{ story.company }}</h3>
+{% set testimonialStory = collections.testimonial %}
+{% if testimonialStory.length %}
+<section id="wrapper spaced">
+<section id="case-study-caro" class="case-column-version spaced-90 col-cream">
+    <div class="case-study-left">
+        <div class="heading-inline-wrapper">
+            <h3>{{ pageSection.testimonialGalleryTitle }}</h3>
+            <p>{{ pageSection.testimonialDescription }}</p>
+        </div>
+    </div>
+    <div class="case-study-right">
+        <div class="main-carousel case-caro-content" data-flickity='{ "wrapAround": true, "cellAlign": "left", "contain": true }'>
+            {% for story in testimonialStory %}
+                <div class="quote-cell carousel-cell col-yellow">
+                    <div class="quote-cell-top">
+                        <p>{{ story.data.quote | safe }}</p> 
+                    </div>
+                    <div class="quote-cell-bot">
+                        <h5>{{ story.data.personName }}</h5>
+                        <p>{{ story.data.personPosition }} - {{ story.data.personCompany }}</p>
+                    </div>
                 </div>
-            </div>
+
             {% endfor %}
         </div>
     </div>
-</div>
+</section>
+</section>
+{% endif %}

@@ -1,0 +1,10 @@
+{% set headingSize = 3 %}
+<section class="spaced-container">
+    <div class="heading-wrapper">
+    {% if pageSection.headingText | length !== 0 %}
+        <h3>{{ pageSection.headingText }}</h3>
+    {% elif headingText | length !== 0 %}
+        <h3>{{ headingText }}</h3>
+    {% endif %}
+    </div>
+</section>

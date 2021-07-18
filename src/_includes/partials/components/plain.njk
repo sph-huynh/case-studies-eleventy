@@ -1,0 +1,9 @@
+<section class="spaced-container">
+    {% if pageSection.plainTextTitle | length !== 0 %}
+        <h3>{{ pageSection.plainTextTitle | safe }}</h3>
+    {% endif %}
+    {{ pageSection.bodyContent | safe }}
+    <div class="lean-centre breath-top">
+    {{ pageSection.embedContent | safe }}
+    </div>
+</section>

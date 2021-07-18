@@ -1,0 +1,32 @@
+<section id="1-col-text" class="spaced-container">
+    <div class="col-wrapper">
+        <div class="col-item col-4 col-grey col-singular">
+            {% if pageSection.colImage | length !== 0 %}
+            <div class="col-top">
+                <div class="col-content centre-me-top">
+                    <img src="{% if pageSection.colImage | length == 0 %}{% elif pageSection.colImage | first !== '/' %}/{% endif %}{{ pageSection.colImage }}" class="icon-circle" />
+                </div>
+            </div>
+            {% endif %}
+            {% if pageSection.textColTitle | length !== 0 %}
+            <div class="col-mid">
+                <div class="col-content">
+                    <h5>{{ pageSection.textColTitle }}</h5>
+                </div>
+            </div>
+            {% endif %}
+            {% if pageSection.colContent | length !== 0 %}
+            <div class="col-bot">
+                <div class="col-content">
+                    <p>{{ pageSection.colContent | safe }}</p>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+        <div class="col-3quart">
+            <div class="col-content centre-me-top">
+                {{ pageSection.fullContent | safe }}
+            </div>
+        </div>
+    </div>
+</section>

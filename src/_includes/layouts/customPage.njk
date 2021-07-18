@@ -1,0 +1,59 @@
+{% extends 'layouts/base.njk' %}
+{% set pageType = 'Modular Page' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+{% set introSummary %}
+  {{ content | safe }}
+{% endset %}
+
+{% block content %}
+<main id="main-content" tabindex="-1">
+    <section class="customPage">
+    {% for pageSection in page_components %}
+        {% if pageSection.template == 'columns-block' %}
+            {% include "partials/components/columns.njk" %}            
+        {% endif %}
+        {% if pageSection.template == 'case-study-gallery' %}
+            {% set selectedCaseList = pageSection.caseList %}
+            {% include "partials/components/case-study-caro.njk" %}            
+        {% endif %}
+        {% if pageSection.template == 'testimonial-gallery' %}
+            {% include "partials/components/testimonials.njk" %}            
+        {% endif %}
+        {% if pageSection.template == 'cta' %}
+            {% include "partials/global/cta.njk" %}            
+        {% endif %}
+        {% if pageSection.template == '1-text-col' %}
+            {% if pageSection.componentOrder %}
+                {% include "partials/components/1-text-col.njk" %}
+            {% else %}
+                {% include "partials/components/1-col-text.njk" %}
+            {% endif %}
+        {% endif %}
+        {% if pageSection.template == 'plain-text' %}
+            {% include "partials/components/plain.njk" %}            
+        {% endif %}
+        {% if pageSection.template == 'comparison-gallery' %}
+            {% include "partials/components/comparison-gallery.njk" %}            
+        {% endif %}
+        {% if pageSection.template == 'feature-content' %}
+            {% set selectedCaseList = pageSection.caseList %}
+            {% include "partials/components/case-feature.njk" %}            
+        {% endif %}
+        {% if pageSection.template == 'metrics' %}
+            {% include "partials/components/metrics.njk" %}            
+        {% endif %}
+        {% if pageSection.template == 'image-gallery' %}
+            {% include "partials/components/image-gallery.njk" %}            
+        {% endif %}
+        {% if pageSection.template == 'mid-header' %}
+            {% include "partials/components/heading.njk" %}            
+        {% endif %}
+        {% if pageSection.template == 'full-bleed-image' %}
+            {% include "partials/components/full-bleed-image.njk" %}            
+        {% endif %}
+    {% endfor %}
+    </section>
+</main>
+{% endblock %}
