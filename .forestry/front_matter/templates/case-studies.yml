@@ -52,6 +52,7 @@ fields:
   template: cta
   label: Case Study CTA
 pages:
+- src/media/channel-10-s-the-project-x-vollie-feature.md
 - src/posts/end-end-digital-comms.md
 - src/posts/experience-recruitment.md
 - src/posts/hcd-strategy.md
