@@ -41,11 +41,6 @@ fields:
   config: {}
   template: plain-text-repeat
   label: Plain Text Custom
-- name: caseImgGallery
-  type: include
-  config: {}
-  template: image-gallery
-  label: Image Gallery
 - name: caseCta
   type: include
   config: {}
