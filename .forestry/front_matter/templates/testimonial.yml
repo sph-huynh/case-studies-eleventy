@@ -6,7 +6,7 @@ fields:
   type: text
   config:
     required: false
-  label: Title
+  label: Testimonial Title
 - name: quote
   type: textarea
   default: ''

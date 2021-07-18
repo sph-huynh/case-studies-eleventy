@@ -25,7 +25,14 @@ sections:
   create: documents
   match: "*.md"
   templates:
-  - media-template
+  - case-studies
+- type: directory
+  path: src/media
+  label: Featured Media
+  create: documents
+  match: "**/*"
+  new_doc_ext: md
+  templates:
   - case-studies
 - type: directory
   path: src/testimonials

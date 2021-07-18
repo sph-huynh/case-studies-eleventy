@@ -6,7 +6,7 @@ fields:
   type: text
   config:
     required: false
-  label: Title
+  label: Column Title
 - name: columnContent
   type: field_group_list
   fields:

@@ -1,0 +1,14 @@
+---
+label: Full Bleed Image
+hide_body: true
+fields:
+- name: imageTitle
+  type: text
+  config:
+    required: false
+  label: image Title
+- name: fullImage
+  type: file
+  config:
+    maxSize: 10
+  label: Full Image

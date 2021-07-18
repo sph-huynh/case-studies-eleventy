@@ -2,114 +2,16 @@
 label: Case studies
 hide_body: true
 fields:
-- name: caseTitle
+- name: title
   type: text
   config:
     required: false
   label: Title
-- name: storyType
-  type: select
-  default: Case Study
-  config:
-    required: true
-    options:
-    - Case Study
-    - Media
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Story Type
-- name: maintag
-  type: text
-  config:
-    required: false
-  label: Main tag
-- name: challenge
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Challenge statement
-- name: overview
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: Overview
-- name: whatstatement
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: What statement
-- name: featureimage
+- name: featuredImage
   type: file
   config:
-    maxSize: 1
-  label: Feature Image
-- name: allcontent
-  type: field_group_list
-  fields:
-  - name: title
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html-blocks
-    label: Title
-  - name: subtitle
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Sub Title
-  - name: textcontent
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html-blocks
-    label: Text Content
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Content
-- name: imageGalleryContent
-  type: boolean
-  label: Image Comparison
-- name: beforeImages
-  type: image_gallery
-  config: {}
-  label: Before Images
-  showOnly:
-    field: imageGalleryContent
-    value: true
-- name: afterImages
-  type: image_gallery
-  config: {}
-  label: After Images
-  showOnly:
-    field: imageGalleryContent
-    value: true
+    maxSize: 10
+  label: Featured Image
 - name: tags
   type: tag_list
   default: []
@@ -123,65 +25,39 @@ fields:
       format: markdown
   default: '2019-08-02T14:00:00Z'
   label: Date
-- name: metrics
-  type: field_group_list
-  fields:
-  - name: metrictitle
-    type: text
-    config:
-      required: false
-    label: Metrictitle
-  - name: metricdesc
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Metric Description
+- name: dateText
+  type: datetime
+  label: Date
+  description: ''
   config:
-    min: 
-    max: 
-    labelField: 
-  label: Metrics
-- name: toggle
-  type: boolean
-  label: Featured
-- name: caseHeader
-  type: include
-  config: {}
-  template: header
-  label: Case Header
+    required: false
+    date_format: DD/MM/YYYY
+    time_format: 
+    display_utc: false
+    export_format: ''
+  default: '2021-07-18T13:06:32+10:00'
 - name: caseOverview
   type: include
   config: {}
   template: 1-text-col
   label: Case Overview
-- name: caseCompImg
-  type: include
-  config: {}
-  template: comparison-gallery
-  label: Case Feature Images
 - name: plainCustom
   type: include
   config: {}
   template: plain-text-repeat
   label: Plain Text Custom
-- name: caseImgGallery
-  type: include
-  config: {}
-  template: image-gallery
-  label: Image Gallery
 - name: caseCta
   type: include
   config: {}
   template: cta
   label: Case Study CTA
 pages:
+- src/media/channel-10-s-the-project-x-vollie-feature.md
+- src/media/embracing-agile-methodologies.md
 - src/posts/end-end-digital-comms.md
 - src/posts/experience-recruitment.md
 - src/posts/hcd-strategy.md
 - src/posts/immersive-tech-strategy.md
-- src/posts/mvp-ux-uplift-for-website.md
+- src/posts/international-women-s-day-panel-with-fyli-new-york-2021.md
 - src/posts/telecom-voice-stratey.md
+- src/posts/vice-chancellor-s-diversity-and-inclusion-awards-2017.md

@@ -1,5 +1,5 @@
 ---
-title: Before vs After
+title: Full stack digital experience design
 maintag: Full stack UX - Research, Design, Dev & Marketing
 challenge: How might we simplify and streamline the marketing for our network managers?
 whatstatement: Creating re-usable digital templates for a group of managers across
@@ -72,13 +72,13 @@ tags:
 - JAMSTACK
 overview: ''
 metrics:
-- metrictitle: "12"
+- metrictitle: '12'
   metricdesc: interviews conducted
-- metrictitle: "66"
+- metrictitle: '66'
   metricdesc: institutions surveyed
-- metrictitle: "6"
+- metrictitle: '6'
   metricdesc: workshops conducted
-- metrictitle: "5"
+- metrictitle: '5'
   metricdesc: published websites
 toggle: true
 storyType: Case Study
@@ -87,9 +87,10 @@ description: Creating re-usable digital templates for a group of managers across
 featureImage: ''
 componentOrder: true
 colImage: ''
-colContent: 'Skills and tools:'
-fullContent: Design Thinking<br>UX Design<br>UX Research<br>Website Development<br>Marketing<br>Figma<br>Forestry
-  CMS<br>JAMSTACK
+colContent: "<strong>Skills and tools:</strong><br>Design Thinking<br>UX Design<br>UX
+  Research<br>Website Development<br>Marketing<br>Figma<br>Forestry CMS<br>JAMSTACK"
+fullContent: Creating re-usable digital templates for a group of managers across different
+  countries.
 galleryRepeat:
 - beforeImage: uploads/great-lakes-website-1.png
   beforeText: Old website is very text heavy, no clear call to action
@@ -110,13 +111,21 @@ ctaText: Connect with me on <a href="https://www.linkedin.com/in/sphhuynh/" titl
 bgcolor: true
 caseTitle: Full stack digital experience design
 headerTitle: How might we simplify and streamline the marketing for our network managers?
-textColTitle: 'Skills and tools:'
+textColTitle: How might we simplify and streamline the marketing for our network managers?
 comparisonTitle: Before vs After
 plainTextTitle: Approach
 metricsTitle: ''
 imageGalleryTitle: ''
 ctaHeadingTitle: Let’s get started
 plainRepeat:
+- template: comparison-gallery
+  comparisonTitle: Before vs After
+  galleryRepeat:
+  - beforeImage: uploads/great-lakes-website-1.png
+    beforeText: Old website was unclear on purpose, no clear call to action
+    afterImage: uploads/sdsn-website.png
+    afterText: New website designed to be user-centric
+    summarySubtext: ''
 - template: plain-text
   plainTextTitle: Approach
   bodyContent: "<strong>Key stakeholder pain points<br></strong>There were two challenge
@@ -129,20 +138,20 @@ plainRepeat:
     Managers, so they could laser-focus on key stakeholders?<br>Full disclaimer -
     marketing should be done properly in order to reach its full potential. But in
     this case, regardless of what I would create, the Managers would not have time
-    to learn something from scratch or bring on more people to help. So the key priorities
+    to learn something from scratch or bring on more people to help. So the key priority
     was to<br>Define some baseline personas/focuses<br>Create plug/play style material
     depending on the capacity of the Manager"
 - template: plain-text
-  bodyContent: 'Stream 1 User Research: There was little user research done on the
-    end-users of the network materials. So I spent time doing user research first
-    to separate the concerns and goals of the end-user from the Network Manager, and
-    from the global team.<br><br>Stream 2 Materials Requirements: Whilst the brief
-    originally had a website and newsletter templates, I found very quickly during
-    the research phase that a big gap was actually understanding the relevance of
-    marketing activities to the overall goal of the network. Therefore, I needed to
-    flesh out the information/resources end-users wanted across the materials Managers
+  bodyContent: "<strong>Stream 1 User Research: </strong>There was little user research
+    done on the end-users of the network materials. So I spent time doing user research
+    first to separate the concerns and goals of the end-user from the Network Manager,
+    and from the global team.<br><br><strong>Stream 2 Materials Requirements: </strong>Whilst
+    the brief originally had a website and newsletter templates, I found very quickly
+    during the research phase that a big gap was actually understanding the relevance
+    of marketing activities to the overall goal of the network. Therefore, I needed
+    to flesh out the information/resources end-users wanted across the materials Managers
     already create/could have on their website, in order to define the final feature
-    set'
+    set"
   plainTextTitle: Challenge Streams
 - template: metrics
   metricsTitle: Impact
@@ -158,15 +167,38 @@ plainRepeat:
 - template: plain-text
   plainTextTitle: Outcome
   bodyContent: Personas and goals to direct Manager's focus<br>Delivered personas,
-    example user flows, goals and linked to suggested information to display on the
+    example user flows, goals, and linked to suggested information to display on the
     website. This provided Managers with a framework to direct their effort towards
     the stakeholders most relevant to their network goals.<br>Provided the research
     and insights to the global Networks Team, who can now leverage insights from real
-    users - saving them time and providing data for future problem solving.<br><br>Website
+    users - saving them time and providing data for future problem-solving.<br><br>Website
     and marketing templates<br><br>Reusable and customisable templates allow Managers
-    to plug and play, therefore reducing time required<br><br>You can see the live
+    to plug and play, therefore reducing time required.<br><br>You can see the live
     websites at:<br><a href="http://indonesia.unsdsn.org/" title="http://indonesia.unsdsn.org/"
     target="_blank">http://indonesia.unsdsn.org/</a><br>
-repeatPlainTextTitle: ''
+- template: image-gallery
+  imageGalleryTitle: Image Gallery
+  imagesList:
+  - galleryImage: uploads/screen-shot-2021-07-18-at-13-50-50.png
+    describingTitle: Example local SDGs page
+    description: A focus was placed on demystifying undefined, complex concepts
+  - galleryImage: uploads/screen-shot-2021-07-18-at-13-50-38.png
+    describingTitle: Homepage design
+    description: Simplifying content for ease of reading
+  - galleryImage: uploads/screen-shot-2021-07-18-at-13-49-39.png
+    description: ''
+    describingTitle: Example Marketing Material
+  - galleryImage: uploads/screen-shot-2021-07-18-at-13-49-49.png
+    describingTitle: Example Defined Personas
+    description: Ready for plug-and-play by the end-user
+  - galleryImage: uploads/screen-shot-2021-07-18-at-13-50-12.png
+    describingTitle: Example Marketing Template
+    description: Simplifying the marketing process
+  - galleryImage: uploads/screen-shot-2020-08-06-at-22-57-25.png
+    description: ''
+    describingTitle: Contact Page
+repeatPlainTextTitle: Case Study
+featuredImage: uploads/networks-website-mockup.png
+dateText: 2020-09-30T00:00:00+10:00
 
 ---

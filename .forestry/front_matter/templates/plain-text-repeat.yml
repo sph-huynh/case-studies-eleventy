@@ -14,6 +14,11 @@ fields:
   template_types:
   - plain-text
   - metrics
+  - comparison-gallery
+  - image-gallery
+  - 1-text-col
+  - testimonial
+  - full-bleed-image
   config:
     min: 
     max: 
