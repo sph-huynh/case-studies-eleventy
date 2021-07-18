@@ -6,7 +6,7 @@ fields:
   type: text
   config:
     required: false
-  label: Title
+  label: Image Gallery Title
 - name: imagesList
   type: field_group_list
   fields:
