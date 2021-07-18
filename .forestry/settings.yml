@@ -33,7 +33,7 @@ sections:
   match: "**/*"
   new_doc_ext: md
   templates:
-  - media-template
+  - case-studies
 - type: directory
   path: src/testimonials
   label: Testimonials
