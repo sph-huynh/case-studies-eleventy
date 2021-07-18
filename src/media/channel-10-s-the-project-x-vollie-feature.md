@@ -26,5 +26,6 @@ ctaHeadingTitle: Read the full Vollie interview
 ctaText: Read the full-length <a href="https://www.vollie.com.au/blog/chatting-with-sophia-from-sdsn-youth"
   title="" target="_blank">Vollie interview</a>.
 bgcolor: true
+featuredImage: uploads/vollie-mockup.png
 
 ---
