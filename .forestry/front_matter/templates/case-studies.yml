@@ -20,6 +20,17 @@ fields:
       format: markdown
   default: '2019-08-02T14:00:00Z'
   label: Date
+- name: dateText
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: DD/MM/YYYY
+    time_format: 
+    display_utc: false
+    export_format: ''
+  default: '2021-07-18T13:06:32+10:00'
 - name: caseOverview
   type: include
   config: {}
