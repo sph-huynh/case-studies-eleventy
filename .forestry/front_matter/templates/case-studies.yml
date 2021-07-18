@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: Title
+- name: featuredImage
+  type: file
+  config:
+    maxSize: 10
+  label: Featured Image
 - name: tags
   type: tag_list
   default: []
