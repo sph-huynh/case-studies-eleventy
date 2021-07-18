@@ -16,15 +16,6 @@ fields:
   type: tag_list
   default: []
   label: Tags
-- name: date
-  type: text
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  default: '2019-08-02T14:00:00Z'
-  label: Date
 - name: dateText
   type: datetime
   label: Date
