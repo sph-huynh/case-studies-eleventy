@@ -25,11 +25,6 @@ fields:
   config: {}
   template: 1-text-col
   label: Case Overview
-- name: caseCompImg
-  type: include
-  config: {}
-  template: comparison-gallery
-  label: Case Comparison Images
 - name: plainCustom
   type: include
   config: {}
