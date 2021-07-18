@@ -1,5 +1,5 @@
 ---
-title: Immersive Learning Technology Strategy For Leading Energy Distributor
+title: Customer Research For An Australian Telecom Call Centre Strategy
 date: '2019-02-02T14:00:00Z'
 tags:
 - Technology strategy
@@ -43,7 +43,7 @@ storyType: Case Study
 featuredImage: uploads/default.png
 dateText: 2019-04-02T00:00:00+11:00
 textColTitle: How might we redesign a voice strategy to create a better experience
-  for  vulnerable customers?
+  for vulnerable customers?
 componentOrder: true
 colImage: ''
 colContent: "<strong>Skills and tools:</strong><br>UX Research<br>Service Design"
