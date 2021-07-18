@@ -53,6 +53,7 @@ fields:
   label: Case Study CTA
 pages:
 - src/media/channel-10-s-the-project-x-vollie-feature.md
+- src/media/embracing-agile-methodologies.md
 - src/posts/end-end-digital-comms.md
 - src/posts/experience-recruitment.md
 - src/posts/hcd-strategy.md
