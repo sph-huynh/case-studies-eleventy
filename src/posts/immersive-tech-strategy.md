@@ -71,8 +71,9 @@ plainRepeat:
   - metricNumber: "8"
     metricDescription: customer interviews conducted
   metricsTitle: ''
-ctaHeadingTitle: ''
-ctaText: ''
+ctaHeadingTitle: Let's get started
+ctaText: Connect with me <a href="https://www.linkedin.com/in/sphhuynh/" title=""
+  target="_blank">on Linkedin</a>
 bgcolor: false
 
 ---
