@@ -10,7 +10,8 @@ featuredImage: uploads/agile-mockup.png
 textColTitle: Thought Piece on Agile
 componentOrder: true
 colImage: ''
-colContent: Opinion Piece<br>This is a personal article I wrote :-)
+colContent: "<strong>Opinion Piece</strong><br>This is a personal article I wrote
+  :-)"
 fullContent: In order to truly be <em>customer-centric</em> in product development
   (that being, to design for the customer, with the customer in mind), customer validation
   is imperative. Here are my thoughts on how companies can successfully embrace and
