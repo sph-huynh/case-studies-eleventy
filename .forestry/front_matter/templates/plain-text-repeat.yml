@@ -18,6 +18,7 @@ fields:
   - image-gallery
   - 1-text-col
   - testimonial
+  - full-bleed-image
   config:
     min: 
     max: 
