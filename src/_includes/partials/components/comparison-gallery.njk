@@ -1,14 +1,14 @@
-<section id="cols">
+<section id="cols" class="spaced-container">
     <div class="col-wrapper">
             <div class="col-item col-2">
                 <div class="col-full-img">
-                        <img src="/images/me.jpg" class="full-img"/>
+                        <img src="{% if pageSection.beforeImage | length == 0 %}{% elif pageSection.beforeImage | first !== '/' %}/{% endif %}{{ pageSection.beforeImage }}" class="full-img comparison-img-cropped"/>
                 </div>
             </div>
             <img src="/images/long-arrow-right.svg" class="comparison-arrow"/>
             <div class="col-item col-2">
                 <div class="col-full-img">
-                        <img src="/images/me.jpg" class="full-img"/>
+                        <img src="{% if pageSection.afterImage | length == 0 %}{% elif pageSection.afterImage | first !== '/' %}/{% endif %}{{ pageSection.afterImage }}" class="full-img comparison-img-cropped"/>
                 </div>
             </div>
     </div>

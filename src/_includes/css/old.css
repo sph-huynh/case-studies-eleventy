@@ -838,7 +838,7 @@ img.cs-image {
         width: 40%;
     }
 
-    .home-container,
+    .spaced-container,
     .case-studies-container  {
         margin: 5rem 0;
     }
@@ -879,7 +879,7 @@ img.cs-image {
         display: block;
     }
 
-    .home-container,
+    .spaced-container,
     .case-studies-container  {
         margin: 0;
     }

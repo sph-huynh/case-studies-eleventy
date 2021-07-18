@@ -4,7 +4,7 @@
       <div class="col">
         <div class="col-20">
           <div class="display-flex h-100 centre-me-top">
-            <a href="/" ><img class="logo-img centre-me-top" src="/images/logo.svg"/></a>
+            <a href="/" class="img-link" ><img class="logo-img centre-me-top" src="/images/logo.svg"/></a>
           </div>
         </div>
         <div class="col-80 nav centre-me">
@@ -17,10 +17,10 @@
     <div class="wrapper spaced">
       <div class="head-container col">
         <div class="head-headline col-65 centre-me-top breath-right">
-          <h1>The all-rounder you never knew you needed.</h1>
-          <h4>Need a strategy analyst who understands tech-speak? Or an Experience Designer who understands business?</h4>
-          <h4>Let’s chat today.</h4>
+          <h1>{{ headerTitle }}</h1>
+          <h4>{{ headerDescription | safe }}</h4>
         </div>
+        {% if featureImage | length !== 0 %}
         <div class="head-headline col-35 centre-me-top breath-left-50">
           <div class="homepage-landing-r-img centre-me-top wobble-hor-bottom con-animate">
               <img src="/images/me.jpg" class="header-circle-img" />
@@ -32,6 +32,7 @@
                   <div class="confetti"></div>
           </div>
         </div>
+        {% endif %}
       </div>
     </div>
             <img src="/images/half-moon-yellow.svg" class="header-bot-bg" />

@@ -2,7 +2,7 @@
   "title": "G’day. Glad to see you here.",
   "page_components": [
     {
-      "template": "case-study-feature",
+      "template": "columns-block",
       "title": "A deep dive into my skill-set",
       "columnContent": [
         {

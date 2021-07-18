@@ -1,11 +1,15 @@
-{% set ctaTitle = "Let's get started" %}
-{% set linkText = "Connect with me on Linkedin" %}
-{% set linkURL = "https://www.linkedin.com/in/sphhuynh/" %}
-<div class="cta-container bg-color-cream-{{ ctaToggle }}">
-    <h3>{{ ctaTitle }}</h3>
-    {% if ctaToggle %}
-        {% include "partials/components/link.njk" %}
-    {% else %}
-        <p>{{ linkText }}}</p>
+<section id="wrapper spaced" class="coloured-bg">
+{% if pageSection.bgcolor == true or bgcolor == true %}
+    <div class="cta-container bg-color-cream-true">
+{% else %}
+<div class="cta-container bg-color-cream-false">
+{% endif %}
+    {% if pageSection.ctaHeadingTitle | length !== 0 %}
+        <h3>{{ pageSection.ctaHeadingTitle }}</h3>
+        <p>{{ pageSection.ctaText | safe }}</p>
+    {% elif ctaHeadingTitle | length !== 0 %}
+        <h3>{{ ctaHeadingTitle }}</h3>
+        <p>{{ ctaText | safe }}</p>
     {% endif %}
 </div>
+</section>

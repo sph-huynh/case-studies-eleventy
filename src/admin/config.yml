@@ -31,12 +31,14 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Header Title", name: "headerTitle", widget: "string", required: true}
+      - {label: "Header Description", name: "headerDescription", widget: "string"}
+      - {label: "Feature Image", name: "featureImage", widget: "image"}
       - {label: "Permalink Override (Pattern: '/your-slug/index.html')", name: "permalink", widget: "string", required: false}
       - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
       - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
       - {label: "Page Heading", name: "pageHeading", widget: "string", default: "Heading", required: true}
       - {label: "Page SubTitle", name: "pageSubTit", widget: "string", required: false}
-      - {label: "Social Image", name: "socialImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "posts"
     label: "Posts"

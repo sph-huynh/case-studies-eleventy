@@ -2,7 +2,7 @@
   "title": "Sophia on the internet",
   "page_components": [
     {
-      "template": "case-study-feature",
+      "template": "columns-block",
       "title": "Hear what others say",
       "columnContent": [
         {

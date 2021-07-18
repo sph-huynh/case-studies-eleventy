@@ -18,6 +18,7 @@ module.exports = function(config) {
 
   // Layout aliases
   config.addLayoutAlias('designSystem', 'layouts/designSystem.njk');
+  config.addLayoutAlias('customPage', 'layouts/customPage.njk');
   config.addLayoutAlias('services', 'layouts/services.njk');
   config.addLayoutAlias('casestudies', 'layouts/casestudies.njk');
   config.addLayoutAlias('skills', 'layouts/skills.njk');

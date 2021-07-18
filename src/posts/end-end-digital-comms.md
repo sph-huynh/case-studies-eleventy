@@ -93,7 +93,7 @@ fullContent: Creating re-usable digital templates for a group of managers across
   countries.
 galleryRepeat:
 - beforeImage: uploads/great-lakes-website-1.png
-  beforeText: Old website is very text heavy, no clear call to action
+  beforeText: Old website was unclear on purpose, no clear call to action
   afterImage: uploads/after-networks-website.png
   afterText: New website designed to be user-centric
   summarySubtext: ''
@@ -200,5 +200,6 @@ plainRepeat:
 repeatPlainTextTitle: Case Study
 featuredImage: uploads/networks-website-mockup.png
 dateText: 2020-09-30T00:00:00+10:00
+
 
 ---

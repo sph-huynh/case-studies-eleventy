@@ -7,7 +7,7 @@ fields:
   config:
     required: false
   label: Title
-- name: description
+- name: testimonialDescription
   type: text
   config:
     required: false

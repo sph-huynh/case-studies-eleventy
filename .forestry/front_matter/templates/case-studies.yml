@@ -7,11 +7,14 @@ fields:
   config:
     required: false
   label: Title
-- name: featuredImage
+
+
+- name: featureimage
   type: file
   config:
-    maxSize: 10
-  label: Featured Image
+    maxSize: 1
+  label: Feature Image
+
 - name: tags
   type: tag_list
   default: []
@@ -25,22 +28,23 @@ fields:
       format: markdown
   default: '2019-08-02T14:00:00Z'
   label: Date
-- name: dateText
-  type: datetime
-  label: Date
-  description: ''
-  config:
-    required: false
-    date_format: DD/MM/YYYY
-    time_format: 
-    display_utc: false
-    export_format: ''
-  default: '2021-07-18T13:06:32+10:00'
+
+
 - name: caseOverview
   type: include
   config: {}
   template: 1-text-col
-  label: Case Overview
+  label: Intro Column
+- name: caseCompImg
+  type: include
+  config: {}
+  template: comparison-gallery
+  label: Case Feature Images
+- name: caseMetrics
+  type: include
+  config: {}
+  template: metrics
+  label: Case Metrics
 - name: plainCustom
   type: include
   config: {}

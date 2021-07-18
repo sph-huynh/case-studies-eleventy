@@ -1,9 +1,10 @@
 {% extends 'layouts/base.njk' %}
-{% set pageType = 'Media' %}
+{% set pageType = 'Post' %}
 
 {# Intro content #}
 {% set introHeading = title %}
 {% set introSummary %}
+  {{ content | safe }}
 <p class="[ intro__meta ] [ text-500 leading-tight ]">
   {% if date %}
     <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
@@ -14,59 +15,26 @@
 
 {% block content %}
   <main id="main-content" tabindex="-1">
-    <article class="[ post ] [ h-entry ]">
-      <div class="special-page top">
-            <div class="cs-box">
-              <div class="cs-box-left">
-                <div class="cs-box-left-top">
-                  <h1 class="cs-title">{{ challenge }}</h1> 
-                  <p class="cs-sub-title">{{ whatstatement | safe }}</p>
-                  <br>
-                  <p class="cs-sub-title">{{ overview | safe }}</p>
-                </div>
-                <div class="cs-box-left-bottom">
-                  {% if tags %}
-                          <h4 class="font-base text-600 weight-mid">Skills and tools used:</h4>
-                          <ul class="tags-list font-300w">
-                            {% for item in tags %}
-                              <li class="nav__item">
-                                <a href="/tags/{{ item }}" class="link">{{ item }}</a>
-                              </li>
-                            {% endfor %}
-                          </ul>
-                  {% endif %}
-                </div>
-              </div>
-              <div class="cs-box-right">
-                <img src="/{{ featureimage }}" class="cs-image" />
-              </div>
-            </div>
-            <div class="cs-box">
-              <div class="cs-box-left">
-              {% for item in allcontent %}
-                <div class="cs-box-left-top">
-                  <h1 class="cs-title">{{ item.title | safe }}</h1> 
-                  <h6 class="cs-sub-title">{{ item.subtitle | safe }}</h6>
-                  <p class="cs-sub-title">{{ item.textcontent | safe }}</p>
-                </div>
-                {% endfor %} 
-              </div>
-              <div class="cs-box-right">
-              {% for met in metrics %}
-                <div class="cs-box-metrics">
-                  <h1 class="cs-metric-title">{{ met.metrictitle }}</h1> 
-                  <h1 class="cs-metric-subtitle">{{ met.metricdesc }}</h1> 
-                </div>
-                {% endfor %} 
-              </div>
-            </div>    
-      </div>            
-    </article>
-    {% if imageGalleryContent == true %}
-                {% include "partials/components/image-feature.njk" %}
-    {% endif %}
+      <section class="featurePage">
+          {% include "partials/components/1-text-col.njk" %}
+        {% set headingText = comparisonTitle %}
+        {% include "partials/components/heading.njk" %}
+        {% for pageSection in galleryRepeat %}
+          {% include "partials/components/comparison-gallery.njk" %}
+        {% endfor %}
 
+        {% for pageSection in plainRepeat %}
+          {% if pageSection.template == 'plain-text' %}
+            {% include "partials/components/plain.njk" %}            
+          {% endif %}
+          
+          {% if pageSection.template == 'metrics' %}
+            {% include "partials/components/metrics.njk" %}            
+          {% endif %}
+        {% endfor %}
+
+        {% include "partials/components/image-gallery.njk" %}
+        {% include "partials/global/cta.njk" %}   
+      </section>
   </main>
 {% endblock %}
-
-{{ content | safe }}

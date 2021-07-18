@@ -1,26 +1,24 @@
-{% set headingToggle = true %}
-{% set headingText = 'Imagine what we could do together' %}
-{% set caroTitle = 'Full-stack digital experience design' %}
-{% set caroDesc = "Full-stack digital experience design to streamline the marketing for managers across 40 countries/regions." %}
-{% set caroNumber = 4 %}
-{% set caroImg = '/images/example-mock.png' %}
-<section id="case-study-caro">
+<section id="case-study-caro" class="spaced-container">
+    {% set colLength = pageSection.caseStudyGalleryTitle | length %}
+    {% if colLength > 1 %}
     <div class="case-study-top">
         <div class="heading-inline-wrapper">
-            <h3>{{ headingText }}</h3>
-        </div>
-        <div class="case-study-arrows">
+            <h3>{{ pageSection.caseStudyGalleryTitle }}</h3>
         </div>
     </div>
+    {% endif %}
     <div class="case-study-bot">
         <div class="main-carousel case-caro-content" data-flickity='{ "wrapAround": true, "cellAlign": "left", "contain": true }'>
-            {% for caro in range(0, caroNumber) %}
-                <div class="gallery-cell carousel-cell" style="background-image: url({{ caroImg }})">
+            {% for column in pageSection.FeaturedCases %}
+                <div class="gallery-cell carousel-cell" style="background-image: url(/{{ caroImg }})">
                     <div class="case-caro-desc">
-                        <h5>{{ caroTitle }}</h5>
-                        <p>{{ caroDesc }}</p>
+                        {{ column }}
+                        <h5>{{ column.caseTitle }}</h5>
+                        <p>{{ column | url }}</p>
+                        {% set linkURL = column %}
+                        {% set linkText = 'Finish the story' %}
                         {% include "partials/components/link.njk" %}
-                        </div>
+                    </div>
                 </div>
 
             {% endfor %}

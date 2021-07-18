@@ -6,7 +6,7 @@
           {% if item.date.getTime() <= global.now %}
             <div class="post-list__item wrapper">
               <div class="post-list__item left-2 wrapped-item">
-                <img src="/{{ item.data.featureimage }}" class="post-image" />
+                <img src="{% if item.data.featureimage | length == 0 %}{% elif item.data.featureimage | first !== '/' %}/{% endif %}{{ item.data.featureimage }}" class="post-image" />
               </div>
               <div class="post-list__item right-1 wrapped-item">
                 <p class="post-sub-title text-500 gap-top-300">{{ item.data.maintag }}</p>

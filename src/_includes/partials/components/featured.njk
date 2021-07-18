@@ -10,7 +10,7 @@
             <div class="feature-list-btn display-inline-flex inline-flex-row" style="background-color:{{ skills.skillColor }}">
               <div class="feature-list-btn-left inline-block width-60 align-me-center">
                 <a href="{{  item.url }}" class="feature-list-box feature-header">
-                  <img src="/{{ skills.skillIcon }}" class="skill-icon feature-header"/>
+                  <img src="{% if skills.skillIcon | first !== '/' %}/{% endif %}{{ skills.skillIcon }}" class="skill-icon feature-header"/>
                 </a>
                 <h3 class="font-600w set-height-65px">{{ item.data.maintag }}</h3>
                 <p>{{ item.data.title }}</p>
@@ -19,7 +19,7 @@
                 </a>
               </div>
               <div class="feature-list-btn-right inline-block width-40">
-                  <img src="/{{ skills.skillImg }}" class="button-bg lean-right"/>
+                  <img src="{% if skills.skillImg | first !== '/' %}/{% endif %}{{ skills.skillImg }}" class="button-bg lean-right"/>
               </div>
             </div>
           {% endif %}

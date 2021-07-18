@@ -1,29 +1,28 @@
-<section id="1-col-text">
+<section id="1-col-text" class="spaced-container">
     <div class="col-wrapper">
         <div class="col-item col-4 col-grey col-singular">
+            {% if pageSection.colImage | length !== 0 %}
             <div class="col-top">
                 <div class="col-content centre-me-top">
-                    <img src="/images/me.jpg" class="icon-circle" />
+                    <img src="{% if pageSection.colImage | first !== '/' %}/{% endif %}{{ pageSection.colImage }}" class="icon-circle" />
                 </div>
             </div>
+            {% endif %}
             <div class="col-mid">
                 <div class="col-content">
-                    <h5>Customer Research & Insights</h5>
+                    <h5>{{ pageSection.textColTitle }}</h5>
                 </div>
             </div>
             <div class="col-bot">
                 <div class="col-content">
-                    <p>I can help you identify user needs and challenges - and translate them to actionable insights.</p>
-                    {% include "partials/components/link.njk" %}
+                    <p>{{ pageSection.colContent | safe }}</p>
                 </div>
             </div>
         </div>
         <div class="col-3quart">
             <div class="col-content centre-me-top">
-                <h5>Explore customer needs - and discover customer insights.</h5>
-                <p>Been a while since you last sent out a user survey? Or interviewed a customer? Just want to do a sanity check on a feature? Or sense-check customer behaviours?</p>
-                <p>Through survey design, user interviews, workshops and/or reviewing existing artefacts - I can help you discover user needs, challenges and pain points and translate them to actionable insights</p>
+                {{ pageSection.fullContent | safe }}
             </div>
         </div>
     </div>
-</section
+</section>
