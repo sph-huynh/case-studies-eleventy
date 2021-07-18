@@ -30,3 +30,4 @@ fields:
 pages:
 - src/_data/design-system.json
 - src/_data/homepage.json
+- src/pages/services.md
