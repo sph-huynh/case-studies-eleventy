@@ -6,6 +6,7 @@ featuredImage: 'uploads/hcd-mockup.png'
 colContent: '<p>Design Thinking<br>'
 fullContent: '<h3>How might we redesign our operational processes to improve the volunteer experience?</h3><p>Collaborative Strategy Design, using Human-Centred Principles</p>'
 comparisonTitle: ''
+caseFeatureFilter: Case
 whatStatement: 'Organisational review to uplift operational efficiency and volunteer experience (VX)'
 featureToggle: true
 galleryRepeat:
@@ -56,7 +57,7 @@ tags:
 - Service Design strategy
 - Customer Experience
 - Employee Experience
-date: '2019-01-02T14:00:00Z'
+dateText: 2019-01-02T00:00:00+11:00
 
 
 ---

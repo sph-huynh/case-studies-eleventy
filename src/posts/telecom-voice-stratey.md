@@ -1,6 +1,5 @@
 ---
 title: Customer Research For An Australian Telecom Call Centre Strategy
-date: '2019-02-02T14:00:00Z'
 tags:
 - Call centre strategy
 - Telecommunications
@@ -9,6 +8,7 @@ tags:
 featuredImage: 'uploads/default.png'
 dateText: 2019-04-02T00:00:00+11:00
 featureToggle: true
+caseFeatureFilter: Case
 whatStatement: 'Interviewing customers, internal stakeholders and mapping out processes in order to redesign the voice authentication service at an Australian Telecoms company.'
 textColTitle: 'How might we redesign a voice strategy to create a better experience for vulnerable customers?'
 componentOrder: true

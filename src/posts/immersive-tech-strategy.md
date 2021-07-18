@@ -1,6 +1,5 @@
 ---
 title: Immersive Learning Technology Strategy For Leading Energy Distributor
-date: '2019-04-02T14:00:00Z'
 tags:
 - Technology strategy
 - Immersive Technology
@@ -9,6 +8,7 @@ tags:
 featuredImage: uploads/default.png
 whatStatement: 'Exploring the use cases and feasibility of AR and VR based training, in order to create a prioritisation framework, implementation strategy and roadmap for a Utilities client.'
 featureToggle: false
+caseFeatureFilter: Case
 dateText: 2019-02-05T00:00:00+11:00
 ctaHeadingTitle: Let's get started
 ctaText: 'Connect with me <a href="https://www.linkedin.com/in/sphhuynh/" title=""

@@ -1,6 +1,6 @@
 ---
 title: Experience evaluation, uplift and optimisation of a recruitment process
-date: '2019-08-02T14:00:00.000+00:00'
+dateText: 2019-08-02T00:00:00+11:00
 tags:
 - Experience Evaluation
 - Customer Experience
@@ -10,6 +10,7 @@ tags:
 - User Interviews
 - Qualitative Research
 featureToggle: false
+caseFeatureFilter: Case
 featuredImage: uploads/default.png
 whatStatement: 'Understanding the current recruitment processes, so we can better optimise the efficiency and provide a better experience.'
 dateText: 2019-08-02T00:00:00+10:00

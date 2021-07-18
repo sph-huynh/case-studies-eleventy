@@ -1,6 +1,6 @@
 ---
 title: Full stack digital experience design
-date: '2020-09-15T14:00:00Z'
+dateText: 2020-09-30T00:00:00+10:00
 tags:
 - Design Thinking
 - UX Design
@@ -12,6 +12,7 @@ tags:
 - JAMSTACK
 componentOrder: true
 featureToggle: true
+caseFeatureFilter: Case
 whatStatement: 'Full-stack digital experience design to streamline the marketing for managers across 40 countries/regions.'
 colImage: ''
 colContent: 'Design Thinking<br>UX Design<br>UX Research<br>Website Development<br>Marketing<br>Figma<br>Forestry CMS<br>JAMSTACK'
@@ -72,7 +73,7 @@ plainRepeat:
     describingTitle: 'Contact Page'
 repeatPlainTextTitle: 'Case Study'
 featuredImage: 'uploads/networks-website-mockup.png'
-dateText: 2020-09-30T00:00:00+10:00
+
 
 
 ---
