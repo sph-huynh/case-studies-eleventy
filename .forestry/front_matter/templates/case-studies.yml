@@ -12,7 +12,7 @@ fields:
   config:
     required: false
   label: What Statement
-- name: featuredimage
+- name: featuredImage
   type: file
   config:
     maxSize: 1
