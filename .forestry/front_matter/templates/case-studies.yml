@@ -60,11 +60,6 @@ fields:
   config: {}
   template: comparison-gallery
   label: Case Feature Images
-- name: caseMetrics
-  type: include
-  config: {}
-  template: metrics
-  label: Case Metrics
 - name: plainCustom
   type: include
   config: {}
