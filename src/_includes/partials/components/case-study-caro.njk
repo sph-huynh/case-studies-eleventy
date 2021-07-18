@@ -1,3 +1,12 @@
+{% if selectedCaseList == 'Case' %}
+    {% set featuredCases = collections.posts %}
+{% elif selectedCaseList == 'Media' %}
+    {% set featuredCases = collections.media %}
+{% else %}
+    {% set featuredCases = collections.posts %}
+{% endif %}
+
+
 <section id="case-study-caro" class="spaced-container">
     {% set colLength = pageSection.caseStudyGalleryTitle | length %}
     {% if colLength > 1 %}
@@ -7,23 +16,38 @@
         </div>
     </div>
     {% endif %}
+    {% if featuredCases.length %}
     <div class="case-study-bot">
         <div class="main-carousel case-caro-content" data-flickity='{ "wrapAround": true, "cellAlign": "left", "contain": true }'>
-            {% for column in pageSection.FeaturedCases %}
-                <div class="gallery-cell carousel-cell" style="background-image: url(/{{ caroImg }})">
-                    <div class="case-caro-desc">
-                        {{ column }}
-                        <h5>{{ column.caseTitle }}</h5>
-                        <p>{{ column | url }}</p>
-                        {% set linkURL = column %}
-                        {% set linkText = 'Finish the story' %}
-                        {% include "partials/components/link.njk" %}
+            {% for item in featuredCases %}
+                {% if pageSection.caseFilter | length !== 0 %}
+                    {% if item.data.featureToggle == true and item.data.caseFeatureFilter == pageSection.caseFilter %}
+                    <div class="gallery-cell carousel-cell" style="background-image: url(/{{ item.data.featuredImage }})">
+                        <div class="case-caro-desc">
+                            <a href="linkURL" class="discreet-link"><h5>{{ item.data.title }}</h5></a>
+                            <p>{{ item.data.whatStatement }}</p>
+                            {% set linkURL = item.url %}
+                            {% set linkText = 'Finish the story' %}
+                            {% include "partials/components/link.njk" %}
+                        </div>
                     </div>
-                </div>
-
+                    {% endif %}
+                {% else %}
+                    {% if item.data.featureToggle == true %}
+                    <div class="gallery-cell carousel-cell" style="background-image: url(/{{ item.data.featuredImage }})">
+                        <div class="case-caro-desc">
+                            <a href="linkURL" class="discreet-link"><h5>{{ item.data.title }}</h5></a>
+                            <p>{{ item.data.whatStatement }}</p>
+                            {% set linkURL = item.url %}
+                            {% set linkText = 'Finish the story' %}
+                            {% include "partials/components/link.njk" %}
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endif %}
             {% endfor %}
         </div>
     </div>
-
+    {% endif %}
 
 </section>

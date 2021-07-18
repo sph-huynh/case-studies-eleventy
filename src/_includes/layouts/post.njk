@@ -2,7 +2,8 @@
 {% set pageType = 'Post' %}
 
 {# Intro content #}
-{% set introHeading = title %}
+{% set headerTitle = title %}
+{% set headerDescription = date | dateFilter %}
 {% set introSummary %}
   {{ content | safe }}
 <p class="[ intro__meta ] [ text-500 leading-tight ]">
@@ -16,13 +17,7 @@
 {% block content %}
   <main id="main-content" tabindex="-1">
       <section class="featurePage">
-          {% include "partials/components/1-text-col.njk" %}
-        {% set headingText = comparisonTitle %}
-        {% include "partials/components/heading.njk" %}
-        {% for pageSection in galleryRepeat %}
-          {% include "partials/components/comparison-gallery.njk" %}
-        {% endfor %}
-
+        {% include "partials/components/1-text-col.njk" %}
         {% for pageSection in plainRepeat %}
           {% if pageSection.template == 'plain-text' %}
             {% include "partials/components/plain.njk" %}            
@@ -31,9 +26,29 @@
           {% if pageSection.template == 'metrics' %}
             {% include "partials/components/metrics.njk" %}            
           {% endif %}
+
+          {% if pageSection.template == 'comparison-gallery' %}
+              {% include "partials/components/comparison-gallery.njk" %}
+          {% endif %}
+
+          {% if pageSection.template == 'image-gallery' %}
+              {% include "partials/components/image-gallery.njk" %}        
+          {% endif %}
+
+          {% if pageSection.template == '1-text-col' %}
+            {% include "partials/components/1-text-col.njk" %}        
+          {% endif %}
+
+          {% if pageSection.template == 'testimonial' %}
+            {% include "partials/components/testimonial.njk" %}     
+          {% endif %}
+
+          {% if pageSection.template == 'full-bleed-image' %}
+            {% include "partials/components/full-bleed-image.njk" %}     
+          {% endif %}
+
         {% endfor %}
 
-        {% include "partials/components/image-gallery.njk" %}
         {% include "partials/global/cta.njk" %}   
       </section>
   </main>

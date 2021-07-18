@@ -16,3 +16,13 @@ fields:
     schema:
       format: html
   label: BodyContent
+- name: embedContent
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Address
+  description: Please copy and paste embed code

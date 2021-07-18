@@ -19,14 +19,12 @@ page_components:
     colHeading: ''
     colDescription: '"Sophia brilliantly worked closely with our Network Managers to understand the nuances in their marketing challenges."<h5>María Cortés Puch</h5>'
 - template: case-study-gallery
-  FeaturedCases:
-  - src/posts/embracing-agile-methodologies.md
-  - src/posts/international-women-s-day-panel-with-fyli-new-york-2021.md
+  caseList: Media
+  caseFilter: Webinar
   caseStudyGalleryTitle: See me talk about things
 - template: case-study-gallery
-  FeaturedCases:
-  - src/posts/channel-10-s-the-project-x-vollie-feature.md
-  - src/posts/vice-chancellor-s-diversity-and-inclusion-awards-2017.md
+  caseList: Media
+  caseFilter: Press
   caseStudyGalleryTitle: See me in the media
 - template: cta
   ctaHeadingTitle: Let’s get started

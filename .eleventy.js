@@ -67,6 +67,20 @@ module.exports = function(config) {
       .slice(0, site.maxPostsPerPage);
   });
 
+  // Custom collections - Testimonial List
+  const testimonialPosts = post => post.date <= now && !post.data.draft;
+  config.addCollection('testimonial', collection => {
+    return [
+      ...collection.getFilteredByGlob('./src/testimonials/*.md').filter(testimonialPosts)
+    ].reverse();
+  });
+
+  config.addCollection('testimonialFeed', collection => {
+    return [...collection.getFilteredByGlob('./src/testimonials/*.md').filter(testimonialPosts)]
+      .reverse()
+      .slice(0, site.maxPostsPerPage);
+  });
+
   // Plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);

@@ -7,14 +7,34 @@ fields:
   config:
     required: false
   label: Title
-
-
+- name: whatStatement
+  type: text
+  config:
+    required: false
+  label: What Statement
 - name: featureimage
   type: file
   config:
     maxSize: 1
   label: Feature Image
-
+- name: featureToggle
+  type: boolean
+  label: Feature Toggle
+- name: caseFeatureFilter
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Webinar
+    - Press
+    - Case
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Case Further Filter
 - name: tags
   type: tag_list
   default: []

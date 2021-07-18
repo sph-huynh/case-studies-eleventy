@@ -7,13 +7,32 @@ fields:
   config:
     required: false
   label: Case Study Gallery Title
-- name: FeaturedCases
-  type: list
+- name: caseList
+  type: select
+  default: []
   config:
-    use_select: true
-    min: 2
-    max: 7
+    required: false
+    options:
+    - Case
+    - Media
     source:
-      type: pages
-      section: feature
-  label: Featured Case Study
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Case List Type
+- name: caseFilter
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Webinar
+    - Press
+    - Case
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Case Further Filter

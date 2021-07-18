@@ -1,3 +1,5 @@
+
+
 <section id="1-col-text" class="spaced-container">
     <div class="col-wrapper">
         <div class="col-3quart">
@@ -13,16 +15,17 @@
             {% if pageSection.colImage | length !== 0 %}
             <div class="col-top">
                 <div class="col-content centre-me-top">
-                    <img src="{% if pageSection.colImage | first !== '/' %}/{% endif %}{{ pageSection.colImage }}" class="icon-circle" />
+                    <img src="{% if pageSection.colImage | length == 0 %}{% elif pageSection.colImage | first !== '/' %}/{% endif %}{{ pageSection.colImage }}" class="icon-circle" />
                 </div>
             </div>
             {% elif colImage | length !== 0 %}
                 <div class="col-top">
                     <div class="col-content centre-me-top">
-                        <img src="{% if colImage | first !== '/' %}/{% endif %}{{ colImage }}" class="icon-circle" />
+                        <img src="{% if colImage | length == 0 %}{% elif colImage | first !== '/' %}/{% endif %}{{ colImage }}" class="icon-circle" />
                     </div>
                 </div>
             {% endif %}
+            {% if pageSection.textColTitle | length !== 0 or textColTitle | length !== 0 %}
             <div class="col-mid">
                 <div class="col-content">
                     {% if pageSection.textColTitle | length !== 0 %}
@@ -32,6 +35,8 @@
                     {% endif %}
                 </div>
             </div>
+            {% endif %}
+            {% if pageSection.colContent | length !== 0 or colContent | length !== 0 %}
             <div class="col-bot">
                 <div class="col-content">
                     {% if pageSection.colContent | length !== 0 %}
@@ -41,6 +46,7 @@
                     {% endif %}
                 </div>
             </div>
+            {% endif %}
         </div>
     </div>
 </section>

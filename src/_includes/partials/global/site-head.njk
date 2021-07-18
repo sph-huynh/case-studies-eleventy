@@ -23,7 +23,7 @@
         {% if featureImage | length !== 0 %}
         <div class="head-headline col-35 centre-me-top breath-left-50">
           <div class="homepage-landing-r-img centre-me-top wobble-hor-bottom con-animate">
-              <img src="/images/me.jpg" class="header-circle-img" />
+              <img src="{% if column.colImg | length == 0 %}{% elif column.colImg | first !== '/' %}/{% endif %}{{ featureImage }}" class="header-circle-img" />
                   <div class="confetti"></div>
                   <div class="confetti"></div>
                   <div class="confetti"></div>
