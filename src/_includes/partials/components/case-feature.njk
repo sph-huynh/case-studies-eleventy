@@ -15,9 +15,9 @@
                     <div class="case-caro-content">
                             <div class="case-feature-cell featured" style="background-image: url(/{{ item.data.featuredImage }})">
                                 <div class="case-caro-desc featured">
-                                    <a href="linkURL" class="discreet-link"><h5>{{ item.data.title }}</h5></a>
-                                    <p>{{ item.data.whatStatement }}</p>
                                     {% set linkURL = item.url %}
+                                    <a href="{{linkURL}}" class="discreet-link"><h5>{{ item.data.title }}</h5></a>
+                                    <p>{{ item.data.whatStatement }}</p>
                                     {% set linkText = 'Finish the story' %}
                                     {% include "partials/components/link.njk" %}
                                     </div>

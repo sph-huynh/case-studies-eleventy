@@ -5,7 +5,7 @@
         </div>
     </div>
     <div class="case-study-bot">
-        <div class="main-carousel case-caro-content" data-flickity='{ "wrapAround": true, "cellAlign": "left", "contain": true }'>
+        <div class="main-carousel case-caro-content shorter-caro" data-flickity='{ "wrapAround": true, "cellAlign": "left", "contain": true }'>
             {% for pageSection in imagesList %}
                 <div class="gallery-cell carousel-cell image-gallery" style="background-image: url(/{{ pageSection.galleryImage }})">
                     {% if pageSection.describingTitle | length !== 0 or pageSection.description | length !== 0 %}

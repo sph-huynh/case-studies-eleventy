@@ -12,6 +12,9 @@ https://flickity.metafizzy.co
   overflow: hidden;
   position: relative;
   height: 100%;
+}
+
+.longer-caro .flickity-viewport {
   min-height: 400px;
 }
 

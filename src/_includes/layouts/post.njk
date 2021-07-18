@@ -3,12 +3,12 @@
 
 {# Intro content #}
 {% set headerTitle = title %}
-{% set headerDescription = date | dateFilter %}
+{% set headerDescription = dateText | dateFilter %}
 {% set introSummary %}
   {{ content | safe }}
 <p class="[ intro__meta ] [ text-500 leading-tight ]">
   {% if date %}
-    <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
+    <time datetime="{{ dateText | w3DateFilter }}" class="dt-published">{{ dateText | dateFilter }}</time>
   {% endif %}
   <span>— {{ helpers.getReadingTime(content) }} minute read</span>
 </p>

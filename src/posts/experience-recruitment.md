@@ -13,7 +13,6 @@ featureToggle: false
 caseFeatureFilter: Case
 featuredImage: uploads/default.png
 whatStatement: 'Understanding the current recruitment processes, so we can better optimise the efficiency and provide a better experience.'
-dateText: 2019-08-02T00:00:00+10:00
 textColTitle: How might we make it easier for teams to find suitable candidates?
 componentOrder: true
 colImage: ''

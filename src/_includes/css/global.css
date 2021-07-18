@@ -266,7 +266,7 @@ section, .breath-top {
 
 .collapse-height {
     height: auto;
-    min-height: none;
+    min-height: 0;
 }
 
 .col-top {
@@ -283,6 +283,11 @@ section, .breath-top {
 .col-bot {
     min-height: 180px;
     height: auto;
+}
+
+#metrics .col-bot, #metrics .col-mid, #metrics .col-top, #one-col-text .col-bot, #one-col-text .col-mid, #one-col-text .col-top {
+    height: auto;
+    min-height: 0;
 }
 
 .col-ful-img {
@@ -309,7 +314,7 @@ img.full-img.comparison-img-cropped {
     height: auto;
 }
 
-#1-col-text .col-content {
+#one-col-text .col-content {
     margin-right: 4%;
 }
 
@@ -689,6 +694,11 @@ nav .nav_list .nav-link.nav-item:last-of-type {
         width: 48%;
     }
 
+    .case-caro-desc {
+        width: 80%;
+    }
+    
+
 }
 
 /* Responsiveness Tablets */
@@ -730,6 +740,10 @@ nav .nav_list .nav-link.nav-item:last-of-type {
 
     .header-bot-bg {
         right: 0%;
+    }
+
+    .case-caro-desc {
+        width: 90%;
     }
 }
 
