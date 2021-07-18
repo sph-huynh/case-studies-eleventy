@@ -23,6 +23,7 @@ fields:
   - metrics
   - image-gallery
   - mid-header
+  - full-bleed-image
   config:
     min: 
     max: 
