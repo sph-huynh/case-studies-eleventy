@@ -29,6 +29,12 @@ page_components:
       I flourish in a team culture that prioritises 80/20, autonomy, and continuous learning.
       I’ve got my eye out on roles that allow me to shape and deliver change in the org / for customers
   colTitle: Let's make sure we're right for each other
+- template: testimonial-gallery
+  testimonialGalleryTitle: "Examples of how I can contribute to your business \U0001F4AA"
+  testimonialDescription: Here are some responsibilities I’ve worked towards in the
+    past
+  testGallery:
+  - src/testimonials/christina.md
 - template: cta
   ctaHeadingTitle: Let's meet!
   ctaText: Connect with me on <a href="https://www.linkedin.com/in/sphhuynh/" title=""
