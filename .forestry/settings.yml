@@ -42,6 +42,13 @@ sections:
   templates:
   - testimonial
 - type: directory
+  path: src/deliverables
+  label: Deliverables
+  create: all
+  match: "**/*"
+  templates:
+  - testimonial
+- type: directory
   path: src/publications
   label: Publications
   create: documents
