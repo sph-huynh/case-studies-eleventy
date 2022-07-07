@@ -1,0 +1,24 @@
+---
+label: Deliverables
+hide_body: true
+fields:
+- name: testimonialTitle
+  type: text
+  config:
+    required: false
+  label: Testimonial Title
+- name: personPosition
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Quote
+- name: personName
+  type: text
+  config:
+    required: false
+  label: Person Name
+pages:
