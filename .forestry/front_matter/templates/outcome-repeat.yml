@@ -1,4 +1,53 @@
 ---
 label: Outcome Repeat
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: outcome_repeat
+  type: field_group_list
+  fields:
+  - name: ouctome
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Ouctome
+  - name: delivered
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Delivered
+  - name: skills_and_tools
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Skills and tools
+  - name: fun_stuff
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Fun stuff
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Outcome Repeat
