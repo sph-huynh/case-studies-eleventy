@@ -1,0 +1,24 @@
+---
+label: Deliverable Gallery
+hide_body: true
+fields:
+- name: testimonialGalleryTitle
+  type: text
+  config:
+    required: false
+  label: Title
+- name: testimonialDescription
+  type: text
+  config:
+    required: false
+  label: Description
+- name: testGallery
+  type: list
+  config:
+    use_select: true
+    min: 1
+    max: 
+    source:
+      type: pages
+      section: testimonials
+  label: Testimonial Gallery
