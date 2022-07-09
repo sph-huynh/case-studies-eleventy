@@ -37,9 +37,10 @@ page_components:
     past
   testGallery:
   - src/testimonials/christina.md
-  deliverableGalleryTitle: 'Here are example outcomes I’ve worked on ✍️'
-  deliverableDescription: ""
+  deliverableGalleryTitle: Here are example outcomes I’ve worked on ✍️
+  deliverableDescription: Responsibilities I’ve worked towards in the past
   deliGallery:
+  - src/deliverables/API-Bank.md
   - src/deliverables/GC-Youth.md
 - template: cta
   ctaHeadingTitle: Let's meet!
