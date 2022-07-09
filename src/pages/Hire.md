@@ -37,9 +37,10 @@ page_components:
     past
   testGallery:
   - src/testimonials/christina.md
-  deliverableGalleryTitle: ''
+  deliverableGalleryTitle: 'Here are example outcomes I’ve worked on: ✍️'
   deliverableDescription: ''
-  deliGallery: []
+  deliGallery:
+  - src/deliverables/GC-Youth.md
 - template: cta
   ctaHeadingTitle: Let's meet!
   ctaText: Connect with me on <a href="https://www.linkedin.com/in/sphhuynh/" title=""
