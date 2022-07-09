@@ -32,5 +32,4 @@ fields:
     required: false
   label: Person Company
 pages:
-- src/deliverables/GC Youth.md
 - src/testimonials/a-maria-s-testimonials.md

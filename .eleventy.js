@@ -81,6 +81,20 @@ module.exports = function(config) {
       .slice(0, site.maxPostsPerPage);
   });
 
+  // Custom collections - deliverables List
+  const deliverablePosts = post => post.date <= now && !post.data.draft;
+  config.addCollection('deliverable', collection => {
+    return [
+      ...collection.getFilteredByGlob('./src/deliverables/*.md').filter(deliverablePosts)
+    ].reverse();
+  });
+
+  config.addCollection('deliverableFeed', collection => {
+    return [...collection.getFilteredByGlob('./src/deliverables/*.md').filter(deliverablePosts)]
+      .reverse()
+      .slice(0, site.maxPostsPerPage);
+  });
+
   // Plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);

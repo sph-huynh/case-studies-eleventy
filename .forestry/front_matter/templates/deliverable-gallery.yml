@@ -2,17 +2,17 @@
 label: Deliverable Gallery
 hide_body: true
 fields:
-- name: testimonialGalleryTitle
+- name: deliverableGalleryTitle
   type: text
   config:
     required: false
   label: Title
-- name: testimonialDescription
+- name: deliverableDescription
   type: text
   config:
     required: false
   label: Description
-- name: testGallery
+- name: deliGallery
   type: list
   config:
     use_select: true
@@ -20,5 +20,5 @@ fields:
     max: 
     source:
       type: pages
-      section: testimonials
+      section: deliverables
   label: Testimonial Gallery

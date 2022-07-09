@@ -2,12 +2,12 @@
 label: Deliverables
 hide_body: true
 fields:
-- name: testimonialTitle
+- name: deliverableTitle
   type: text
   config:
     required: false
-  label: Testimonial Title
-- name: personPosition
+  label: Deliverable Title
+- name: deliverableOutcome
   type: textarea
   default: ''
   config:
@@ -15,10 +15,33 @@ fields:
     wysiwyg: true
     schema:
       format: html
-  label: Quote
-- name: personName
-  type: text
+  label: Deliverable Outcome
+- name: deliverableOutputs
+  type: textarea
+  default: ''
   config:
     required: false
-  label: Person Name
+    wysiwyg: true
+    schema:
+      format: html
+  label: Deliverable Outputs
+- name: deliverableSkills
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Deliverable Skills
+- name: deliverableFun
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Deliverable Fun
 pages:
+- src/deliverables/GC Youth.md

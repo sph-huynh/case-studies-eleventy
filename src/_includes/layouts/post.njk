@@ -43,6 +43,10 @@
             {% include "partials/components/testimonial.njk" %}     
           {% endif %}
 
+          {% if pageSection.template == 'deliverables' %}
+            {% include "partials/components/deliverables.njk" %}     
+          {% endif %}
+
           {% if pageSection.template == 'full-bleed-image' %}
             {% include "partials/components/full-bleed-image.njk" %}     
           {% endif %}
