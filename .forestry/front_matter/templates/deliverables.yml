@@ -45,3 +45,4 @@ fields:
   label: Deliverable Fun
 pages:
 - src/deliverables/API-Bank.md
+- src/deliverables/GC-Youth.md
