@@ -43,3 +43,5 @@ fields:
     schema:
       format: html-blocks
   label: Deliverable Fun
+pages:
+- src/deliverables/API-Bank.md
