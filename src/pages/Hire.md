@@ -1,10 +1,11 @@
 ---
-genPageTitle: Hire
+layout: customPage
+title: Hire
+permalink: hire/
+headerTitle: The all-rounder you never knew you needed.
+headerDescription: 
+featureImage: '/images/me.jpg'
 page_components:
-- template: header
-  headerTitle: The all-rounder you never knew you needed.
-  description: ''
-  featureImage: ''
 - template: plain-text
   bodyContent: My name is Sophia Huynh. I’m an all-rounder - educated as a software
     developer; trained my chops in digital strategy &amp; transformation consulting;
@@ -29,7 +30,7 @@ page_components:
       I flourish in a team culture that prioritises 80/20, autonomy, and continuous learning.
       I’ve got my eye out on roles that allow me to shape and deliver change in the org / for customers
   colTitle: Let's make sure we're right for each other
-- template: testimonial-gallery
+- template: deliverable-gallery
   testimonialGalleryTitle: "Examples of how I can contribute to your business \U0001F4AA"
   testimonialDescription: Here are some responsibilities I’ve worked towards in the
     past
