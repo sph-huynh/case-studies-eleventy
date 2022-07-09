@@ -43,5 +43,3 @@ fields:
     schema:
       format: html
   label: Deliverable Fun
-pages:
-- src/deliverables/GC Youth.md
