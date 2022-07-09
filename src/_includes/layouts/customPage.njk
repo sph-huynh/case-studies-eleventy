@@ -21,6 +21,9 @@
         {% if pageSection.template == 'testimonial-gallery' %}
             {% include "partials/components/testimonials.njk" %}            
         {% endif %}
+        {% if pageSection.template == 'deliverable-gallery' %}
+            {% include "partials/components/deliverables.njk" %}            
+        {% endif %}
         {% if pageSection.template == 'cta' %}
             {% include "partials/global/cta.njk" %}            
         {% endif %}

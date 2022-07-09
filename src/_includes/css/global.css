@@ -258,6 +258,8 @@ section, .breath-top {
 /* Columns */
 .col-wrapper {
     display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .col-wrapper .col, .col-mid, .col-bot {
@@ -306,7 +308,7 @@ img.full-img.comparison-img-cropped {
 
 .col-item {
     display: inline-block;
-    align-self: center;
+    align-self: stretch;
     border-radius: 3px;
     margin-right: 2%;
     padding: 3% 2%;
