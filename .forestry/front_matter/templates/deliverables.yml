@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: Deliverable Title
+- name: deliverableOutcomeTitle
+  type: text
+  config:
+    required: false
+  label: Deliverable Outcome Title
 - name: deliverableOutcome
   type: textarea
   default: ''
@@ -16,6 +21,12 @@ fields:
     schema:
       format: html-blocks
   label: Deliverable Outcome
+- name: deliverableOutputsTitle
+  type: text
+  config:
+    required: false
+  label: Deliverable Outputs Title
+  default: Drove the delivery of...
 - name: deliverableOutputs
   type: textarea
   default: ''
@@ -25,6 +36,12 @@ fields:
     schema:
       format: html-blocks
   label: Deliverable Outputs
+- name: deliverableSkillsTitle
+  type: text
+  config:
+    required: false
+  label: Deliverable Skills Title
+  default: Utilising my skills in
 - name: deliverableSkills
   type: textarea
   default: ''
@@ -34,15 +51,6 @@ fields:
     schema:
       format: html-blocks
   label: Deliverable Skills
-- name: deliverableFun
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: Deliverable Fun
 pages:
 - src/deliverables/API-Bank.md
 - src/deliverables/GC-Youth.md
