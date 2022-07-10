@@ -13,16 +13,15 @@
             {% for story in deliverableStory %}
                 <div class="quote-cell carousel-cell col-yellow">
                     <div class="quote-cell-top">
-                        <h5>{{ story.data.deliverableOutcome }}</h5>
+                        <b>{{ story.data.deliverableOutcomeTitle | safe }}</b>
+                        <p>{{ story.data.deliverableOutcome | safe }}</p>
                     </div>
                     <div class="quote-cell-bot">
-                        <p>by delivering...</p>
+                        <b>{{ story.data.deliverableOutputsTitle | safe }}</b> 
                         <p>{{ story.data.deliverableOutputs | safe }}</p> 
                         </br>
-                        <ul>
-                            <li><p>{{ story.data.deliverableSkills }}</p></li>
-                        </ul>
-                        <p>{{ story.data.deliverableFun | safe }}</p> 
+                        <b>{{ story.data.deliverableSkillsTitle | safe }}</b>
+                        <p>{{ story.data.deliverableSkills | safe }}</p>
                     </div>
                 </div>
 
