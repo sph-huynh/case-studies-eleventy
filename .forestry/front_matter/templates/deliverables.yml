@@ -26,6 +26,7 @@ fields:
   config:
     required: false
   label: Deliverable Outputs Title
+  default: Drove the delivery of...
 - name: deliverableOutputs
   type: textarea
   default: ''
@@ -40,6 +41,7 @@ fields:
   config:
     required: false
   label: Deliverable Skills Title
+  default: Utilising my skills in
 - name: deliverableSkills
   type: textarea
   default: ''
