@@ -7,10 +7,9 @@ headerDescription:
 featureImage: "/images/me.jpg"
 page_components:
 - template: plain-text
-  bodyContent: My name is Sophia Huynh. I’m an all-rounder - educated as a software
-    developer; trained my chops in digital strategy &amp; transformation consulting;
-    did some soul-searching freelancing in user research, narrative and design projects;
-    and now work in management consulting. <br>
+  bodyContent: G'day. My name is Sophia. I am the all-rounder you never knew you needed
+    - with experience across internal operations, customer experience, business strategy,
+    and software development - I thrive in roles that require wearing multiple hats.
   plainTextTitle: "Who are you?? \U0001F914"
   embedContent: ''
 - template: columns-block
