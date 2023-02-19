@@ -4,8 +4,9 @@
     {
       "template": "header",
       "title": "The all-rounder you never knew you needed.",
-      "description": "Need a strategy analyst who understands tech-speak? Or an Experience Designer who understands business? <br><br>Let’s chat today.",
-      "featureImage": ""
+      "description": "Let’s chat!",
+      "featureImage": "",
+      "headerTitle": ""
     },
     {
       "template": "columns-block",
@@ -14,24 +15,25 @@
         {
           "colImg": "",
           "colHeading": "Customer Research & Insights",
-          "colDescription": "I can help you identify user needs and challenges - and translate them to actionable insights"
+          "colDescription": "<p>Speaking to 5 customers a day feeling a bit distant now? I can help you maintain customer engagement - to understand their behaviours and challenge and translate them into actionable insights</p>"
         },
         {
           "colImg": "",
-          "colHeading": "Service Design",
-          "colDescription": "Taking a holistic view of your customer touch points, processes and operations - I can help you identify recommendations to create more enjoyable experiences for your customers."
+          "colHeading": "Internal operations",
+          "colDescription": "<p>Are you at the crossroads...of needing defined processes but wanting the speed of having none? I love organisation, but also a strong affection for efficiency - so I can help you build just enough structure to gain consistency, but not too much to hinder agility</p>"
         },
         {
           "colImg": "",
-          "colHeading": "Messaging and Marketing",
-          "colDescription": "Just need some extra capacity to execute marketing stuff? Can do! I can help you e.g. pump out MVP graphics (visual), write blog content (words), campaign management (pm), customer personas (ux), market research (strategy)."
+          "colHeading": "Product but fluent in tech",
+          "colDescription": "<p>Product vision clear as day - but technical architecture not as much? I am a software developer by trade, who works in business  - providing you with a bridge between commerce and code </p>"
         },
         {
           "colImg": "",
           "colHeading": "Something else?",
           "colDescription": "Need help on a combination of things? Need skills that you don’t see on this doc? \n\nGet in touch, and let’s discuss how we can work together."
         }
-      ]
+      ],
+      "colTitle": ""
     },
     {
       "template": "case-study-gallery",
@@ -40,7 +42,10 @@
         "src/posts/telecom-voice-stratey.md",
         "src/posts/hcd-strategy.md",
         "src/posts/end-end-digital-comms.md"
-      ]
+      ],
+      "caseStudyGalleryTitle": "",
+      "caseList": "",
+      "caseFilter": ""
     },
     {
       "template": "testimonial-gallery",
@@ -48,14 +53,18 @@
       "description": "See what past team members and clients say.",
       "testGallery": [
         "src/testimonials/maria-s-testimonials.md"
-      ]
+      ],
+      "testimonialGalleryTitle": "",
+      "testimonialDescription": ""
     },
     {
       "template": "cta",
       "title": "Let’s get started",
       "ctaDescription": "Connect with me on LinkedIn.",
       "bgcolor": false,
-      "ctaText": "Connect with me on <a href=\"https://www.linkedin.com/in/sphhuynh/\" title=\"\" target=\"_blank\">LinkedIn</a>."
+      "ctaText": "Connect with me on <a href=\"https://www.linkedin.com/in/sphhuynh/\" title=\"\" target=\"_blank\">LinkedIn</a>.",
+      "ctaHeadingTitle": ""
     }
-  ]
+  ],
+  "genPageTitle": "Home"
 }
