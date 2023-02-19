@@ -6,7 +6,7 @@ headerDescription: ''
 featureImage: 'images/me.jpg'
 page_components:
 - template: 4-col
-  4colpageTitle: 'Let's work together'
+  4colpageTitle: "Let's work together"
   4colLoop:
   - 4colTitle: "Customer Research & Insights"
     4colDesc: "<strong>The thought of speaking to 5 customers a day feeling a bit distant now?</strong><br><br>I can help you maintain customer engagement - to understand their behaviours and challenge and translate them into actionable insights<br>"

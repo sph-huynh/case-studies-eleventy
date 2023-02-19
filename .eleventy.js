@@ -32,7 +32,6 @@ module.exports = function(config) {
   config.addPassthroughCopy('src/images');
   config.addPassthroughCopy('src/uploads');
   config.addPassthroughCopy('src/js');
-  config.addPassthroughCopy('src/portfolio.pdf');
   config.addPassthroughCopy('src/admin/config.yml');
   config.addPassthroughCopy('src/admin/previews.js');
   config.addPassthroughCopy('node_modules/nunjucks/browser/nunjucks-slim.js');
