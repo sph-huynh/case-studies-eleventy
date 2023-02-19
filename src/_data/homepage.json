@@ -9,31 +9,36 @@
       "headerTitle": "The all-rounder you never knew you needed."
     },
     {
-      "template": "columns-block",
-      "title": "How can I help you?",
-      "columnContent": [
-        {
-          "colImg": "",
-          "colHeading": "Customer Research & Insights",
-          "colDescription": "<p>Speaking to 5 customers a day feeling a bit distant now? I can help you maintain customer engagement - to understand their behaviours and challenge and translate them into actionable insights</p>"
-        },
-        {
-          "colImg": "",
-          "colHeading": "Internal operations",
-          "colDescription": "<p>Are you at the crossroads...of needing defined processes but wanting the speed of having none? I love organisation, but also a strong affection for efficiency - so I can help you build just enough structure to gain consistency, but not too much to hinder agility</p>"
-        },
-        {
-          "colImg": "",
-          "colHeading": "Product but fluent in tech",
-          "colDescription": "<p>Product vision clear as day - but technical architecture not as much? I am a software developer by trade, who works in business  - providing you with a bridge between commerce and code </p>"
-        },
-        {
-          "colImg": "",
-          "colHeading": "Something else?",
-          "colDescription": "Need help on a combination of things? Need skills that you don’t see on this doc? \n\nGet in touch, and let’s discuss how we can work together."
-        }
-      ],
-      "colTitle": ""
+      "template": "1-text-col",
+      "textColTitle": "Customer Research & Insights",
+      "fullContent": "<strong>The idea of speaking to 5 customers a day feeling a bit distant now? </strong><br><br>I can help you maintain customer engagement - to understand their behaviours and challenge and translate them into actionable insights",
+      "componentOrder": false,
+      "colImage": "",
+      "colContent": ""
+    },
+    {
+      "template": "1-text-col",
+      "textColTitle": "Scalable operations",
+      "fullContent": "<strong>Are you at the crossroads...of needing defined processes but wanting the speed of having none? </strong><br><br>I love organisation, but also a strong affection for efficiency - so I can help you build just enough structure to gain consistency, but not too much to hinder agility",
+      "componentOrder": false,
+      "colImage": "",
+      "colContent": ""
+    },
+    {
+      "template": "1-text-col",
+      "textColTitle": "Product but fluent in tech",
+      "fullContent": "<strong>Product vision clear as day - but technical architecture not as much? </strong><br><br>I am a software developer by trade, who works in business - providing you with a bridge between commerce and code",
+      "componentOrder": false,
+      "colImage": "",
+      "colContent": ""
+    },
+    {
+      "template": "1-text-col",
+      "textColTitle": "Something else?",
+      "fullContent": "Need help on a combination of things? Need skills that you don’t see on this doc? Get in touch, and let’s discuss how we can work together.",
+      "componentOrder": false,
+      "colImage": "",
+      "colContent": ""
     },
     {
       "template": "case-study-gallery",
