@@ -9,6 +9,13 @@
       "headerTitle": "The all-rounder you never knew you needed."
     },
     {
+      "template": "4-col",
+      "4colpageTitle": "",
+      "4colLoop": [
+
+      ]
+    },
+    {
       "template": "1-text-col",
       "textColTitle": "Customer Research & Insights",
       "fullContent": "<strong>The idea of speaking to 5 customers a day feeling a bit distant now? </strong><br><br>I can help you maintain customer engagement - to understand their behaviours and challenge and translate them into actionable insights",

@@ -25,4 +25,3 @@ fields:
     max: 
     labelField: metricDescription
   label: Metric Loop
-  
