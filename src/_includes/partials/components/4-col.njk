@@ -1,0 +1,20 @@
+<section id="wrapper spaced">
+<section id="metrics" class="spaced-90 col-cream">
+    <div class="col-wrapper">
+        {% for column in pageSection.4colLoop %}
+            <div class="col-item col-{{ pageSection.4colLoop | length }}">
+                <div class="col-top">
+                    <div class="col-content centre-me-top">
+                        <h2>{{ column.4colTitle }}</h2>
+                    </div>
+                </div>
+                <div class="col-bot">
+                    <div class="col-content">
+                        <p>{{ column.4colDesc }}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+</section>

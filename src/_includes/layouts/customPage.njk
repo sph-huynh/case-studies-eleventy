@@ -47,6 +47,9 @@
         {% if pageSection.template == 'metrics' %}
             {% include "partials/components/metrics.njk" %}            
         {% endif %}
+        {% if pageSection.template == '4-col' %}
+            {% include "partials/components/4-col.njk" %}            
+        {% endif %}
         {% if pageSection.template == 'image-gallery' %}
             {% include "partials/components/image-gallery.njk" %}            
         {% endif %}

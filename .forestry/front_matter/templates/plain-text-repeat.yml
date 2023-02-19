@@ -14,6 +14,7 @@ fields:
   template_types:
   - plain-text
   - metrics
+  - 4-col
   - comparison-gallery
   - image-gallery
   - 1-text-col
