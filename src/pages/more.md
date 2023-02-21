@@ -28,11 +28,11 @@ page_components:
 <li><b>Values integrity</b> and honesty towards feedback, ways of working and achieving impact</li></ul>'
 - template: plain-text
   plainTextTitle: '..jack of all trades, but master of none?'
-  bodyContent: "My skillsets are actually a lot more related than you'd think<br><br><ul>
-<li><b>Design, Operations, and Software</b> - all enhanced when created with modularity, scalability and sustainability in mind</li>
-<li><b>Product, Strategy</b> - both benefit from intuition, anchored in facts</li>
-<li><b>Customer Experience, and Communications</b> - both can be distilled into actions or messaging crafted for a specific audience's needs and challenges</li>
-</ul><br><br>...and together you find the all-rounder you never knew you needed
+  bodyContent: "My skillsets are actually a lot more related than you'd think 🤔<br><br><ul>
+<li><b>UI Design and Org Operations</b> - both are enhanced when created with modular and scalable principles from <b>Software Development / Architecture</b></li>
+<li><b>Product</b>, much like <b>Strategy</b> benefits from decision-making with intuition anchored in facts</li>
+<li><b>UX, Narratives, Copy, and Communications</b> - are all similar to <b>Experience Design</b> in crafting actions / features / messaging for a specific audience, surfacing the right answer to their needs and challenges</li>
+</ul>
 "
 - template: plain-text
   plainTextTitle: 'Is it Sophia or Sophie?'
