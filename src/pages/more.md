@@ -26,7 +26,9 @@ page_components:
 <li><b>Autonomy and clear ownership</b> - a team that works together, not delegate to each other</li>
 <li><b>Nutures people</b> - a team that wants to and enables each other to enjoy working on their vision</li>
 <li><b>Values integrity</b> and honesty towards feedback, ways of working and achieving impact</li></ul>'
-
+- template: plain-text
+  plainTextTitle: 'Is it Sophia or Sophie?'
+  bodyContent: "Unfortunately the TLD .ia doesn't exist, so it's Sophia with the Soph.ee website 🥲"
 - template: cta
   ctaHeadingTitle: Let’s get started
   ctaText: Connect with me on <a href="https://www.linkedin.com/in/sphhuynh/" title=""
