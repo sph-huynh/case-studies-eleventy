@@ -23,6 +23,7 @@ fields:
   - feature-content
   - metrics
   - 4-col
+  - period-table
   - image-gallery
   - mid-header
   - full-bleed-image

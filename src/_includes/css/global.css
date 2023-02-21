@@ -80,6 +80,17 @@ p {
     font-size: 18px;
 }
 
+p.busy-text, li.busy-text, .busy-text > * {
+    color: #4e4e4e;
+}
+
+.txt-base {
+    color: #3e3e3e;
+}
+
+.pb-0 {
+    padding-bottom: 0;
+}
 
 
 /* Colours */
@@ -97,24 +108,48 @@ p {
     background-color: var(--cream-grey);
 }
 
+.txt-cream-grey {
+    color:var(--cream-grey);
+}
+
 .col-purple {
     background-color: var(--purple);
+}
+
+.txt-purple {
+    color:var(--purple);
 }
 
 .col-dark-blue {
     background-color: var(--dark-blue);
 }
 
+.txt-dark-blue {
+    color:var(--dark-blue);
+}
+
 .col-cream {
     background-color: var(--cream);
+}
+
+.txt-cream {
+    color:var(--cream);
 }
 
 .col-yellow {
     background-color: var(--yellow);
 }
 
+.txt-yellow {
+    color:var(--yellow);
+}
+
 .col-green {
     background-color: var(--green);
+}
+
+.txt-green {
+    color:var(--green);
 }
 
 /* Links */
@@ -211,6 +246,10 @@ section, .breath-top {
     width: 100%;
 }
 
+.col-flex {
+    display: inline-flex;
+}
+
 .col .col-20 {
     width: 20%;
 }
@@ -219,11 +258,11 @@ section, .breath-top {
     width: 79%;
 }
 
-.col .col-35 {
+.col .col-35, .col-35 {
     width: 35%;
 }
 
-.col .col-65 {
+.col .col-65, .col-65 {
     width: 64%;
 }
 
@@ -434,6 +473,26 @@ img.full-img.comparison-img-cropped {
     left: 10px;
 }
 
+.full-block-caro {
+    background-color: var(--white);
+    padding: 30px 20px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.full-block-caro > ul {
+    margin-block-start: 0.5em !important;
+    padding-inline-start: 20px;
+}
+
+.full-block-caro > ul > li {
+    margin-bottom: 7px;
+}
+
+.gallery-cell.full-cell {
+    width: 50% !important;
+    height: 300px;
+}
 
 .carousel-cell.is-selected .case-caro-desc {
     display: block;
@@ -465,6 +524,23 @@ img.full-img.comparison-img-cropped {
     width: 60%;
 }
 
+@media only screen and (max-width: 1100px) {
+    .gallery-cell.full-cell {
+        width: 70% !important;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .gallery-cell.full-cell {
+        width: 100% !important;
+        height: auto;
+    }
+}
+
+/* Period Table */
+
 
 /* CTA */
 .cta-container {
@@ -476,7 +552,7 @@ img.full-img.comparison-img-cropped {
     background-color: var(--cream);
 }
 
-.bg-color-false {
+.bg-color-false, .bg-white {
     background-color: white;
 }
 

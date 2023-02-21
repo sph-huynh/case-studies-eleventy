@@ -1,26 +1,21 @@
 ---
-label: 4 Col Page
+label: Period Table
 hide_body: true
 fields:
-- name: 4colpageTitle
+- name: periodTitle
   type: text
   config:
     required: false
-  label: 4 Col Page Title
-- name: 4colLoop
+  label: Period Table Page Title
+- name: perLoop
   type: field_group_list
   fields:
-  - name: 4colAbrv
+  - name: perTitle
     type: text
     config:
       required: false
-    label: 4 col Abrv
-  - name: 4colTitle
-    type: text
-    config:
-      required: false
-    label: 4 col title
-  - name: 4colDesc
+    label: Table Category
+  - name: perDesc
     type: textarea
     default: ''
     config:
@@ -31,5 +26,5 @@ fields:
   config:
     min: 
     max: 
-    labelField: 4coldescription
-  label: 4 col desc
+    labelField: perDescription
+  label: Period Table  desc

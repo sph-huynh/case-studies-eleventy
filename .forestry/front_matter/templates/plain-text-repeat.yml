@@ -15,6 +15,7 @@ fields:
   - plain-text
   - metrics
   - 4-col
+  - period-table
   - comparison-gallery
   - image-gallery
   - 1-text-col

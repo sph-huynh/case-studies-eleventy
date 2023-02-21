@@ -1,0 +1,21 @@
+<section id="wrapper spaced" class="">
+    <section id="case-study-caro" class="spaced-container">
+        <div class="case-study-top">
+            <div class="heading-inline-wrapper">
+                <h3>{{ pageSection.periodTitle }}</h3>
+            </div>
+        </div>
+        <div class="case-study-bot">
+            <div class="main-carousel case-caro-content longer-caro" data-flickity='{ "wrapAround": true, "cellAlign": "left", "contain": true }'>
+                {% for item in pageSection.perLoop %}
+                        <div class="gallery-cell full-cell carousel-cell" style="col-cream">
+                            <div class="full-block-caro busy-text">
+                                <h5 class="txt-base"">{{ item.perTitle }}</h5>
+                                <p class="busy-text">{{ item.perDesc | safe }}</p>
+                            </div>
+                        </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</section>
