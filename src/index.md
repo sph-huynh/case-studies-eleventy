@@ -21,6 +21,7 @@ page_components:
     perDesc: "<ul>
   <li><b>Customer segment and market research, brand and comms</b> for a Startmate-backed DeepTech startup</li>
   <li><b>5-year impact strategy for global non-profit</b> - with early results for internal OKRs achieving 2x increase in CSAT metrics within 4 months</li>
+  <li><b>People retention strategy and professional development program - focusing on the client's technical talent</b></li>
 </ul>"
   - perTitle: Customer Experience
     perDesc: "<ul>
@@ -38,14 +39,19 @@ page_components:
     perDesc: "<ul>
   <li><b>Built a recruitment process</b> - increasing hire rate by 24% compared to initial ad hoc structure</li>
   <li><b>Established the global operations and regional networks teams</b> to bring structure and consistency to volunteer experience, recruitment, budgeting, and impact assessment</li>
+  <li><b>Managed onboarding and administrative functions</b> for online communities of 2000</li>
 </ul>"
   - perTitle: Design
     perDesc: "<ul>
   <li><b>Visual and web design, marketing</b> for an Australian VC with an AUM of AU ~$1.6B</li>
+  <li><b>Brand and web design</b>for a Startmate-backed DeepTech startup</li>
+  <li><b>Developed design systems for various client websites</b></li>
 </ul>"
   - perTitle: Development
     perDesc: "<ul>
   <li><b>Modular, one-click-deploy web template</b> for various clients</li>
+  <li><b>Full-stack development of an e-commerce website</b> - leading design and UX</li>
+  <li><b>iOS development and automated regression testing</b> for a global transport company</li>
 </ul>"
 - template: testimonial-gallery
   testGallery:

@@ -27,6 +27,14 @@ page_components:
 <li><b>Nutures people</b> - a team that wants to and enables each other to enjoy working on their vision</li>
 <li><b>Values integrity</b> and honesty towards feedback, ways of working and achieving impact</li></ul>'
 - template: plain-text
+  plainTextTitle: '..jack of all trades, but master of none?'
+  bodyContent: "My skillsets are actually a lot more related than you'd think<br><br><ul>
+<li><b>Design, Operations, and Software</b> - all enhanced when created with modularity, scalability and sustainability in mind</li>
+<li><b>Product, Strategy</b> - both benefit from intuition, anchored in facts</li>
+<li><b>Customer Experience, and Communications</b> - both can be distilled into actions or messaging crafted for a specific audience's needs and challenges</li>
+</ul><br><br>...and together you find the all-rounder you never knew you needed
+"
+- template: plain-text
   plainTextTitle: 'Is it Sophia or Sophie?'
   bodyContent: "Unfortunately the TLD .ia doesn't exist, so it's Sophia with the Soph.ee website 🥲"
 - template: cta
