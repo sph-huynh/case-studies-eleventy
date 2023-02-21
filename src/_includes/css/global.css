@@ -131,6 +131,10 @@ a.link::after, a::after {
     content: " >>";
 }
 
+a.no-after::after {
+    content: none !important;
+}
+
 a.nav-link::after, a.img-link::after, a.discreet-link::after {
     content: ''!important;
 }

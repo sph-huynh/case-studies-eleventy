@@ -1,9 +1,10 @@
 <footer>
-    <section id="footer" class="spaced">
+    <section id="footer" class="spaced-90">
         <div class="col">
-            <div class="col-20">
+            <div class="col-20 centre-me">
                 <div class="display-flex h-100 centre-me-top">
-                    <a href="/" class="img-link" ><img class="logo-img centre-me-top" src="/uploads/logo-white.svg"/></a>
+                {% set logoImgBoolean = false %}
+                <a href="/" {% if logoImgBoolean %}class="img-link" ><img class="logo-img centre-me-top" src="/images/logo.svg"/>{% else %}class="no-after"><p>{{ site.name }}</p>{% endif %}</a>
                 </div>
             </div>
             <div class="col-80 nav centre-me">
@@ -12,6 +13,9 @@
                 </div>
             </div>
         </div>
-        </div>
     </section>
 </footer>
+
+
+
+

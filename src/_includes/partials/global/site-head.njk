@@ -2,9 +2,10 @@
   <section id="header">
     <div class="wrapper spaced">
       <div class="col">
-        <div class="col-20">
+        <div class="col-20 centre-me">
           <div class="display-flex h-100 centre-me-top">
-            <a href="/" class="img-link" ><img class="logo-img centre-me-top" src="/images/logo.svg"/></a>
+            {% set logoImgBoolean = false %}
+            <a href="/" {% if logoImgBoolean %}class="img-link" ><img class="logo-img centre-me-top" src="/images/logo.svg"/>{% else %}class="nav-link nav-item">{{ site.name }}{% endif %}</a>
           </div>
         </div>
         <div class="col-80 nav centre-me">
