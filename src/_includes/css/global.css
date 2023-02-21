@@ -161,6 +161,10 @@ a.link:hover, .nav-link:hover, a:hover {
     margin: 2% 10%;
 }
 
+.no-spaced-container, section.no-spaced-container {
+    margin: 0% 10%;
+}
+
 section, .breath-top {
     padding-top: 30px;
 }

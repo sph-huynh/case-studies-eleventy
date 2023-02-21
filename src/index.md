@@ -13,7 +13,7 @@ page_components:
   - 4colTitle: "Internal operations that grow with you"
     4colDesc: "Let me help you build just enough structure to gain consistency, but not too much to hinder agility"
   - 4colTitle: "Confidentally execute strategy in alignment with tech"
-    4colDesc: "Helping you and the team GSD in confidence as a link between vision and codeß"
+    4colDesc: "Helping you and the team GSD in confidence as a link between vision and code"
 - template: case-study-gallery
   caseList: Case
   caseStudyGalleryTitle: Imagine what we could do together

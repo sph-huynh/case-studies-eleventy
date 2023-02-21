@@ -17,7 +17,7 @@
                     </div>
                     <div class="quote-cell-bot">
                         <h5>{{ story.data.personName }}</h5>
-                        <p>{{ story.data.personPosition }} - {{ story.data.personCompany }}</p>
+                        <p>{{ story.data.personPosition }} {% if story.data.personCompany %}- {% endif %}{{ story.data.personCompany }}</p>
                     </div>
                 </div>
 
