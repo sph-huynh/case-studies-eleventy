@@ -3,8 +3,8 @@ layout: customPage
 title: About me
 headerTitle: 'G’day. Glad to see you here.'
 headerDescription: ''
-featureImage: ''
-permalink: contact/
+featureImage: '/images/me.jpg'
+permalink: more/
 page_components:
 - template: plain-text
   plainTextTitle: 'So who are you????'
