@@ -21,7 +21,7 @@ page_components:
     perDesc: "<ul>
   <li><b>Customer segment and market research, brand and comms</b> for a Startmate-backed DeepTech startup</li>
   <li><b>5-year impact strategy for global non-profit</b> - with early results for internal OKRs achieving 2x increase in CSAT metrics within 4 months</li>
-  <li><b>People retention strategy and professional development program - focusing on the client's technical talent</b></li>
+  <li><b>People retention strategy and professional development program</b> - focusing on the client's technical talent</li>
 </ul>"
   - perTitle: Customer Experience
     perDesc: "<ul>
@@ -44,7 +44,7 @@ page_components:
   - perTitle: Design
     perDesc: "<ul>
   <li><b>Visual and web design, marketing</b> for an Australian VC with an AUM of AU ~$1.6B</li>
-  <li><b>Brand and web design</b>for a Startmate-backed DeepTech startup</li>
+  <li><b>Brand and web design</b> for a Startmate-backed DeepTech startup</li>
   <li><b>Developed design systems for various client websites</b></li>
 </ul>"
   - perTitle: Development
