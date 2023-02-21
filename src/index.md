@@ -8,12 +8,12 @@ page_components:
 - template: 4-col
   4colpageTitle: "Let's work together"
   4colLoop:
-  - 4colTitle: "Retain quality insights to your customer without losing hours"
-    4colDesc: "I can drive research and develop insights to understand customer behaviours and challenge"
-  - 4colTitle: "Confidently leave the crossroads of defined processes and the speed of having none"
-    4colDesc: "I love organisation and have a strong affection for efficiency - I can help you build just enough structure to gain consistency, but not too much to hinder agility<br>"
-  - 4colTitle: "A team member who can execute strategy and understands tech"
-    4colDesc: "I am a software developer by trade, who works in business - providing you with a bridge between commerce and code<br>"
+  - 4colTitle: "Retain quality customer insights without losing hours"
+    4colDesc: "Saving you time by surfacing relevant insights through understanding customer behaviours and challenges"
+  - 4colTitle: "Internal operations that grow with you"
+    4colDesc: "Let me help you build just enough structure to gain consistency, but not too much to hinder agility"
+  - 4colTitle: "Confidentally execute strategy in alignment with tech"
+    4colDesc: "Helping you and the team GSD in confidence as a link between vision and codeß"
 - template: case-study-gallery
   caseList: Case
   caseStudyGalleryTitle: Imagine what we could do together
