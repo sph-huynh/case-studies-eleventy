@@ -11,9 +11,9 @@ page_components:
   - 4colTitle: "Retain quality customer insights without losing hours"
     4colDesc: "Saving you time by surfacing relevant insights through understanding customer behaviours and challenges"
   - 4colTitle: "Internal operations that grow with you"
-    4colDesc: "Let me help you build just enough structure to gain consistency, but not too much to hinder agility"
-  - 4colTitle: "Confidentally execute strategy in alignment with tech"
-    4colDesc: "Helping you and the team GSD in confidence as a link between vision and code"
+    4colDesc: "Let me help you build just enough structure to gain consistency, without too much hindering agility"
+  - 4colTitle: "Confidently execute strategy in alignment with tech"
+    4colDesc: "Helping you and the team GSD in confidence, I can help link vision with implementation"
 - template: period-table
   periodTitle: Imagine what we could do together
   perLoop:
