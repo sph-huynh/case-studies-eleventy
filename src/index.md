@@ -6,7 +6,7 @@ headerDescription: ''
 featureImage: 'images/me.jpg'
 page_components:
 - template: 4-col
-  4colpageTitle: "Let's work together"
+  4colpageTitle: "Imagine what we can do together"
   4colLoop:
   - 4colTitle: "Retain quality customer insights without losing hours"
     4colDesc: "Saving you time by surfacing relevant insights through understanding customer behaviours and challenges"
@@ -15,7 +15,7 @@ page_components:
   - 4colTitle: "Confidently execute strategy in alignment with tech"
     4colDesc: "Helping you and the team GSD in confidence, I can help link vision with implementation"
 - template: period-table
-  periodTitle: Imagine what we could do together
+  periodTitle: Snippets from my previous work
   perLoop:
   - perTitle: Strategy
     perDesc: "<ul>
