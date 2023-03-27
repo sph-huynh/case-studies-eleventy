@@ -28,7 +28,7 @@ page_components:
   caseStudyGalleryTitle: See me in the media
 - template: cta
   ctaHeadingTitle: Let’s get started
-  ctaText: Connect with me on <a href="https://www.linkedin.com/in/sphhuynh/" title=""
+  ctaText: Connect with me on <a href="https://www.linkedin.com/in/soophia//" title=""
     target="_blank">LinkedIn</a>.
   bgcolor: true
 ---

@@ -22,7 +22,7 @@ colContent: "<strong>Skills and tools:</strong><br>Experience Evaluation<br>Cust
 fullContent: Understanding the current recruitment processes, so we can better optimise
   the efficiency and provide a better experience.
 ctaHeadingTitle: Let's get started
-ctaText: Connect with me <a href="https://www.linkedin.com/in/sphhuynh/" title=""
+ctaText: Connect with me <a href="https://www.linkedin.com/in/soophia//" title=""
   target="_blank">on Linkedin</a>
 repeatPlainTextTitle: The story
 plainRepeat:

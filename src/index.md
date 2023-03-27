@@ -26,7 +26,7 @@ page_components:
   - perTitle: Customer Experience
     perDesc: "<ul>
   <li><b>Full-stack digital experience design</b> to streamline the marketing for managers across 40 countries/regions for a global non-profit</li>
-  <li><b>Customer research to shape telecom's call centre experience strategy</b> - enabling them to mitigate implementing an unwanted multi-$ solution</li>
+  <li><b>Customer research to shape telecom's call centre experience strategy</b> - enabling them to mitigate implementing an unwanted multi-$M solution</li>
   <li><b>Customer and market research based diagnostic assets</b> for an energy distributor's immersive learning technology strategy</li>
 </ul>"
   - perTitle: Communication
@@ -60,7 +60,7 @@ page_components:
   testimonialDescription: See what past team members and clients say.
 - template: cta
   ctaHeadingTitle: Let’s get started
-  ctaText: Connect with me on <a href="https://www.linkedin.com/in/sphhuynh/" title=""
+  ctaText: Connect with me on <a href="https://www.linkedin.com/in/soophia//" title=""
     target="_blank">LinkedIn</a>.
   bgcolor: false
 

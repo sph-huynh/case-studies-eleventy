@@ -10,7 +10,7 @@ fields:
   default: Let’s get started
 - name: ctaText
   type: textarea
-  default: Connect with me on <a href="https://www.linkedin.com/in/sphhuynh/" title=""
+  default: Connect with me on <a href="https://www.linkedin.com/in/soophia//" title=""
     target="_blank">Linkedin</a>.
   config:
     required: false
