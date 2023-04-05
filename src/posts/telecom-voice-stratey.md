@@ -44,7 +44,7 @@ plainRepeat:
     metricDescription: customer interviews conducted
   metricsTitle: ''
 ctaHeadingTitle: Let's get started
-ctaText: Connect with me <a href="https://www.linkedin.com/in/soophia//" title=""
+ctaText: Connect with me <a href="https://www.linkedin.com/in/sophee/" title=""
   target="_blank">on Linkedin</a>
 bgcolor: false
 comparisonTitle: ''

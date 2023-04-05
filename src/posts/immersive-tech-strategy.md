@@ -11,7 +11,7 @@ featureToggle: false
 caseFeatureFilter: Case
 dateText: 2019-02-05T00:00:00+11:00
 ctaHeadingTitle: Let's get started
-ctaText: 'Connect with me <a href="https://www.linkedin.com/in/soophia//" title=""
+ctaText: 'Connect with me <a href="https://www.linkedin.com/in/sophee/" title=""
   target="_blank">on Linkedin</a>'
 textColTitle: 'How might we use immersive technology to upskill and train our employees?'
 componentOrder: true

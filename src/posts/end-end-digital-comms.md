@@ -17,7 +17,7 @@ whatStatement: 'Full-stack digital experience design to streamline the marketing
 colImage: ''
 colContent: 'Design Thinking<br>UX Design<br>UX Research<br>Website Development<br>Marketing<br>Figma<br>Forestry CMS<br>JAMSTACK'
 fullContent: '<h3>How might we simplify and streamline the marketing for our network managers?</h3>Creating re-usable digital templates for a group of managers across different countries.'
-ctaText: 'Connect with me on <a href="https://www.linkedin.com/in/soophia//" title="" target="_blank">LinkedIn</a>.'
+ctaText: 'Connect with me on <a href="https://www.linkedin.com/in/sophee/" title="" target="_blank">LinkedIn</a>.'
 bgcolor: true
 textColTitle: 'Skills and tools:'
 ctaHeadingTitle: 'Let’s get started'

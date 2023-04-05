@@ -39,7 +39,7 @@ page_components:
   bodyContent: "Unfortunately the TLD .ia doesn't exist, so it's Sophia with the Soph.ee website 🥲"
 - template: cta
   ctaHeadingTitle: Let’s get started
-  ctaText: Connect with me on <a href="https://www.linkedin.com/in/soophia//" title=""
+  ctaText: Connect with me on <a href="https://www.linkedin.com/in/sophee/" title=""
     target="_blank">LinkedIn</a>.
   bgcolor: true
 ---

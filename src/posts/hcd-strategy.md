@@ -47,7 +47,7 @@ imagesList:
 - galleryImage: ''
   describingTitle: ''
   description: ''
-ctaText: 'Connect with me on <a href="https://www.linkedin.com/in/soophia//" title="" target="_blank">LinkedIn</a>.'
+ctaText: 'Connect with me on <a href="https://www.linkedin.com/in/sophee/" title="" target="_blank">LinkedIn</a>.'
 bgcolor: true
 textColTitle: 'How might we redesign our operational processes to improve the volunteer experience?'
 imageGalleryTitle: ''

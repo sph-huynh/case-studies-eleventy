@@ -11,7 +11,7 @@ page_components:
   caseFilter: Case
 - template: cta
   ctaHeadingTitle: "Let's get started"
-  ctaText: Connect with me on <a href="https://www.linkedin.com/in/soophia//" title="" target="_blank">LinkedIn</a>.
+  ctaText: Connect with me on <a href="https://www.linkedin.com/in/sophee/" title="" target="_blank">LinkedIn</a>.
   bgcolor: true
 ---
 

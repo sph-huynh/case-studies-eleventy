@@ -43,7 +43,7 @@ page_components:
   - src/deliverables/GC-Youth.md
 - template: cta
   ctaHeadingTitle: Let's meet!
-  ctaText: Connect with me on <a href="https://www.linkedin.com/in/soophia//" title=""
+  ctaText: Connect with me on <a href="https://www.linkedin.com/in/sophee/" title=""
     target="_blank">Linkedin</a>.
   bgcolor: false
 genPageTitle: Hire
