@@ -8,12 +8,12 @@ page_components:
 - template: 4-col
   4colpageTitle: "Imagine what we can do together"
   4colLoop:
-  - 4colTitle: "Retain quality customer insights without losing hours"
-    4colDesc: "Saving you time by surfacing relevant insights through understanding customer behaviours and challenges"
-  - 4colTitle: "Internal operations that grow with you"
-    4colDesc: "Let me help you build just enough structure to gain consistency, without too much hindering agility"
-  - 4colTitle: "Confidently execute strategy in alignment with tech"
-    4colDesc: "Helping you and the team GSD in confidence, I can help link vision with implementation"
+  - 4colTitle: "Powerpoint maker"
+    4colDesc: "Just need some help to make some slides? Ya girl's a big fan of quickly learning about an industry, helping you define a narrative, and writing some concise copy for you"
+  - 4colTitle: "Fractional All-Rounder"
+    4colDesc: "Would you describe your current job as 'kind of everything'? And, you need to hire another person? But unsure enough to commit to an entire new hire? A Fractional All-rounder can provide the extra capacity, the personal involvement of a FTE but without the extra strings"
+  - 4colTitle: "Generalist roles"
+    4colDesc: "If you're looking for a generalist covering a multitude of areas (e.g., ux, design, comms, strategy, ops, recruitment, marketing). You're in the right place ;-)"
 - template: period-table
   periodTitle: Snippets from my previous work
   perLoop:
