@@ -1,0 +1,28 @@
+<section id="wrapper spaced" class="col-cream sectioned">
+    <section class="spaced-container ar-section">
+        <h3>{{ pageSection.arTitle }}</h3>
+        <p>{{ pageSection.arSubtitle }}</p>
+        <div class="ar-cards">
+            {% for domain in pageSection.arDomains %}
+                <div class="ar-card">
+                    <h5 class="ar-card-heading">{{ domain.name }}</h5>
+                    <span class="ar-underline ar-underline-{{ domain.colorKey }}"></span>
+                    <p class="ar-card-label pt-10">core</p>
+                    <ul>
+                        {% for skill in domain.skills %}
+                            {% if skill.tag == 'core' %}<li class="ar-card-text">{{ skill.text }}</li>{% endif %}
+                        {% endfor %}
+                    </ul>
+                    {% if domain.hasFlex %}
+                        <p class="ar-card-label">flex</p>
+                        <ul>
+                            {% for skill in domain.skills %}
+                                {% if skill.tag == 'flex' %}<li class="ar-card-text">{{ skill.text }}</li>{% endif %}
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+</section>

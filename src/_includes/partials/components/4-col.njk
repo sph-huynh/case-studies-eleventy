@@ -1,7 +1,8 @@
-<section id="wrapper 4-col" class="no-spaced-container pt-0">
+<section id="wrapper 4-col" class="no-spaced-container sectioned">
+    {% if pageSection.4colpageTitle %}<h3 class="col-4-title">{{ pageSection.4colpageTitle }}</h3>{% endif %}
     <div class="col-wrapper">
         {% for column in pageSection.4colLoop %}
-            <div class="col-item col-3">
+            <div class="col-item col-3 col-card-grey">
                 <div class="col-top">
                     <div class="col-content centre-me-top">
                         <h5>{{ column.4colTitle }}</h5>

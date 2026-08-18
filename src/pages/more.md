@@ -8,7 +8,7 @@ permalink: more/
 page_components:
 - template: plain-text
   plainTextTitle: 'So who are you????'
-  bodyContent: "G'day! My name is Sophia. I am the all-rounder you never knew you needed. <br><br>I have a diverse skillset - as a Software Engineer, Experience Designer, UI/UX designer and Head of Operations, and now work in enterprise business strategy. <br><br>Having experienced a variety of org structures - innovation team, consulting, non-profit - I'm keen to go back to more fast-paced and scrappy ways of working and help you get stuff done :-)"
+  bodyContent: "G'day! My name is Sophia. I am the all-rounder you never knew you needed. <br><br>I work in generalist strategy, ops, and product roles - focusing on messy and ambiguous problems, diagnosing what's actually going on, then building the system to fix it.<br><br>Spent majority of my career in lean, scrappy teams - learning how to make the most impact out of the least resources.<br><br>Passionate about systems & design, fascinated by how to use them to improve quality of life for individuals. Fan of kit kats, sustainable development, and lifting weights."
 - template: columns-block
   columnContent:
   - colImg: ''

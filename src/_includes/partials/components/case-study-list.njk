@@ -1,0 +1,26 @@
+<section id="wrapper spaced" class="sectioned">
+    <section class="spaced-container">
+        <h3 class="cs-title">{{ pageSection.csTitle }}</h3>
+        <div class="cs-grid">
+            {% for item in caseStudies.items %}
+                <div class="cs-card">
+                    <a class="cs-thumb-wrap img-link no-after" href="/case-studies/#{{ item.slug }}"><img class="cs-thumb" src="/images/{{ item.blobImage }}" alt="" loading="lazy"></a>
+                    <div class="cs-card-body">
+                        <div class="cs-card-top">
+                            <h5>
+                                <a class="cs-title-link discreet-link no-after" href="/case-studies/#{{ item.slug }}">{{ item.title }}</a>
+                            </h5>
+                            <span class="cs-badge cs-badge-{{ item.badge }}">{{ item.badge }}</span>
+                        </div>
+                        <p class="cs-card-text">{{ item.summary }}</p>
+                        <div class="cs-tags">
+                            {% for tag in item.domains %}
+                                <span class="cs-tag-text cs-tag-underline-{{ tag.colorKey }}">{{ tag.label }}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+</section>

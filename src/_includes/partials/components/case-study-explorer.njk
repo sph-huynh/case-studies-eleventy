@@ -1,0 +1,50 @@
+<section id="wrapper spaced" class="cse-wrapper sectioned">
+    <section class="spaced-container cse-container">
+        <div class="cse-list">
+            <p class="cse-list-title cse-list-title-desktop">Pick a case study to explore</p>
+            <p class="cse-list-title cse-list-title-mobile">Swipe to explore case studies</p>
+            <div class="cse-list-track">
+                {% for item in caseStudies.items %}
+                    <a href="#{{ item.slug }}" class="cse-list-item discreet-link no-after{% if loop.first %} active{% endif %}" data-slug="{{ item.slug }}">
+                        <span class="cse-list-dot cse-list-dot-{{ item.dotColorKey }}"></span>{{ item.title }}
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="cse-detail">
+            {% for item in caseStudies.items %}
+                <div class="cse-panel" data-slug="{{ item.slug }}"{% if not loop.first %} hidden{% endif %}>
+                    <p class="cse-breadcrumb">case studies / {{ item.title }}</p>
+                    <span class="cs-badge cs-badge-{{ item.badge }}">{{ item.badge }}</span>
+                    <h2 class="cse-panel-title">{{ item.summary }}</h2>
+                    <div class="cs-tags">
+                        {% for tag in item.domains %}
+                            <span class="cs-tag-text subtitle cs-tag-underline-{{ tag.colorKey }}">{{ tag.label }}</span>
+                        {% endfor %}
+                    </div>
+                    <div class="cse-section">
+                        <p class="cse-section-label">context</p>
+                        <p class="cse-section-text">{{ item.context }}</p>
+                    </div>
+                    <div class="cse-section">
+                        <p class="cse-section-label">challenge</p>
+                        <p class="cse-section-text">{{ item.challenge }}</p>
+                    </div>
+                    <div class="cse-section">
+                        <p class="cse-section-label">involvement</p>
+                        <ul>
+                            {% for line in item.involvement %}<li class="cse-section-text">{{ line }}</li>{% endfor %}
+                        </ul>
+                    </div>
+                    <div class="cse-section">
+                        <p class="cse-section-label">outcome</p>
+                        <ul>
+                            {% for line in item.outcome %}<li class="cse-section-text">{{ line }}</li>{% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+</section>
+<script src="/js/components/case-study-explorer.js" defer></script>

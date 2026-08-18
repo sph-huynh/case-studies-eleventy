@@ -3,7 +3,7 @@
     {% set headingText = pageSection.colTitle %}
     {% include "partials/components/heading.njk" %}
 {% endif %}
-    <section id="cols" class="spaced-container">
+    <section id="cols" class="spaced-container sectioned">
         <div class="col-wrapper">
             {% for column in pageSection.columnContent %}
                 <div class="col-item col-grey col-{{ pageSection.columnContent | length }}">

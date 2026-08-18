@@ -1,8 +1,8 @@
 <section id="wrapper spaced" class="coloured-bg">
 {% if pageSection.bgcolor == true or bgcolor == true %}
-    <div class="cta-container bg-color-cream-true">
+    <div class="cta-container bg-color-cream-true inside-sectioned">
 {% else %}
-<div class="cta-container bg-color-cream-false">
+<div class="cta-container bg-color-cream-false inside-sectioned">
 {% endif %}
     {% if pageSection.ctaHeadingTitle | length !== 0 %}
         <h3>{{ pageSection.ctaHeadingTitle }}</h3>

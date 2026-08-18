@@ -9,7 +9,7 @@
 
 {% block content %}
 <main id="main-content" tabindex="-1">
-    <section class="customPage">
+    <section id="wrapper" class="customPage">
     {% for pageSection in page_components %}
         {% if pageSection.template == 'columns-block' %}
             {% include "partials/components/columns.njk" %}            
@@ -48,7 +48,19 @@
             {% include "partials/components/metrics.njk" %}            
         {% endif %}
         {% if pageSection.template == '4-col' %}
-            {% include "partials/components/4-col.njk" %}            
+            {% include "partials/components/4-col.njk" %}
+        {% endif %}
+        {% if pageSection.template == 'all-rounder' %}
+            {% include "partials/components/all-rounder.njk" %}
+        {% endif %}
+        {% if pageSection.template == 'case-study-list' %}
+            {% include "partials/components/case-study-list.njk" %}
+        {% endif %}
+        {% if pageSection.template == 'case-study-explorer' %}
+            {% include "partials/components/case-study-explorer.njk" %}
+        {% endif %}
+        {% if pageSection.template == 'style-guide' %}
+            {% include "partials/components/style-guide.njk" %}
         {% endif %}
         {% if pageSection.template == 'period-table' %}
             {% include "partials/components/period-table.njk" %}            

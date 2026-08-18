@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "slug": "bd-strategy",
+      "title": "BD strategy and execution",
+      "badge": "core",
+      "dotColorKey": "strategy",
+      "summary": "Led pharma BD strategy from zero industry experience, progressing three enterprise opportunities to late-stage in eight months",
+      "blobImage": "ColouredBlob_StrategyAnalysis.png",
+      "domains": [
+        { "label": "strategy", "colorKey": "strategy" },
+        { "label": "marketing", "colorKey": "marketing" }
+      ],
+      "context": "Shaping a new product offering in an industry that is highly-regulated, long sale cycles, and highly relationship and accreditation focused.",
+      "challenge": "Break in with no existing relationships, accreditation, or track record to offer - with the added barrier of being a very early-stage startup without an existing account yet.",
+      "involvement": [
+        "Owned the BD strategy e2e - defined the offering, target persona, and pitch; CEO managed live calls and IRL relationship-building",
+        "Led the development of positioning. Workshopped messaging with CEO & refined iterations in messaging for each progressive sales call"
+      ],
+      "outcome": [
+        "Industry-standard time to close a pharma deal from a cold start (no existing relationships or industry experience) is ~18 months, this stat excludes companies that never close",
+        "In less than half the typical sales-cycle length, we validated demand by building a pipeline from scratch: 120 cold outbound targets → 6 qualified conversations → 3 late-stage opps in just 8 months before sunsetting this bet"
+      ]
+    },
+    {
+      "slug": "op-strategy-execution",
+      "title": "Op strategy and execution",
+      "badge": "core",
+      "dotColorKey": "ops",
+      "summary": "Rebuilt op model for a 100-country non-profit network - leading to 3x awareness, 24%+ program enrollment increase",
+      "blobImage": "ColouredBlob_OperationsExecution.png",
+      "domains": [
+        { "label": "strategy", "colorKey": "strategy" },
+        { "label": "operations", "colorKey": "ops" },
+        { "label": "marketing", "colorKey": "marketing" },
+        { "label": "product", "colorKey": "product" }
+      ],
+      "context": "The operating model had outgrown the organization, from 24 to 195 people, across a 100-country non-profit network.",
+      "challenge": "Design a new operating model factoring in the limitations - limited resources, short volunteer terms - that would translate across the network.",
+      "involvement": [
+        "Led org-wide operational review - full qualitative research effort via surveys, interviews, and workshops",
+        "Mapped full participant journeys e2e, to identify gaps and define a future state",
+        "Synthesized into new theory of change, impact narrative, and several strategic initiatives"
+      ],
+      "outcome": [
+        "2x increase in trust/belonging CSAT across 195 volunteers within 4-5 months - leading indicator for volunteer retention and program delivery",
+        "3x increase in awareness metrics, 24%+ increase in program enrolment - our two main impact outcomes"
+      ]
+    },
+    {
+      "slug": "process-automations",
+      "title": "Process automations",
+      "badge": "core",
+      "dotColorKey": "ops",
+      "summary": "Automated e2e workflows using no-code & AI tooling, reducing various workflows from 1 day to 15 minutes",
+      "blobImage": "ColouredBlob_OperationsExecution.png",
+      "domains": [
+        { "label": "operations", "colorKey": "ops" }
+      ],
+      "context": "Running content & community was a full-time role. With a team of just 3, this hindered our ability to scale our time towards product development.",
+      "challenge": "Automate as much as possible without losing integrity and accuracy in a high stakes field (medical education) that demands a high level of scrutiny.",
+      "involvement": [
+        "Identified the most repetitive and time-intensive workflows",
+        "Built automations using Make.com, ChatGPT APIs, and Airtable, with strict rules and guardrails so AI-driven steps couldn't override accuracy or safety in community moderation, content creation, and sourcing"
+      ],
+      "outcome": [
+        "Key workflows cut from 1-2 days to 15 minutes",
+        "One single operator could now run content across 4 communities within 2 days (previously 1 community across 5 days)"
+      ]
+    },
+    {
+      "slug": "investment-narratives",
+      "title": "Investment narratives",
+      "badge": "core",
+      "dotColorKey": "marketing",
+      "summary": "Rebuilt fundraising narrative and pitch decks for 3 early-stage startups - went on to raise $250K, $3M, and $25M",
+      "blobImage": "ColouredBlob_MarketingComms.png",
+      "domains": [
+        { "label": "strategy", "colorKey": "strategy" },
+        { "label": "marketing", "colorKey": "marketing" }
+      ],
+      "context": "Supported three startups as a contractor (AgTech, DeepTech, AgTech) on fundraising narrative, positioning, and pitch deck design.",
+      "challenge": "Founders needed help refining their stories into something simple and clear - gaps varied, some involved complex technical products, others a scattered product vision.",
+      "involvement": [
+        "Built fundraising pitch decks for founders - from clarifying business model, value proposition, narrative, copy, and then visualising onto slides",
+        "Interviewed founders on their vision, revenue model, and market; iterated narratives with founders"
+      ],
+      "outcome": [
+        "All three companies went on to raise - $250K pre-seed, $3M, and $25M respectively"
+      ]
+    },
+    {
+      "slug": "product-research-design",
+      "title": "Product research and design",
+      "badge": "flex",
+      "dotColorKey": "product",
+      "summary": "Designed an LLM-powered product, owning UX research and design - 80% email open rate, retaining 60% of users at 8 months",
+      "blobImage": "ColouredBlob_ProductDesign.png",
+      "domains": [
+        { "label": "product", "colorKey": "product" }
+      ],
+      "context": "Patients cannot keep up with the 1000+ new insights published on their conditions each week. Many seek new information in the off-chance of a life-changing insight, but struggle with the time and expertise required.",
+      "challenge": "Design a product that could allow patients to confidently feel they were 'up-to-date' - one that could search, filter, personalise, and highlight insights for them.",
+      "involvement": [
+        "Designed MVP LLM pipeline - defined first-cut scoring criteria and few-shot examples for relevance/novelty/safety ranking. Iterated prompts with engineers based on output quality for MVP",
+        "Owned full product design lifecycle - product discovery with CEO, user research, UX/UI design, feedback loops",
+        "Iterated the product based on usage patterns after launch"
+      ],
+      "outcome": [
+        "80% email open rate",
+        "60% retention at 8 months for its target cohort"
+      ]
+    }
+  ]
+}
